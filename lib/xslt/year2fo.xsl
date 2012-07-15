@@ -295,8 +295,13 @@
   </xsl:template>
   
   
-  <xsl:template match="em">
-    <fo:inline font-style="italic"><xsl:copy-of select="text()|*" /></fo:inline>
+  <xsl:template match="i">
+    <fo:inline font-style="italic"><xsl:apply-templates select="text()|*" /></fo:inline>
+  </xsl:template>
+
+  
+  <xsl:template match="b">
+    <fo:inline font-weight="bold"><xsl:apply-templates select="text()|*" /></fo:inline>
   </xsl:template>
   
   
