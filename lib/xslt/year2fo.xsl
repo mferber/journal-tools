@@ -300,12 +300,6 @@
   </xsl:template>
   
   
-  <!-- FIXME - get rid of pullouts -->
-  <xsl:template match="pullout">
-    <xsl:copy-of select="*|text()" />
-  </xsl:template>
-
-
   <!--
     Pad out a week of entries with empty entries for missing days
   -->
