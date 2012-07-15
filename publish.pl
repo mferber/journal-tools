@@ -2,17 +2,11 @@
 
 ######################################################################
 #
-# txt2xml.pl - convert one or more months' worth of journal entry
-# text files to XML
-#
-# input files: $JNL_BASE/journal.YYYY-MM-DD.txt
-# output files: $JNL_BASE/etc/xml/YYYY-MM.xml
-#
-# syntax:
-# txt2xml.pl [-f M/YY] [-t M/YY]
-#
-# example (Feb 2009 thru Dec 2012):
-# txt2xml.pl -f 2/09 -t 12/12
+# Master script to handle all journal publication tasks:
+# - Converting original input text files to monthly XML files
+#   (the document of record);
+# - Generating HTML for web browser viewing;
+# - Generating PDFs for printing.
 #
 ######################################################################
 
