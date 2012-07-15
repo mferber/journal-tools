@@ -31,7 +31,7 @@ use lib "$LIB_DIR/perl";
 use File::Basename;
 use File::Copy;
 use File::Path 'make_path';
-use File::Spec;
+use File::Spec::Functions;
 use Getopt::Std;
 use IO::File;
 use IO::String;
@@ -188,7 +188,7 @@ sub collect_month_xml
     
     print "Collecting XML for $mo/$yr...\n";
     
-    my $pat = File::Spec->catfile($JOURNAL_BASE,
+    my $pat = catfile($JOURNAL_BASE,
         "journal.$yr-" . sprintf("%02d", $mo) . '-??.txt');
     my @entries = sort(glob($pat));
     
