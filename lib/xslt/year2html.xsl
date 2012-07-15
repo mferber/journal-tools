@@ -120,7 +120,7 @@
             <a href="{concat(format-date(xs:date(@date), '[Y0001]-[M01]'), '.html#',
               @date)}"
             >
-              &gt;
+              ➤
             </a>
           </span>
         </xsl:if>
