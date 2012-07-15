@@ -180,17 +180,21 @@ sub process_year
 
 
 #
-# Subroutine: process a month of text to XML
+# Subroutine: process a month of text to XML; returns the number of entries
+# found
 #
 sub collect_month_xml
 {
     my ($mo, $yr) = @_;
     
-    print "Collecting XML for $mo/$yr...\n";
-    
     my $pat = catfile($JOURNAL_BASE,
         "journal.$yr-" . sprintf("%02d", $mo) . '-??.txt');
     my @entries = sort(glob($pat));
+
+    print "Collecting XML for $mo/$yr... found ",
+      scalar(@entries), ' entr', (@entries == 1 ? 'y' : 'ies'), "\n";
+    
+    @entries or return 0;
     
     my $xmlwpath = "$XML_DIR/" . sprintf("%04d-%02d", $yr, $mo) . ".xml";
     
@@ -236,7 +240,9 @@ sub collect_month_xml
     
     # when finished successfully, move the new file over the old
     # one (if any)
-    move($xmlwpathnew, $xmlwpath)
+    move($xmlwpathnew, $xmlwpath);
+    
+    return scalar(@entries);
 }
 
 
@@ -327,13 +333,18 @@ sub process_month_to_html
 {
     my ($mo, $yr) = @_;
     
-    print "Rendering $mo/$yr full text to HTML...\n";
-    
     my $moyrfile = sprintf("%04d-%02d", $yr, $mo);
+    my $xmlfile = "$XML_DIR/$moyrfile.xml";
+    unless (-f $xmlfile and -r $xmlfile) {
+        print "Nothing to render to HTML for $mo/$yr\n";
+        return;
+    }
+    
+    print "Rendering $mo/$yr full text to HTML...\n";
     my @cmd = ('java',
         '-classpath', "$LIB_DIR/java/saxon9he",
         'net.sf.saxon.Transform',
-        "-s:$XML_DIR/$moyrfile.xml",
+        "-s:$xmlfile",
         "-o:$HTML_DIR/$moyrfile.html",
         "-xsl:$LIB_DIR/xslt/month2html.xsl",
     );
@@ -348,8 +359,18 @@ sub process_year_to_html
 {
     my $yr = shift;
     
-    print "Rendering $yr calendar to HTML...\n";
+    my $exists = 0;
+    for (my $mo = 1; $mo <= 12; $mo++) {
+        my $moyrfile = sprintf("$yr-%02d", $mo);
+        my $xmlfile = "$XML_DIR/$moyrfile.xml";
+        ($exists = 1, last) if (-f $xmlfile and -r $xmlfile);
+    }
+    unless ($exists) {
+        print "Nothing to render to HTML for year $yr\n";
+        return;
+    }
     
+    print "Rendering $yr calendar to HTML...\n";
     my @cmd = ('java',
         '-classpath', "$LIB_DIR/java/saxon9he",
         'net.sf.saxon.Transform',
@@ -370,12 +391,17 @@ sub process_month_to_pdf
 {
     my ($mo, $yr) = @_;
     
-    print "Rendering $mo/$yr to PDF...\n";
-    
     my $moyrfile = sprintf("%04d-%02d", $yr, $mo);
+    my $xmlfile = "$XML_DIR/$moyrfile.xml";
+    unless (-f $xmlfile and -r $xmlfile) {
+        print "Nothing to render to PDF for $mo/$yr\n";
+        return;
+    }
+    
+    print "Rendering $mo/$yr full text to PDF...\n";
     my @cmd = ("$FOP_DIR/fop",
         '-c', "$CONF_DIR/fop.xconf",
-        '-xml', "$XML_DIR/$moyrfile.xml",
+        '-xml', $xmlfile,
         '-xsl', "$LIB_DIR/xslt/month2fo.xsl",
         '-pdf', "$PDF_DIR/$moyrfile.pdf",
     );
@@ -395,6 +421,17 @@ sub process_month_to_pdf
 sub process_year_to_pdf
 {
     my $yr = shift;
+    
+    my $exists = 0;
+    for (my $mo = 1; $mo <= 12; $mo++) {
+        my $moyrfile = sprintf("$yr-%02d", $mo);
+        my $xmlfile = "$XML_DIR/$moyrfile.xml";
+        ($exists = 1, last) if (-f $xmlfile and -r $xmlfile);
+    }
+    unless ($exists) {
+        print "Nothing to render to PDF for year $yr\n";
+        return;
+    }
     
     print "Rendering $yr calendar to PDF...\n";
     
