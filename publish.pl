@@ -104,6 +104,9 @@ Optional argument: -p <phase> where <phase> is: xml|html|pdf.  If
 Generates monthly XML journal files for all entries in the specified
 range.
 
+Other arguments:
+  -g   Output debugging messages
+  
 XML output:
 $XML_DIR
 
@@ -119,6 +122,7 @@ END_USAGE
     exit 0;
 }
 our $phase = $opts{p};
+our $debug = $opts{g};
 
 # Validate and normalize dates
 if ($from_mo < 1 || $from_mo > 12) {
@@ -388,6 +392,9 @@ sub process_month_to_html
         "-o:$HTML_DIR/$moyrfile.html",
         "-xsl:$LIB_DIR/xslt/month2html.xsl",
     );
+    
+    print "\n", join(' ', @cmd), "\n\n" if $debug;
+    
     system(@cmd);
 }
 
@@ -420,6 +427,9 @@ sub process_year_to_html
         "input-base-uri=file:$XML_DIR/",
         "year=$yr",
     );
+    
+    print "\n", join(' ', @cmd), "\n\n" if $debug;
+    
     system(@cmd);
 }
 
@@ -445,6 +455,9 @@ sub process_month_to_pdf
         '-xsl', "$LIB_DIR/xslt/month2fo.xsl",
         '-pdf', "$PDF_DIR/$moyrfile.pdf",
     );
+    
+    print "\n", join(' ', @cmd), "\n\n" if $debug;
+    
     $ENV{'FOP_OPTS'} = $FOP_OPTS;
     system(@cmd);
 }
@@ -478,6 +491,9 @@ sub process_year_to_pdf
         '-param', 'input-base-uri', "file:$XML_DIR/",
         '-param', 'year', $yr
     );
+    
+    print "\n", join(' ', @cmd), "\n\n" if $debug;
+    
     $ENV{'FOP_OPTS'} = $FOP_OPTS;
     system(@cmd);
 }
