@@ -379,7 +379,6 @@ sub process_month_to_pdf
         '-xsl', "$LIB_DIR/xslt/month2fo.xsl",
         '-pdf', "$PDF_DIR/$moyrfile.pdf",
     );
-    # print "\n", join(' ' , @cmd), "\n\n";
     
     # beef up Java max heap size so we don't crash while caching fonts,
     # and set XSLT transforms to use Saxon so we can use XSLT 2.0
@@ -407,8 +406,6 @@ sub process_year_to_pdf
         '-param', 'input-base-uri', "file:$XML_DIR/",
         '-param', 'year', $yr);
 
-    print "\n", join(' ' , @cmd), "\n\n";
-    
     # beef up Java max heap size so we don't crash while caching fonts,
     # and set XSLT transforms to use Saxon so we can use XSLT 2.0
     $ENV{'FOP_OPTS'} = '-Xmx1024m '
