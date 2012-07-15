@@ -70,10 +70,12 @@ getopt('mftp', \%opts);
 my ($from_mo, $from_yr, $to_mo, $to_yr);
 if (@ARGV) {
     if ($ARGV[0] eq 'all') {
-        $from_mo = 1;
-        $from_yr = 2000;
-        $to_mo = 12;
-        $to_yr = 2099;
+        ($from_mo, $from_yr, $to_mo, $to_yr) =
+            get_all_range();
+        if ( defined($from_mo) ) {
+            print "Processing complete range: ",
+                "$from_mo/$from_yr-$to_mo/$to_yr\n"
+        }
     }
     else {
         if ($ARGV[0] =~ m|^(\d{1,2})/(\d{2}(?:\d{2})?)(?:-(\d{1,2})/(\d{2}(?:\d{2})?))?$|) {
@@ -129,6 +131,37 @@ $from_yr += 2000 if $from_yr < 100;
 $to_yr += 2000 if $to_yr < 100;
 
 #
+# Get the month/year range when the user specified "all"
+# returns (from_mo, from_yr, to_mo, to_yr)
+#
+sub get_all_range
+{
+    my $pat = catfile($JOURNAL_BASE, 'journal.????-??-??.txt');
+    my @entries = sort(glob($pat));
+    @entries or return (undef, undef, undef, undef);
+    
+    my ($from_mo, $from_yr, $to_mo, $to_yr); 
+    for (my $i = 0; $i < @entries; $i++) {
+        if ( $entries[$i] =~ m{/journal.(\d{4})-(\d{2})-(\d{2})\.txt$} ) {
+            ($from_yr, $from_mo) = ($1, $2);
+            last;
+        }
+    }
+    for (my $i = @entries - 1; $i >= 0; $i--) {
+        if ( $entries[$i] =~ m{/journal.(\d{4})-(\d{2})-(\d{2})\.txt$} ) {
+            ($to_yr, $to_mo) = ($1, $2);
+            last;
+        }
+    }
+    return
+        defined($from_mo) && defined($from_yr) && defined($to_mo) &&
+            defined($to_yr)
+        ? ($from_mo, $from_yr, $to_mo, $to_yr)
+        : (undef, undef, undef, undef);
+}
+
+
+#
 # Process months
 #
 if (!defined($from_mo)) {
@@ -151,9 +184,8 @@ for (my $yr = $from_yr; $yr <= $to_yr; ++$yr) {
 print "Done.\n";
 
 
-
 #
-# Subroutine: process a single month
+# Process a single month
 #
 sub process_month
 {
