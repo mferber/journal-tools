@@ -100,10 +100,6 @@
     </div>
   </xsl:template>
   
-  <xsl:template match="text()">
-    <xsl:sequence select="." />
-  </xsl:template>
-  
   <xsl:template match="element()">
     <xsl:copy>
       <xsl:apply-templates mode="#current" select="text()|*" />
