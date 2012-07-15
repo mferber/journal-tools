@@ -135,6 +135,12 @@
   </xsl:template>
 
 
+  <xsl:template match="element()">
+    <xsl:copy>
+      <xsl:apply-templates mode="#current" select="text()|*" />
+    </xsl:copy>
+  </xsl:template>
+
 
   <!-- Pad out a week of entries with empty entries for missing days -->
   <xsl:function name="maf:calendar-pad-week" as="element(summary)*">
