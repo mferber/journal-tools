@@ -100,14 +100,6 @@
     </div>
   </xsl:template>
   
-  <!--
-  <xsl:template match="pullout">
-    <span class="pullout">
-      <xsl:apply-templates mode="#current" select="*|text()" />
-    </span>
-  </xsl:template>
-  -->
-  
   <xsl:template match="text()">
     <xsl:sequence select="." />
   </xsl:template>
