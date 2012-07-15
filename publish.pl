@@ -53,6 +53,14 @@ our %DOW2NUM = qw(sun 0 mon 1 tue 2 wed 3 thu 4 fri 5 sat 6);
 our @WEEKDAYNAMES = qw(Sunday Monday Tuesday Wednesday Thursday Friday
     Saturday);
 
+# Java options for the FOP processor: beef up memory so we don't crash
+# while caching fonts; prefer Saxon as the XSLT processor (so we can
+# use XSLT 2.0); run in headless mode (don't start up an AWT GUI app)
+our $FOP_OPTS = '-Xmx1024m '
+        . '-Djavax.xml.transform.TransformerFactory='
+            . 'net.sf.saxon.TransformerFactoryImpl '
+        . '-Djava.awt.headless=true';
+        
 our %opts;
 getopt('mftp', \%opts);
 
@@ -405,12 +413,7 @@ sub process_month_to_pdf
         '-xsl', "$LIB_DIR/xslt/month2fo.xsl",
         '-pdf', "$PDF_DIR/$moyrfile.pdf",
     );
-    
-    # beef up Java max heap size so we don't crash while caching fonts,
-    # and set XSLT transforms to use Saxon so we can use XSLT 2.0
-    $ENV{'FOP_OPTS'} = '-Xmx1024m '
-        . '-Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl';
-    
+    $ENV{'FOP_OPTS'} = $FOP_OPTS;
     system(@cmd);
 }
 
@@ -441,13 +444,9 @@ sub process_year_to_pdf
         '-xsl', "$LIB_DIR/xslt/year2fo.xsl",
         '-pdf', "$PDF_DIR/${yr}-calendar.pdf",
         '-param', 'input-base-uri', "file:$XML_DIR/",
-        '-param', 'year', $yr);
-
-    # beef up Java max heap size so we don't crash while caching fonts,
-    # and set XSLT transforms to use Saxon so we can use XSLT 2.0
-    $ENV{'FOP_OPTS'} = '-Xmx1024m '
-        . '-Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl';
-    
+        '-param', 'year', $yr
+    );
+    $ENV{'FOP_OPTS'} = $FOP_OPTS;
     system(@cmd);
 }
 
