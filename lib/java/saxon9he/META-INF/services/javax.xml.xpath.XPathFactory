@@ -1,0 +1,3 @@
+net.sf.saxon.xpath.XPathFactoryImpl
+http\://java.sun.com/jaxp/xpath/dom:    net.sf.saxon.xpath.XPathFactoryImpl
+http\://saxon.sf.net/jaxp/xpath/om:     net.sf.saxon.xpath.XPathFactoryImpl

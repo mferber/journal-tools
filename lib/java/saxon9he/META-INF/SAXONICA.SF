@@ -1,0 +1,3986 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: Q0G0Jc33XM4lGVfTMV4Ltgh5/q4=
+Created-By: 1.6.0_18 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: OUWH9okvjOX7WPG7rIG+17FLidU=
+
+Name: net/sf/saxon/tree/iter/PrependIterator.class
+SHA1-Digest: ekrFko8/nkPxCReXsoRp4bovGo4=
+
+Name: net/sf/saxon/expr/instruct/CallTemplate$CallTemplatePackage.clas
+ s
+SHA1-Digest: +gSf6EynjbExM0jRipZV5GHnqrI=
+
+Name: net/sf/saxon/expr/JPConverter$FromSource.class
+SHA1-Digest: I4WpTXrbpMedBO0nRwZLcEdvg0A=
+
+Name: net/sf/saxon/expr/ForExpression$MappingAction.class
+SHA1-Digest: W1CmhEdP9znsZ1ZhDnXknrE5UI8=
+
+Name: net/sf/saxon/query/XQueryFunctionBinder.class
+SHA1-Digest: zsJTBTQgATy79YNfhAACsr+FN6A=
+
+Name: net/sf/saxon/xqj/SaxonXQExpression.class
+SHA1-Digest: tq77z9G24XaYAko7PG0noUxh1ds=
+
+Name: net/sf/saxon/expr/MappingIterator.class
+SHA1-Digest: XoJanuLIfE5vxUAqD5xzQulV68A=
+
+Name: net/sf/saxon/event/RuleBasedStripper$1.class
+SHA1-Digest: Np93Hl50OPGN5kUy45W8j9Vhvs4=
+
+Name: net/sf/saxon/event/SaxonLocator.class
+SHA1-Digest: eOYNzF5IU0/a/o21POmBNeonBM0=
+
+Name: net/sf/saxon/pattern/IdrefTest$1.class
+SHA1-Digest: DcKWcD3RSxKHRYcaWcjjYmwDOyY=
+
+Name: net/sf/saxon/expr/PathMap$PathMapNodeSet.class
+SHA1-Digest: fvoBhUT5WImvIRYuI0L84x5QMkU=
+
+Name: net/sf/saxon/event/ProxyReceiver.class
+SHA1-Digest: i+ervaSEiZxs5YsK3ijnN5dCf0U=
+
+Name: net/sf/saxon/expr/RootExpression.class
+SHA1-Digest: 6GUqydShKWu41O5L/XVmilUpcqA=
+
+Name: net/sf/saxon/functions/UnparsedEntity.class
+SHA1-Digest: SvoRGrxfmhlwLJhi8fafR/yWqTo=
+
+Name: net/sf/saxon/pattern/AnyChildNodeTest.class
+SHA1-Digest: np5MaSByfFsApMuVLYxjcxpxP1k=
+
+Name: net/sf/saxon/xpath/XPathFunctionCall.class
+SHA1-Digest: aVGmusl+GgC+op6jKC4Xzxj2YmM=
+
+Name: net/sf/saxon/trans/LicenseException.class
+SHA1-Digest: /kdMXRkZm+ydvZgpwFNi2uVpSXs=
+
+Name: net/sf/saxon/sxpath/DedicatedStaticContext.class
+SHA1-Digest: q6lmWA1hgRasz8tDp+21hsjBcLk=
+
+Name: net/sf/saxon/lib/StandardUnparsedTextResolver.class
+SHA1-Digest: jGduBjb8P2pBnekkWHyTywRHTCo=
+
+Name: net/sf/saxon/s9api/XdmAtomicValue.class
+SHA1-Digest: g6rvhOeZCiWED3bmXjIEYIHUcSA=
+
+Name: net/sf/saxon/style/StylesheetProcedure.class
+SHA1-Digest: fJhJlYHPcfD5ySw8s9nD3PWinKs=
+
+Name: net/sf/saxon/type/SchemaComponentVisitor.class
+SHA1-Digest: 0VWq/7pxIEEII4bF8oo0hthrgFI=
+
+Name: net/sf/saxon/expr/JPConverter$FromString.class
+SHA1-Digest: nDCryUXG4JXFXN6tMR1loJyDZ4U=
+
+Name: net/sf/saxon/pattern/PatternParser.class
+SHA1-Digest: hTC9Ecs26VBgAUbG4uywZp3JqHM=
+
+Name: net/sf/saxon/pull/PullFilter.class
+SHA1-Digest: XJuadbOWOTswfJC2s27x4217XiM=
+
+Name: net/sf/saxon/tree/iter/OneItemGoneIterator.class
+SHA1-Digest: Q9NaX5vpAhC3dx4bYpwIxSkCNh0=
+
+Name: net/sf/saxon/s9api/SAXDestination.class
+SHA1-Digest: jLg6qEbOA7OdOiPz1z0uadRSzQg=
+
+Name: net/sf/saxon/expr/number/Alphanumeric.class
+SHA1-Digest: 2wMM0Tu2Kv2cQ1TAemtlyT/OUOg=
+
+Name: net/sf/saxon/expr/sort/DocumentSorter.class
+SHA1-Digest: 89hHZ3FCvT2rauXjiSeOcrAroOA=
+
+Name: net/sf/saxon/expr/Calculator$PDecimalPlusPDecimal.class
+SHA1-Digest: CgonrEgPH00pvIF3eGUHAUdcUjo=
+
+Name: net/sf/saxon/functions/Remove.class
+SHA1-Digest: BteQEU2FYUJxFJ+rBKgrsi4BubU=
+
+Name: net/sf/saxon/query/ImportedFunctionLibrary.class
+SHA1-Digest: gIzZYSndamMdW8McUbJpTooVIsI=
+
+Name: net/sf/saxon/functions/IndexOf$IndexIterator.class
+SHA1-Digest: 1UjlY/tf4S9b67A3CzZHA2Q/8Fg=
+
+Name: net/sf/saxon/dom/DOMObjectModel.class
+SHA1-Digest: 8M7ynEIIKHnkpuemhGIakC7vs6w=
+
+Name: net/sf/saxon/xqj/SaxonXQStaticContext.class
+SHA1-Digest: 1tFFpu9Y82nvvV+8m8YC5ujBDcc=
+
+Name: net/sf/saxon/event/NamePoolConverter.class
+SHA1-Digest: 3+wOvCsKAYQeGY0uWAc03GTXvlY=
+
+Name: net/sf/saxon/functions/Idref$1.class
+SHA1-Digest: OKfEgCSe/p5MW5JNTTpLnY/+WdI=
+
+Name: net/sf/saxon/value/FloatingPointConverter.class
+SHA1-Digest: AvHhm2nmJEN9vqzZZpLlbR2jQ7k=
+
+Name: net/sf/saxon/value/BooleanValue.class
+SHA1-Digest: eLYqShQxMoNCV9fwQB+q5NsBCrs=
+
+Name: net/sf/saxon/om/TreeModel.class
+SHA1-Digest: 3tWX+HeZgmoVw07JHaoeO8wfOcQ=
+
+Name: net/sf/saxon/functions/ItemAt$ItemAtCall.class
+SHA1-Digest: p71rXhsBv/GaoG8ol5qH8Y++hhk=
+
+Name: net/sf/saxon/trace/ExpressionPresenter.class
+SHA1-Digest: ADxamHQ1IvHzLQ9rt+3A2SuUxS8=
+
+Name: net/sf/saxon/s9api/TeeDestination.class
+SHA1-Digest: AIsw63EB1Y2WiIRn5hZjDmdpepM=
+
+Name: net/sf/saxon/sxpath/XPathVariable.class
+SHA1-Digest: /MVFYAD2532MUEhhEsiY+IsdBv4=
+
+Name: net/sf/saxon/trace/ContextStackFrame$ApplyTemplates.class
+SHA1-Digest: TRdMwqP4IGiFNPdPYoVxXSJMHNc=
+
+Name: net/sf/saxon/style/XSLImport.class
+SHA1-Digest: l7O/bsdRYf1ZqPNtPlq4vZxF5sU=
+
+Name: net/sf/saxon/expr/BooleanExpression.class
+SHA1-Digest: 724beilne4DB7nidMosh51Cm6OE=
+
+Name: net/sf/saxon/functions/KeyFn.class
+SHA1-Digest: KzaSIxq906GZQ11w5f92sYwBNZ4=
+
+Name: net/sf/saxon/functions/SubstringBefore.class
+SHA1-Digest: AGGiDEXfzRNZsI+Gso4EC2XZLCY=
+
+Name: net/sf/saxon/functions/InScopePrefixes.class
+SHA1-Digest: BTscJUDKsFBjJjcjjNGtWJAlUww=
+
+Name: net/sf/saxon/expr/instruct/UseAttributeSets.class
+SHA1-Digest: iqD7xLLjyTnZjsAhj6D5ZfdXKtY=
+
+Name: net/sf/saxon/expr/Calculator$FloatModFloat.class
+SHA1-Digest: /L45OQrq8TUgt4KSrAi+umdFD9k=
+
+Name: net/sf/saxon/value/MemoClosure.class
+SHA1-Digest: KB+yGjUBnKK+fg08sGqGcDMIxhg=
+
+Name: net/sf/saxon/expr/PJConverter$IntegerValueToShort.class
+SHA1-Digest: 2Jz8hXDK34Hh5288oU7Fkopfus8=
+
+Name: net/sf/saxon/evpull/EventStackIterator.class
+SHA1-Digest: 14xdx18ja3VyR9tmMMJp1+KKY0Y=
+
+Name: net/sf/saxon/xqj/SaxonXQDataSource.class
+SHA1-Digest: GoZKh14EIvI/q3RcqkzgP8rSW7k=
+
+Name: net/sf/saxon/expr/PJConverter$NumericValueToFloat.class
+SHA1-Digest: CP52LVmBdEE3h3lxSk+fgFehyBU=
+
+Name: net/sf/saxon/functions/SubstringAfter.class
+SHA1-Digest: gwmSJGJNHKLxP+xm1dTKizLJkuU=
+
+Name: net/sf/saxon/Transform.class
+SHA1-Digest: C7uj9B9uQP9W2CXJgwEuCKxDO7I=
+
+Name: net/sf/saxon/dom/DocumentBuilderImpl.class
+SHA1-Digest: raZiVSb5R0dbHHtvWrPO38lB69w=
+
+Name: net/sf/saxon/expr/Calculator$IntegerDivInteger.class
+SHA1-Digest: NOyoPTZsVJGWJV6gx39jHIx7mhw=
+
+Name: net/sf/saxon/expr/instruct/ParameterSet.class
+SHA1-Digest: Y1ZQ/IsaHrQFWjH+99uNQpSfbd0=
+
+Name: net/sf/saxon/serialize/HTMLTagHashSet.class
+SHA1-Digest: 8WpbQ9ri4UgyMkQpeVga3tNPzp8=
+
+Name: net/sf/saxon/tree/wrapper/TypeStrippedNode.class
+SHA1-Digest: oXq0jIebvkl4LKCuDEJYgFZidiI=
+
+Name: net/sf/saxon/trans/KeyDefinition.class
+SHA1-Digest: lR51aKxnkKjt3Z90WEHlp2KQHzw=
+
+Name: net/sf/saxon/tree/tiny/TinyNodeImpl.class
+SHA1-Digest: SVU67TR9Cn99U2WgRT1Zp3ckuY0=
+
+Name: net/sf/saxon/expr/Calculator$PDecimalModPDecimal.class
+SHA1-Digest: pJUfzb0bBIWRzTjBWEoXJ5JvRHc=
+
+Name: net/sf/saxon/TemplatesHandlerImpl.class
+SHA1-Digest: JeVIjeyEWcZeKS7e4dkvGZw/9yI=
+
+Name: net/sf/saxon/trans/Timer.class
+SHA1-Digest: XEyl2L360IVEkQ1qi56Lna59XXo=
+
+Name: net/sf/saxon/lib/AugmentedSource.class
+SHA1-Digest: o7xWMlu3q94sm39uDUMRf8zYhAY=
+
+Name: net/sf/saxon/functions/PartialApply.class
+SHA1-Digest: gNSss7LLCen1m43+e2MnvbJ9w+k=
+
+Name: net/sf/saxon/trans/IConfigurationReader.class
+SHA1-Digest: VN0cP5yCELqgUHu22kqf7dxuIjM=
+
+Name: net/sf/saxon/s9api/DocumentBuilder.class
+SHA1-Digest: 3spocgAlh7Fk533L4D6w4XPDY0c=
+
+Name: net/sf/saxon/value/TimeValue$1.class
+SHA1-Digest: CXVJ9ziXuSaPstzf31r/jUm6h7k=
+
+Name: net/sf/saxon/expr/TypeChecker$1.class
+SHA1-Digest: 4c+9P82qqASDmrqFMsnnzsI+2K4=
+
+Name: net/sf/saxon/tree/iter/NamespaceIterator$NamespaceNodeImpl.class
+SHA1-Digest: zK62GOzwyz8WlU6EA7lORcw/P5U=
+
+Name: net/sf/saxon/expr/JPConverter$FromCharacter.class
+SHA1-Digest: euH5ZyBFjzwrXNW0aXRK916H+Io=
+
+Name: net/sf/saxon/xpath/XPathFactoryImpl.class
+SHA1-Digest: Ef5jmU1iEJCb/v7hb3dBDHQbneU=
+
+Name: net/sf/saxon/functions/FunctionLibrary.class
+SHA1-Digest: oedO6Ziqkqz627hEifAQ7v7H4EE=
+
+Name: net/sf/saxon/functions/FunctionArity.class
+SHA1-Digest: 3m1rRWcFbPc/W02hQmw88RWTuyc=
+
+Name: net/sf/saxon/style/XSLTStaticContext.class
+SHA1-Digest: KvKPrVi73gjbXLJeUneXs5yqWpY=
+
+Name: net/sf/saxon/expr/LetExpression.class
+SHA1-Digest: z1t3FCIuoVwzdWmjuNm0Ch792jg=
+
+Name: net/sf/saxon/expr/Calculator$DateTimePlusDuration.class
+SHA1-Digest: GuCpFDF/LKS2clXoUnc61MsSSQA=
+
+Name: net/sf/saxon/value/BooleanValue$1.class
+SHA1-Digest: 1789HYXnB9PbbfN6FUe5tSNoCNY=
+
+Name: net/sf/saxon/functions/ExtensionFunctionFactory.class
+SHA1-Digest: I2vtw3z1kF1mrC+oYxVImwdN/mA=
+
+Name: net/sf/saxon/sxpath/XPathEvaluator.class
+SHA1-Digest: 6hTDiGGcdLe2Bx6qg4fPxMTXhKo=
+
+Name: net/sf/saxon/expr/EvaluableItem.class
+SHA1-Digest: LQ+S63CRNnuRgzUlpLKL4WDald8=
+
+Name: net/sf/saxon/expr/Calculator$FloatTimesFloat.class
+SHA1-Digest: cExqUMZ62qeRPAmMp/bxy6Kgj84=
+
+Name: net/sf/saxon/value/GYearValue.class
+SHA1-Digest: JMHNZ0C2x62ie07Exv2toFIW5l4=
+
+Name: net/sf/saxon/sxpath/XPathExpression.class
+SHA1-Digest: cvbWV82xBrSudOfELVjuNY6q9EM=
+
+Name: net/sf/saxon/tree/linked/AttributeImpl.class
+SHA1-Digest: rsfZqhXbpn0xECh8h+3zEhbLnTo=
+
+Name: net/sf/saxon/serialize/UncommittedSerializer$1.class
+SHA1-Digest: Q3zIPjCUtkP+x/4XPyix/wA4Dhk=
+
+Name: net/sf/saxon/tree/wrapper/TypeStrippedNode$WrappingIterator.clas
+ s
+SHA1-Digest: sYDhJEk/co3R3iA2npZUAV5Gxco=
+
+Name: net/sf/saxon/event/BuilderMonitor.class
+SHA1-Digest: cyl5bRx04EwT+CyHtTK2oeOrFZ8=
+
+Name: net/sf/saxon/expr/CastableExpression.class
+SHA1-Digest: TbkxKQ5FZUrxzQUXfJLD6jZ1rik=
+
+Name: net/sf/saxon/expr/instruct/Choose.class
+SHA1-Digest: qUqIJdDhO/gMBbgWFTm4Dp8JnAU=
+
+Name: net/sf/saxon/expr/EagerLetExpression.class
+SHA1-Digest: tFycEusQDx8sgGLJ135ttzzI9u8=
+
+Name: net/sf/saxon/expr/instruct/ProcessRegexMatchInstruction$1.class
+SHA1-Digest: x88mAJttHZd2PMPtb/tlXVUiygg=
+
+Name: net/sf/saxon/evpull/EventToStaxBridge$DummyLocation.class
+SHA1-Digest: LERph/P/MXFYrYkqwMUPNCWCM1A=
+
+Name: net/sf/saxon/trans/Rule.class
+SHA1-Digest: tT8zMhlazKZ6IqoiQceAH0a4sCk=
+
+Name: net/sf/saxon/expr/Assignation.class
+SHA1-Digest: sBdc48Ft0N9UbdU6OAlsgqHK2FM=
+
+Name: net/sf/saxon/Configuration.class
+SHA1-Digest: vm+OK/0Sj2iaH3J0qfThvfeDXGc=
+
+Name: net/sf/saxon/style/XSLKey.class
+SHA1-Digest: HHzHLi4Gl2za7oblkUaWie2nCjc=
+
+Name: net/sf/saxon/serialize/CharacterMapIndex.class
+SHA1-Digest: c7398aYIW4Xt3ir0WgaNsplMZeU=
+
+Name: net/sf/saxon/expr/MonoIterator.class
+SHA1-Digest: 3+JVphSMiP/C1kqM/5sqNmBm5LY=
+
+Name: net/sf/saxon/tree/util/FastStringBuffer.class
+SHA1-Digest: SZhYMDZqxDtwaGUgufwYlFAUfLg=
+
+Name: net/sf/saxon/expr/instruct/ApplyTemplates.class
+SHA1-Digest: 7oUB6jlgpiM3Z4tGwBiLzPVm8Ms=
+
+Name: net/sf/saxon/functions/QNameFn.class
+SHA1-Digest: hPqsBhYRiP9sZeBEq0nMTLJs25U=
+
+Name: net/sf/saxon/expr/Calculator$FloatMinusFloat.class
+SHA1-Digest: ImTV+kSFKnTsWLJYWA2Gi+NJNrE=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$CharRange.clas
+ s
+SHA1-Digest: C4ulFxEcslRKGhEHlz7uCRV8ZHc=
+
+Name: net/sf/saxon/expr/ComparisonExpression.class
+SHA1-Digest: mkQoH1yf8g3diRZ4FAI7VkYVBtg=
+
+Name: net/sf/saxon/trans/CommandLineOptions.class
+SHA1-Digest: 3HBBfn43yBFYEKu0F84jeMsenxM=
+
+Name: net/sf/saxon/query/QueryParser$Import.class
+SHA1-Digest: uFJzy8j5++CgMz3KTJDemVvOGu4=
+
+Name: net/sf/saxon/expr/instruct/CopyOf$1.class
+SHA1-Digest: QSj5oWUeAOzDVNSmcKqhAVC6tw8=
+
+Name: net/sf/saxon/tree/iter/ReversibleIterator.class
+SHA1-Digest: vb+1UhAGcQlmUk1acFcH7Qvocuc=
+
+Name: net/sf/saxon/expr/ItemChecker.class
+SHA1-Digest: yMQ3JqgK3NLxG3sgMBRiN6618Tw=
+
+Name: net/sf/saxon/style/XSLResultDocument.class
+SHA1-Digest: z4ua807V/HxFZ/YOBF55L6euH4s=
+
+Name: net/sf/saxon/om/CopyOptions.class
+SHA1-Digest: iG9cZB72mcYAK0HeVGg7JZU9WMs=
+
+Name: net/sf/saxon/expr/JPConverter$FromQName.class
+SHA1-Digest: KdxNhnce+yl7hpt9cnty3LoS2hc=
+
+Name: net/sf/saxon/serialize/MetaTagAdjuster.class
+SHA1-Digest: Yyo3XKa7ehZnPS7RY142mk+ONn0=
+
+Name: net/sf/saxon/expr/instruct/DivisibleInstruction.class
+SHA1-Digest: TJJlePBlnn877VUu77VP3R/478s=
+
+Name: net/sf/saxon/type/Type.class
+SHA1-Digest: 3CbRu14jcuM6tfAHW5UCrdTQyx0=
+
+Name: net/sf/saxon/functions/BaseURI.class
+SHA1-Digest: uVlFsELeKDZaabUFrKQZizDutWs=
+
+Name: javax/xml/xquery/XQDynamicContext.class
+SHA1-Digest: s/ZGaN9ppojUUNkm9swc3ize9O8=
+
+Name: net/sf/saxon/functions/TreatFn.class
+SHA1-Digest: RyZNLcFPze1p/tI1r5Svi8Kgy78=
+
+Name: net/sf/saxon/expr/sort/AlphanumericCollator.class
+SHA1-Digest: YUfY7enmxTRaog2VLvIee7us3zA=
+
+Name: net/sf/saxon/xqj/SaxonXQConnection.class
+SHA1-Digest: eX+UZUR2krFRPwUu85YmDhicbxc=
+
+Name: net/sf/saxon/query/UndeclaredVariable.class
+SHA1-Digest: 7b2+HsvjCdXwnicd3Ve9mG14TgY=
+
+Name: net/sf/saxon/expr/instruct/AttributeCreator.class
+SHA1-Digest: rBm5AccdnqTYxxb33DsLgapyJcw=
+
+Name: net/sf/saxon/type/ValidationException.class
+SHA1-Digest: uWxYcpxc/DYSyXtly7134lhGJwk=
+
+Name: net/sf/saxon/lib/StandardErrorHandler.class
+SHA1-Digest: m53gs/wcZEiiXRczm9VGwdXAYm0=
+
+Name: net/sf/saxon/style/StylesheetModule.class
+SHA1-Digest: 9rmvFwFIJkEiktXT88wfxqeajDE=
+
+Name: net/sf/saxon/evpull/EmptyEventIterator.class
+SHA1-Digest: vAaFsEIFQYnfOTYXw4pwC2dkr+0=
+
+Name: net/sf/saxon/PreparedStylesheet.class
+SHA1-Digest: 5dGjwHGX8t6Uu74Kvvpcu7IeBI0=
+
+Name: net/sf/saxon/expr/XPathContextMinor$LastValue.class
+SHA1-Digest: ebAlB3dC4HvfBngtGCUVnnGjP24=
+
+Name: net/sf/saxon/functions/DocumentFn.class
+SHA1-Digest: huU1EAq7KcI1UweMs6wJXchYuEQ=
+
+Name: net/sf/saxon/value/DurationValue$DurationComparable.class
+SHA1-Digest: E1HbWEsaTOM/HO1Y+aTif3UMHFM=
+
+Name: net/sf/saxon/type/SchemaComponent.class
+SHA1-Digest: E6t1H5SOunIhw6U0Vn4BEIDTGus=
+
+Name: net/sf/saxon/event/SequenceReceiver.class
+SHA1-Digest: fY07z4pdh8ybtbXXb/eWBoHVclM=
+
+Name: net/sf/saxon/TransformerHandlerImpl.class
+SHA1-Digest: apz84XLssAy6aRkH8sgFfbRvJ04=
+
+Name: net/sf/saxon/query/QueryParser$1.class
+SHA1-Digest: FW0gRpkIxXMphGy8p7UEYhjZ0Fk=
+
+Name: net/sf/saxon/functions/FormatDate.class
+SHA1-Digest: FrA35oFAvekkQ9CpftE3H6GnuXE=
+
+Name: net/sf/saxon/evpull/EventMappingIterator.class
+SHA1-Digest: jo9HWbVQLRahilgx0Md1GpzH70Y=
+
+Name: net/sf/saxon/expr/instruct/InstructionDetails.class
+SHA1-Digest: HvSjh+BM5EneCMsrAq2aN3xEEdM=
+
+Name: net/sf/saxon/evpull/SequenceComposer.class
+SHA1-Digest: fnCG284NMm7Q0k8GWuMxw5Eig78=
+
+Name: net/sf/saxon/trans/DecimalFormatManager$1.class
+SHA1-Digest: 3tafRgwt9/lJNuD2d9TckDrdjvc=
+
+Name: net/sf/saxon/style/UseWhenFilter$URIPreventer.class
+SHA1-Digest: 2d5UJrXWCt42LjXIw4HBfZsIqyk=
+
+Name: net/sf/saxon/expr/sort/IntHashMap$IntHashMapValueIterator.class
+SHA1-Digest: Hrp7I/0qiIWKPS+SYnCOJJ6fUxI=
+
+Name: net/sf/saxon/functions/Position.class
+SHA1-Digest: ZxfmWH8KeeXZmJ/5DSnmI8LJ9FU=
+
+Name: net/sf/saxon/expr/number/AbstractNumberer.class
+SHA1-Digest: kI2pGlH+Hr/LP0Kpc/qNfqkMVS0=
+
+Name: javax/xml/xquery/XQCancelledException.class
+SHA1-Digest: 5968DHtrX1Q739DfV1ppyO/AEoc=
+
+Name: net/sf/saxon/expr/Calculator$AnyTimesAny.class
+SHA1-Digest: x4rYdNDoSOMCmFDklVRgPU0pUiY=
+
+Name: net/sf/saxon/functions/StringLength.class
+SHA1-Digest: 2/iVjP7jG7MliY1eFu8ms2WtN6g=
+
+Name: net/sf/saxon/evpull/NamespaceMaintainer.class
+SHA1-Digest: ItRo276uJFvG+wLVyLBAnn0PDa4=
+
+Name: net/sf/saxon/dom/DOMExceptionImpl.class
+SHA1-Digest: 8mMojTw2yIJS9S+ubY3u2+OG53w=
+
+Name: net/sf/saxon/functions/DateTimeConstructor.class
+SHA1-Digest: xDwQZzaPKvBVOVi5+euVtMgzRIM=
+
+Name: net/sf/saxon/trans/Mode$1.class
+SHA1-Digest: 7N/yJ6hoThFAR4onq6BbvephQIo=
+
+Name: net/sf/saxon/expr/sort/Sortable.class
+SHA1-Digest: Htz5/Z/I03n6e6EiS22xxMJOThg=
+
+Name: net/sf/saxon/type/SchemaType.class
+SHA1-Digest: U4h2X6i/2mHyrtgJcKBcwmcq76Y=
+
+Name: net/sf/saxon/functions/StandardFunction.class
+SHA1-Digest: Y3wXR7WBoqvKkt0ECgUencoupco=
+
+Name: net/sf/saxon/expr/LastPositionFinder.class
+SHA1-Digest: 8+FfOqX567wA18E+ceTlXzP0ICM=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$Property.class
+SHA1-Digest: 8t4mLgw92ukP97EU6a0NjPa5uqA=
+
+Name: net/sf/saxon/value/MemoClosure$ProgressiveIterator.class
+SHA1-Digest: m18XvICshF5GxBsJqP/B6c7Zesg=
+
+Name: net/sf/saxon/om/InscopeNamespaceResolver.class
+SHA1-Digest: TKesNKt3+Y7CLgADD6YPS1ZSpUo=
+
+Name: net/sf/saxon/tree/linked/LineNumberMap.class
+SHA1-Digest: iTWzZLW5X7JhyuatR/VJclbbEMM=
+
+Name: net/sf/saxon/value/TimeValue$TimeComparable.class
+SHA1-Digest: hM5rx5Agci/P8eRv2U3rjZ5qEjo=
+
+Name: net/sf/saxon/tree/util/Navigator$FollowingEnumeration.class
+SHA1-Digest: wOigEwLkJ4d035k1AGQxGs24e38=
+
+Name: net/sf/saxon/expr/ExpressionLocation.class
+SHA1-Digest: A8NIT/U6lo+K5B4A8/wM5BqY3B4=
+
+Name: net/sf/saxon/expr/ContextItemExpression.class
+SHA1-Digest: qoe6pus6nsVLCl1FWB7H1V00xxM=
+
+Name: net/sf/saxon/expr/TailIterator.class
+SHA1-Digest: z0RkKu5vegX51eZ+7HKPfwajVgM=
+
+Name: net/sf/saxon/Query.class
+SHA1-Digest: 6ErY58deNhjRgbfi8abxIese0xE=
+
+Name: net/sf/saxon/expr/sort/LocalOrderComparer.class
+SHA1-Digest: yaP+VuIY16IOkh504Rjsn0bOChA=
+
+Name: net/sf/saxon/dom/DOMEnvelope$2.class
+SHA1-Digest: XU57ZWy0SGk1s2GjlwvVRBxWCKE=
+
+Name: net/sf/saxon/tree/tiny/CharSlice.class
+SHA1-Digest: BVAvmnZsqjXeaZztf45w+IbZ398=
+
+Name: net/sf/saxon/expr/sort/SortedTupleIterator.class
+SHA1-Digest: 26X3J6o4HZ/99xCu6C7T8f2mq/s=
+
+Name: net/sf/saxon/s9api/BuildingStreamWriter.class
+SHA1-Digest: WZa1qjQpXU5udwhAhHXPdOx0xNk=
+
+Name: net/sf/saxon/value/GYearMonthValue.class
+SHA1-Digest: mcBxa/C1DSqXsLri2m6ILiw8a7Q=
+
+Name: net/sf/saxon/functions/KeyFn$1.class
+SHA1-Digest: 7xhn9kfSx+HlJNrUHgtoaidgiIs=
+
+Name: net/sf/saxon/evpull/EndElementEvent.class
+SHA1-Digest: PrVEXzGuPZBzXL0SIfTqYenpmGE=
+
+Name: net/sf/saxon/value/BigIntegerValue$BigIntegerComparable.class
+SHA1-Digest: JKvB/TLecyKJPFj8mFrZ6W7vS9o=
+
+Name: net/sf/saxon/tree/wrapper/SpaceStrippedNode$StrippingIterator.cl
+ ass
+SHA1-Digest: ON/3Ne9+VOM/yXxjLFEBpvvjqSg=
+
+Name: net/sf/saxon/trace/ContextStackFrame.class
+SHA1-Digest: iqxHIyxwVAIrFMC59x2UAuwwLIw=
+
+Name: net/sf/saxon/expr/JPConverter$FromValueRepresentation.class
+SHA1-Digest: iC0mFK4FcP+C+rOxBaqXgWK7clo=
+
+Name: net/sf/saxon/serialize/XHTMLEmitter.class
+SHA1-Digest: u3sGeZhXwwR/i2QD9O68AvPZGz0=
+
+Name: net/sf/saxon/om/NamePool.class
+SHA1-Digest: pnOV/mAu534xMn24Cca8qwoJYTM=
+
+Name: net/sf/saxon/style/XSLInclude.class
+SHA1-Digest: LvfIZlNjEaA2/Ym6gotXwzWLr+4=
+
+Name: net/sf/saxon/pull/PullSource.class
+SHA1-Digest: r8kv/lbfSPGAFkb22+dQpKAdm78=
+
+Name: net/sf/saxon/evpull/EventIterator.class
+SHA1-Digest: fEZfaTer9AKX5nCLVxGf+HVkCaA=
+
+Name: net/sf/saxon/style/XSLAnalyzeString.class
+SHA1-Digest: MspbCqrR240qtJvSeGDLbycDa1U=
+
+Name: net/sf/saxon/tree/linked/NodeFactory.class
+SHA1-Digest: JtSrh7fB12qjlp11QoX63GrZFLQ=
+
+Name: net/sf/saxon/tree/wrapper/SpaceStrippedNode.class
+SHA1-Digest: 4DApL0vQT5cbhk+nbt7z06EMLIM=
+
+Name: net/sf/saxon/functions/Minimax.class
+SHA1-Digest: EnVLEpeounSYNVGGgT+a5AHoz3s=
+
+Name: net/sf/saxon/pattern/NodeTestPattern.class
+SHA1-Digest: +OmeETvzB19v/Y6YOLOtF9/K/vc=
+
+Name: net/sf/saxon/tree/iter/AxisIteratorImpl.class
+SHA1-Digest: oFHvkdvEf7LrlPOMDUgCVhTUZb4=
+
+Name: net/sf/saxon/value/StringToDouble11.class
+SHA1-Digest: TX1XjK2aM/kCQgUTydpysGspQsw=
+
+Name: net/sf/saxon/lib/StandardCollectionURIResolver$1.class
+SHA1-Digest: 1UPa9cgwv4fjXeZnFbfiLkZzxD4=
+
+Name: net/sf/saxon/expr/JPConverter$FromFloatArray.class
+SHA1-Digest: oLv6g4WzuiJGyCMcCxdtwQaIYP4=
+
+Name: net/sf/saxon/expr/number/Numberer_en.class
+SHA1-Digest: X5uA4s8VQNVCPfTOjPkTx94dTGI=
+
+Name: net/sf/saxon/expr/instruct/LocalParam.class
+SHA1-Digest: 66b/dOl/jNB59LTZt7fX1QwuVQQ=
+
+Name: net/sf/saxon/expr/PJConverter$Atomic.class
+SHA1-Digest: ZUtROgYHJaXy+eLjVUE8xzbhnlk=
+
+Name: net/sf/saxon/trans/DecimalFormatManager$DecimalFormatInfo.class
+SHA1-Digest: ZBtydAcLch2mKXxcxnHuF8FLLVQ=
+
+Name: net/sf/saxon/functions/KeyFn$SubtreeFilter.class
+SHA1-Digest: YBH/GhmHoflEMDu1TaOTKsyk7bM=
+
+Name: net/sf/saxon/event/Sink.class
+SHA1-Digest: /tQV5eu7oC0+TDtQOEOOcns2T1U=
+
+Name: net/sf/saxon/tree/util/Navigator$DescendantEnumeration.class
+SHA1-Digest: oSB9XHlKqXlFx1gNBkcy3OVSXa0=
+
+Name: net/sf/saxon/value/Base64BinaryValue$Base64BinaryComparable.clas
+ s
+SHA1-Digest: IBVGqk9sUd2ae9Qu/YIPSiyPG8k=
+
+Name: net/sf/saxon/value/PrecisionDecimalValue$PrecisionDecimalCompara
+ ble.class
+SHA1-Digest: Gv+6mcd4CBaqLkI8H3ZCikaER7k=
+
+Name: net/sf/saxon/query/QueryParser.class
+SHA1-Digest: urNivw9+B9NajxQFNHWpTK+W2VM=
+
+Name: net/sf/saxon/event/AllElementStripper.class
+SHA1-Digest: 9/5CIx/f5nPXTUgGZCQP47l+R3Y=
+
+Name: net/sf/saxon/tree/iter/ReverseArrayIterator.class
+SHA1-Digest: tQoqf5OfNHaQGVUljNV+P67xjt0=
+
+Name: net/sf/saxon/dom/DocumentBuilderFactoryImpl.class
+SHA1-Digest: ZOQ+Ku+bFTvGc/6c1G+St5+q77Q=
+
+Name: net/sf/saxon/expr/ContextSwitchingExpression.class
+SHA1-Digest: 3IDwD5pTGxGTzmoTTzpx0ttvB+U=
+
+Name: net/sf/saxon/functions/regex/RegexData.class
+SHA1-Digest: 3nNB82zlD7Gl6b29/WocYQsWdWM=
+
+Name: net/sf/saxon/serialize/UTF8Writer.class
+SHA1-Digest: ILJDN86Ej00Bc24fC2mhflbe3nk=
+
+Name: net/sf/saxon/pattern/IdrefTest$2.class
+SHA1-Digest: kF8QYhd7Mh8+E01fX961FQMbqzE=
+
+Name: net/sf/saxon/tree/iter/ArrayIterator.class
+SHA1-Digest: WDIV+fEBKye1n7te/Q/s91EowFc=
+
+Name: net/sf/saxon/style/XSLIf.class
+SHA1-Digest: HwcCjSf3n3ZfsYzvgvqZFzW6gGQ=
+
+Name: net/sf/saxon/expr/PatternMatchExpression.class
+SHA1-Digest: WYqxNLa7QUA9kaMowemhbQIV9Qg=
+
+Name: net/sf/saxon/dom/NodeWrapper.class
+SHA1-Digest: TNBOUXBcAvcdeZOOun45OXN7Mto=
+
+Name: net/sf/saxon/pull/NamespaceContextImpl.class
+SHA1-Digest: mpwCMz+IWoOrQ6IRLEgXzFV7IQg=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$BackReference.
+ class
+SHA1-Digest: ksnNa3CXzeHCPFlurrZNpN0nixA=
+
+Name: net/sf/saxon/s9api/XdmNode$1.class
+SHA1-Digest: ikUXSWQgo/tyMyefrXvmoOZ90Pc=
+
+Name: net/sf/saxon/expr/Literal.class
+SHA1-Digest: bcU42R+afgaAnYoBSqFBUZ0Vt+g=
+
+Name: net/sf/saxon/expr/UntypedAtomicConverter$1.class
+SHA1-Digest: jqWm7UaH+ZWMYDe0vHDnP0n9CNs=
+
+Name: net/sf/saxon/lib/Numberer.class
+SHA1-Digest: eAQxFfx2PlR/96NTPnvydWk/VZQ=
+
+Name: net/sf/saxon/om/NotationSet.class
+SHA1-Digest: 5kwL/m3XELtDa/djgyEwWDX0q5E=
+
+Name: net/sf/saxon/style/XSLValueOf.class
+SHA1-Digest: N90we/jBOUbZWrYIg7pwkjybdPw=
+
+Name: net/sf/saxon/lib/StandardCollationURIResolver.class
+SHA1-Digest: dyCMMB69UDUUJuT99WkDdZXAFog=
+
+Name: net/sf/saxon/expr/sort/IntRangeSet$IntRangeSetIterator.class
+SHA1-Digest: C9w+sZ5OdvXmhLfh4vmo7e5lX24=
+
+Name: net/sf/saxon/tree/linked/SystemIdMap.class
+SHA1-Digest: 8a8TCQiCPEj84+64VZo9ZxOJI30=
+
+Name: net/sf/saxon/expr/sort/ConditionalSorter.class
+SHA1-Digest: Si0E9Lpsb2azsqrFMgHhrjuFWDY=
+
+Name: net/sf/saxon/tree/tiny/TinyTree.class
+SHA1-Digest: Hnnrf1EzuEM7b8yKTI6CyV+l1ac=
+
+Name: net/sf/saxon/functions/BooleanFn.class
+SHA1-Digest: zjwH0QUbr99jNtXQ1Ch1eFxnIIY=
+
+Name: net/sf/saxon/tree/iter/UnfailingIterator.class
+SHA1-Digest: faJNVq4rPU+/5EWEXzl0g1jmMrs=
+
+Name: net/sf/saxon/expr/CodeGeneratorService.class
+SHA1-Digest: h1nLNaHsekv5yGVy8LfpGNmFPfw=
+
+Name: net/sf/saxon/type/ExternalObjectType.class
+SHA1-Digest: F/BT/i0P/PD3Z++1VFEMf4HRqh4=
+
+Name: net/sf/saxon/pattern/NodeTest.class
+SHA1-Digest: vlU/KMvnAJ4W5Fpuips2LjbOVyk=
+
+Name: net/sf/saxon/dom/DOMObjectModel$2.class
+SHA1-Digest: 51SbyIAdmjvKM1ahrcXyiY0kLNs=
+
+Name: net/sf/saxon/expr/instruct/ProcessingInstruction.class
+SHA1-Digest: IX652C4GpbhkDDKoTo+7qP4wASI=
+
+Name: net/sf/saxon/evpull/TracingEventIterator.class
+SHA1-Digest: ePOXghDj+mCUuNVKKSKdAJoE1fo=
+
+Name: net/sf/saxon/IdentityTransformer.class
+SHA1-Digest: 9ylTmdCsale5P0f5ftipEvI536k=
+
+Name: net/sf/saxon/event/Sender.class
+SHA1-Digest: 8t1ESZbhbk7dtqWyZ7lk1t62TPk=
+
+Name: net/sf/saxon/lib/StandardCollectionURIResolver$3.class
+SHA1-Digest: ea88gblALMRlk5gtqgjyF9vXVCs=
+
+Name: net/sf/saxon/expr/GeneralComparison20.class
+SHA1-Digest: /pdEXs8WQ2ZFvT5NHve8N67Pr0M=
+
+Name: net/sf/saxon/expr/PJConverter$UnwrapExternalObject.class
+SHA1-Digest: rkveprT8uo/D+zyPifixfRVovpw=
+
+Name: net/sf/saxon/expr/instruct/ParentNodeConstructor.class
+SHA1-Digest: dL1l3speTApO/fj/9ovz5QMpbS4=
+
+Name: net/sf/saxon/expr/instruct/GlobalVariable.class
+SHA1-Digest: N8LokK8+m3QZ6JwhLRR8MUVAMGQ=
+
+Name: net/sf/saxon/value/ShareableSequence.class
+SHA1-Digest: G7nYBVVtM/5Ah7sszHIqcFlq2hc=
+
+Name: net/sf/saxon/event/DocumentSender.class
+SHA1-Digest: Z2P7knlt8B/+FJjpPmcXRzuoaSQ=
+
+Name: net/sf/saxon/type/AnyItemType.class
+SHA1-Digest: V7XoeFaWjXgZDussfhBH8rxiT9E=
+
+Name: net/sf/saxon/expr/sort/IntArraySet.class
+SHA1-Digest: J+Z7ffboRsDR3JgMyCRMWFrDw3I=
+
+Name: net/sf/saxon/functions/Contains.class
+SHA1-Digest: Y0dYX1mMGl/iQ5UDntdEtHBe4h4=
+
+Name: net/sf/saxon/event/Builder.class
+SHA1-Digest: YGK6x8chTViWOfj7CQuGHW0MSXo=
+
+Name: net/sf/saxon/s9api/SchemaManager.class
+SHA1-Digest: +ejC30Qlb4BPdgd1Pc5NMmC2poY=
+
+Name: net/sf/saxon/functions/Substring.class
+SHA1-Digest: VTt6UyzAuHJ3yhrociI/05L2RAs=
+
+Name: net/sf/saxon/style/XSLOutput.class
+SHA1-Digest: cfDWfukbz1o4y5BnN8g1/3muw0g=
+
+Name: net/sf/saxon/om/TreeModel$TinyTree.class
+SHA1-Digest: UTCdVKXPN6L7RDGBqAFLXuYIlJg=
+
+Name: net/sf/saxon/pull/StaxBridge.class
+SHA1-Digest: h2s+XrCBDNgDWxIovz4BgAchFaE=
+
+Name: net/sf/saxon/s9api/XQueryExecutable.class
+SHA1-Digest: qAGLcHG5Jp8ghxZQEdeam+YWV4I=
+
+Name: net/sf/saxon/expr/instruct/Bindery$4.class
+SHA1-Digest: GENvM5ipfQHHCe4kWF4RrLb09/c=
+
+Name: net/sf/saxon/expr/instruct/Choose$1.class
+SHA1-Digest: asas2blt0G6IwFOySUZrRgybov4=
+
+Name: net/sf/saxon/functions/Error.class
+SHA1-Digest: 0+YT+OPBKT2JIK3n39IL3nd+/ZY=
+
+Name: net/sf/saxon/expr/SubsequenceIterator.class
+SHA1-Digest: 1XPQDeVPcbm+dlM1lenXxCtcfdw=
+
+Name: net/sf/saxon/expr/ExpressionParser.class
+SHA1-Digest: UZ5ayyJWiMj8cp8zzsr7EtzqQYM=
+
+Name: net/sf/saxon/s9api/ConstructedItemType.class
+SHA1-Digest: KH4+FRp1PYtmEcMuJ8mQupdHylA=
+
+Name: net/sf/saxon/serialize/codenorm/UnicodeDataParser.class
+SHA1-Digest: 0pMhClF+znM22vOhuHcTXCWdKhc=
+
+Name: net/sf/saxon/tree/tiny/TinyProcInstImpl.class
+SHA1-Digest: tM3leUaW7ItkoishnmC7axrwwIM=
+
+Name: net/sf/saxon/expr/ContextMappingIterator.class
+SHA1-Digest: N9msMjgku6rifeFFTx/hZFlTe/8=
+
+Name: net/sf/saxon/xqj/SaxonXQSequenceType.class
+SHA1-Digest: IV2AktiL957OHkbY7UtfVTocRTg=
+
+Name: net/sf/saxon/tree/linked/LinkedBuilderMonitor.class
+SHA1-Digest: mUMPNVbNx8RNz9jK2M5Rez7DuZA=
+
+Name: net/sf/saxon/expr/Calculator$DurationDivDuration.class
+SHA1-Digest: TMse0U6ZRU8hunRCDn23iuvrUu4=
+
+Name: net/sf/saxon/expr/instruct/Debugger.class
+SHA1-Digest: GyThjSrfWf9pWh8FonU01AHO4NE=
+
+Name: net/sf/saxon/expr/sort/GroupIterator.class
+SHA1-Digest: soGSzNBfsKR9Fho+LvPNirVB4Lc=
+
+Name: net/sf/saxon/expr/sort/IntHashMap$1.class
+SHA1-Digest: aFTbd2jEkOr+gofy1OHx3J944eA=
+
+Name: net/sf/saxon/om/QNameException.class
+SHA1-Digest: HsS+0K78VE7nnPoExIYiiX08U7c=
+
+Name: net/sf/saxon/value/Base64BinaryValue.class
+SHA1-Digest: MJKjTgUjVSytRg1ZU+/SUpA6lnQ=
+
+Name: net/sf/saxon/expr/PJConverter.class
+SHA1-Digest: 2QlLu5kkooGpZ30Q2xCrU3/uM+c=
+
+Name: net/sf/saxon/trans/XPathException$Circularity.class
+SHA1-Digest: MEXo7TAHk0nDL5u/57tW/OnGdb8=
+
+Name: net/sf/saxon/tree/tiny/TinyElementImpl.class
+SHA1-Digest: Uvt9/kyc+7daNTCi06wFYC0MVMI=
+
+Name: net/sf/saxon/expr/UntypedAtomicConverter.class
+SHA1-Digest: MZGapImM1LbKW/9w6DBhSvwLM20=
+
+Name: net/sf/saxon/trans/NonDelegatingURIResolver.class
+SHA1-Digest: 1SQYk9C93UsEQMrHxhBUXKvufck=
+
+Name: net/sf/saxon/trace/ContextStackIterator.class
+SHA1-Digest: UjKjm/f8sBJ332RTgC/oSPoDEXM=
+
+Name: net/sf/saxon/expr/CardinalityChecker.class
+SHA1-Digest: XQ8s+64IeyldolP4XA+TEEG/Z44=
+
+Name: net/sf/saxon/lib/StandardCollectionURIResolver$FileExpander.clas
+ s
+SHA1-Digest: kz/5KlQhbgIhOOHOqCUIW98VRrE=
+
+Name: javax/xml/xquery/XQSequence.class
+SHA1-Digest: zgJFLiUnHZHQCpuKDcqZ/L4WQjg=
+
+Name: net/sf/saxon/expr/StaticProperty.class
+SHA1-Digest: n7qFS9r3XLHFGv8n2DVHs9F63FY=
+
+Name: net/sf/saxon/type/ErrorType.class
+SHA1-Digest: ugxJTdpGSdFW4DeqGqXFUwSDDsE=
+
+Name: javax/xml/xquery/XQDataSource.class
+SHA1-Digest: dCiiBY2GNdvSy3Kfd3w35bMYJRU=
+
+Name: net/sf/saxon/expr/instruct/AnalyzeString.class
+SHA1-Digest: jeiTc7jsg/aI9E2IN33SBR2Ej7k=
+
+Name: net/sf/saxon/tree/util/DiagnosticNamePool.class
+SHA1-Digest: vzL0rz1oYsZE/9Lz3TEW3JoZq/U=
+
+Name: net/sf/saxon/s9api/XPathCompiler.class
+SHA1-Digest: CippXgwL44ziA6Z1JV5kvWZX1GI=
+
+Name: net/sf/saxon/expr/Calculator$DurationMinusDuration.class
+SHA1-Digest: RfclTJ5xIfrT1eiLab2tppV1b1s=
+
+Name: net/sf/saxon/value/Base64BinaryValue$Base64Encoder.class
+SHA1-Digest: h/vgxB6f3IpqC7WLdPWIDjTRzBA=
+
+Name: net/sf/saxon/expr/instruct/ProcessRegexMatchInstruction.class
+SHA1-Digest: XOCv4Mzfo5zBdNogn+3J7QEliSk=
+
+Name: net/sf/saxon/expr/Calculator$AnyPlusAny.class
+SHA1-Digest: F1097W7n6h4ZLmJB1ow+ssiGg0s=
+
+Name: net/sf/saxon/event/TypeCheckingFilter.class
+SHA1-Digest: wNf0e7MtpG5PQTqHuZ27vpuK+6g=
+
+Name: net/sf/saxon/pattern/UnionQNameTest.class
+SHA1-Digest: A6NcHRBQbF7HqYcEKTYArcbDgHY=
+
+Name: net/sf/saxon/expr/sort/IntToIntHashMap$IntToIntHashMapKeyIterato
+ r.class
+SHA1-Digest: pqgUhxt7GQBtdVSBvmVbJX3uJqk=
+
+Name: net/sf/saxon/serialize/UncommittedSerializer.class
+SHA1-Digest: OMaqkIOqlXflh5lm5vu3CCBDCHU=
+
+Name: net/sf/saxon/functions/URIQueryParameters$RegexFilter.class
+SHA1-Digest: Z2oW9kZ7V8qZ7JXRmd5M4IuEbRI=
+
+Name: net/sf/saxon/evpull/EventToStaxBridge$2.class
+SHA1-Digest: UJBfwgTMxBWpf4RP7y3sO7F+tEk=
+
+Name: net/sf/saxon/tree/linked/AncestorEnumeration.class
+SHA1-Digest: 5XFsWT2a1LGFQpqyD4zUQIxX2y0=
+
+Name: net/sf/saxon/tree/linked/PrecedingOrAncestorEnumeration.class
+SHA1-Digest: 3b/Ha5LqQhZG7Eqrl95QQcvQmx0=
+
+Name: net/sf/saxon/trace/XQueryTraceListener.class
+SHA1-Digest: o27ZtVXWlcmJb8LFC99U6mn2Z2I=
+
+Name: net/sf/saxon/expr/sort/SortExpression.class
+SHA1-Digest: hFPfEP0OnxLXCcrh9WT3y50RgZE=
+
+Name: net/sf/saxon/s9api/XPathExecutable$1.class
+SHA1-Digest: PxM/+U3339ailUs/5KKtT2My74E=
+
+Name: net/sf/saxon/expr/UserFunctionCall.class
+SHA1-Digest: vkifqhHLEsIujXOc16LkK7m12xQ=
+
+Name: net/sf/saxon/expr/SuppliedParameterReference.class
+SHA1-Digest: mVj2RnowO/nEXJKuPMUysn4UQ14=
+
+Name: net/sf/saxon/dom/DocumentOverNodeInfo.class
+SHA1-Digest: 3a/s+fXGKlkEnWwm+OL5oMGnuVI=
+
+Name: net/sf/saxon/tree/tiny/TinyCommentImpl.class
+SHA1-Digest: rBmQjbi8oT1RkziZjVxnJxKdPZo=
+
+Name: net/sf/saxon/s9api/ItemType.class
+SHA1-Digest: O4Np/z79U7FTXRNMR9f359klXYA=
+
+Name: net/sf/saxon/tree/util/AttributeCollectionImpl.class
+SHA1-Digest: BRReV8dn4mErJTc5Q9ta1FFYFWU=
+
+Name: net/sf/saxon/tree/wrapper/VirtualDocumentCopy.class
+SHA1-Digest: IUKeMK4DBcsWxfiPMuOR2dwNR+Y=
+
+Name: net/sf/saxon/value/UntypedAtomicValue.class
+SHA1-Digest: pzStyHmLT838ampxChalPHFHDUA=
+
+Name: net/sf/saxon/event/RuleBasedStripper.class
+SHA1-Digest: JX2TU2KqXjYOKrkiIvsjszP7W64=
+
+Name: net/sf/saxon/value/TextFragmentValue.class
+SHA1-Digest: oQ0gkWBoHHuFOu3YnGo+4CCO+ic=
+
+Name: net/sf/saxon/expr/sort/UppercaseFirstCollator.class
+SHA1-Digest: e5Nn0a0ZLr95L2ykfUMn61z+lj4=
+
+Name: net/sf/saxon/evpull/StaxToEventBridge.class
+SHA1-Digest: j/2k9CQiGIfmtHSMGNacoczJlIA=
+
+Name: net/sf/saxon/functions/Insert.class
+SHA1-Digest: 3NMbyIhHuK9lsiy1cpUJjJR8hlc=
+
+Name: net/sf/saxon/expr/Calculator$DateTimeMinusDateTime.class
+SHA1-Digest: YSTuP/W+3Gj+rEYsSbuqB5g177o=
+
+Name: net/sf/saxon/pattern/Pattern.class
+SHA1-Digest: pS5RAMeIzgl2Z4aK9IVsNiObHJ0=
+
+Name: net/sf/saxon/expr/AdjacentTextNodeMerger$AdjacentTextNodeMerging
+ Iterator.class
+SHA1-Digest: 8fzCN7enrkG9oYvveKCA0ZeoT80=
+
+Name: net/sf/saxon/tree/util/NamespaceDeclarationsImpl.class
+SHA1-Digest: oU0q4uW1PDrOfikEK7O12xJ26aw=
+
+Name: javax/xml/xquery/XQExpression.class
+SHA1-Digest: VgX2gyUZn+/iIJx2wosezJrpvj8=
+
+Name: net/sf/saxon/functions/SystemFunction.class
+SHA1-Digest: VE8O8ABRfhul6R5GWTZxGM0Vhwg=
+
+Name: net/sf/saxon/functions/RegexGroup.class
+SHA1-Digest: P5SOgPXG1Z1HskUjaKLUHKMeMTI=
+
+Name: net/sf/saxon/style/StylesheetStripper.class
+SHA1-Digest: pVwXfUEvngwVKeTnDK4sNHGmUsc=
+
+Name: net/sf/saxon/tree/util/Navigator.class
+SHA1-Digest: qVSWs1d1EUTdQdBEu0eNFDazaoY=
+
+Name: net/sf/saxon/evpull/EventIteratorToReceiver.class
+SHA1-Digest: RsIGfoAHKjY+T1ma7qzMSn8VOcI=
+
+Name: net/sf/saxon/functions/ItemAt$1.class
+SHA1-Digest: EcviiM1goVRqKlRg62+Cx/JZHq4=
+
+Name: net/sf/saxon/style/XSLNamespace.class
+SHA1-Digest: ZjjqdiHtN6Zmf9Aog5BCz/guuV8=
+
+Name: net/sf/saxon/expr/instruct/Executable.class
+SHA1-Digest: RDVAh1K0KtDE/WBOI5VP+blV1XY=
+
+Name: javax/xml/xquery/PooledXQConnection.class
+SHA1-Digest: fpClnixxjgOg8oO0jqIBilEVqdw=
+
+Name: net/sf/saxon/trans/CompilerInfo.class
+SHA1-Digest: dCT1gGwSNnkVkGEztd1ZtVkeG7U=
+
+Name: net/sf/saxon/expr/Calculator$IntegerPlusInteger.class
+SHA1-Digest: QKyNXDprFFLOBl2ySLkkM5QTusU=
+
+Name: net/sf/saxon/tree/iter/NodeListIterator.class
+SHA1-Digest: XW9+GJN9OteabcJK89z6p1E4LIM=
+
+Name: net/sf/saxon/expr/JPConverter$FromByteArray.class
+SHA1-Digest: 0oUe298OSAJWzhHF812F6e53TXg=
+
+Name: net/sf/saxon/serialize/charcode/CharacterSet.class
+SHA1-Digest: U+fUG2/Gsy2J9kQCqqvgsXzlUYw=
+
+Name: net/sf/saxon/event/LocationCopier.class
+SHA1-Digest: fO19SToJ627LAsVWBkgcjxpfRi0=
+
+Name: net/sf/saxon/functions/DocAvailable$ErrorDiscarder.class
+SHA1-Digest: lZ3enXg1z2eTtxRMP0FH5sXwUyE=
+
+Name: net/sf/saxon/event/ReceiverOptions.class
+SHA1-Digest: BuUIvkwnjQMm8axr0tzNthCdJx0=
+
+Name: net/sf/saxon/value/FloatValue.class
+SHA1-Digest: V/UtGYkOP+Mr7WeYcZNEp44hpvA=
+
+Name: net/sf/saxon/pattern/PatternFinder.class
+SHA1-Digest: jPeEXq2voR4DpabQ4oYwmpbSilg=
+
+Name: net/sf/saxon/tree/wrapper/VirtualCopy.class
+SHA1-Digest: YYqkj1Ad+qyUd7p4acAsQ6VXYyc=
+
+Name: net/sf/saxon/expr/TailCallLoop.class
+SHA1-Digest: w3W/B0HP7VxyFymmmJs24mX1+BI=
+
+Name: net/sf/saxon/query/Declaration.class
+SHA1-Digest: 0/pbtVOlTlvuE/AmfmJOwHhrRpk=
+
+Name: net/sf/saxon/style/DataElement.class
+SHA1-Digest: S52CJr+Q3Zly+oAAQ1g69NkavdM=
+
+Name: net/sf/saxon/expr/Calculator$NumericTimesDuration.class
+SHA1-Digest: BKGtad46Az3cSDilOMsvm87P4rk=
+
+Name: net/sf/saxon/dom/DOMEnvelope$3.class
+SHA1-Digest: 96EVp/TX5/qy+29YbAlVbZbmbtI=
+
+Name: net/sf/saxon/functions/Trace.class
+SHA1-Digest: WSxY809Zb+6wmpepAM3P718q608=
+
+Name: net/sf/saxon/pattern/Pattern$4.class
+SHA1-Digest: YbIB3kOI8wjl/MqsNAhnUFCEYVQ=
+
+Name: net/sf/saxon/dom/DOMSender.class
+SHA1-Digest: G6oOf4KdLVBuFoGafsjRTPeV4Qk=
+
+Name: net/sf/saxon/functions/NamespaceForPrefix.class
+SHA1-Digest: IvtbKzYzg742qN7+uvm/SW8Yme0=
+
+Name: net/sf/saxon/expr/Calculator.class
+SHA1-Digest: NmTIfVlhtoLhp9brS4NNRi5brj0=
+
+Name: net/sf/saxon/tree/linked/PrecedingSiblingEnumeration.class
+SHA1-Digest: 0pzUafnnOzdtxlQjuPSEx8Qe1Jk=
+
+Name: net/sf/saxon/s9api/XsltExecutable.class
+SHA1-Digest: l7I3Z3+4RnlBPtqd4gN9hh667pw=
+
+Name: net/sf/saxon/serialize/charcode/ASCIICharacterSet.class
+SHA1-Digest: 8id438WeUBEPXcwhxy3bRyTG76o=
+
+Name: net/sf/saxon/pull/StaxBridge$StaxNamespaces.class
+SHA1-Digest: Q8TLF7VUmL0328MEuMO5zfGN1Qo=
+
+Name: net/sf/saxon/style/XSLCallTemplate.class
+SHA1-Digest: M+jl8QefIN70b25LLzYKuYMtftg=
+
+Name: net/sf/saxon/style/XSLDecimalFormat.class
+SHA1-Digest: xwvlI7RfCdKfztBrjRInPdO/ZHI=
+
+Name: net/sf/saxon/style/XSLStylesheet.class
+SHA1-Digest: 16zhjJMkelCNjYVCn4h2Ui8L84E=
+
+Name: net/sf/saxon/expr/JPConverter$FromInt.class
+SHA1-Digest: oE5Lqd5OVN9DASaLlnawNAackNg=
+
+Name: net/sf/saxon/query/GlobalVariableDefinition.class
+SHA1-Digest: a+DDSoocBGRI4DPi/qRN9m+l+g8=
+
+Name: net/sf/saxon/value/GDateValue$GDateComparable.class
+SHA1-Digest: 9cCKtpeVtuaEyYw6RAygYpBD0aA=
+
+Name: net/sf/saxon/expr/PJConverter$IntegerValueToBigInteger.class
+SHA1-Digest: 0yf1TbSK8v5SlQAQDveP6Vq31Qc=
+
+Name: net/sf/saxon/expr/Calculator$DurationPlusDateTime.class
+SHA1-Digest: lu0vgHu0tFXd1lyoEawnKNUXAkk=
+
+Name: net/sf/saxon/s9api/ItemTypeFactory.class
+SHA1-Digest: TAf5tlCxBSgdN2HMqAAHBILv77w=
+
+Name: net/sf/saxon/expr/Calculator$DateTimeMinusDuration.class
+SHA1-Digest: sn+/t5uUUo05uStRB1eZz91Bq2Y=
+
+Name: net/sf/saxon/expr/instruct/While.class
+SHA1-Digest: ppaz4PaEmvOsA/HWCnMiOBbysYE=
+
+Name: net/sf/saxon/value/DecimalValue$DecimalComparable.class
+SHA1-Digest: rbI6r64Aq8D3DpjCjFKN+U4ghVc=
+
+Name: net/sf/saxon/type/UnresolvedReferenceException.class
+SHA1-Digest: ocBEdgYceJbW7LtgSQjufearVrI=
+
+Name: net/sf/saxon/expr/InstanceOfExpression.class
+SHA1-Digest: yZfMmTFpEnOiB6mTh/TdtEBN30E=
+
+Name: net/sf/saxon/evpull/EventToStaxBridge.class
+SHA1-Digest: a0V8TTlZ5cI9LL+0FRqCeDt9/IU=
+
+Name: net/sf/saxon/xqj/SaxonXQDynamicContext.class
+SHA1-Digest: PqdQHobvRAKaA1FqzAHw538iAgE=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$Subtraction.cl
+ ass
+SHA1-Digest: IZMZWimEBB8pY1D4CWLRiQokvXs=
+
+Name: net/sf/saxon/expr/CardinalityCheckingIterator.class
+SHA1-Digest: RneQGJ6iH7rESCk7PLSFmHpZxtA=
+
+Name: net/sf/saxon/om/NamespaceDeclarations.class
+SHA1-Digest: 5A9VbRn7ZTVMZwlu1fwhYoFEb4o=
+
+Name: net/sf/saxon/expr/instruct/CopyOf.class
+SHA1-Digest: SPfhESM7tuSJjbggjJKoB9oUIHk=
+
+Name: net/sf/saxon/serialize/UncommittedSerializer$PendingNode.class
+SHA1-Digest: pnfFycUtYFT6lo/hrdTVbnIFMXQ=
+
+Name: net/sf/saxon/expr/StatefulMappingFunction.class
+SHA1-Digest: 7igTyneY84pJF+2IwiJs0xGWKX8=
+
+Name: javax/xml/xquery/XQConstants.class
+SHA1-Digest: u/EgrI+siIyBtioPNimjrSJKCXo=
+
+Name: net/sf/saxon/query/DynamicQueryContext.class
+SHA1-Digest: tUBhPd/scHJqtceUWFLLebrTaNg=
+
+Name: net/sf/saxon/tree/tiny/TinyBuilderCondensed.class
+SHA1-Digest: SRxV7tBV/gLAw8dtc2xOuoLB43Y=
+
+Name: net/sf/saxon/expr/PJConverter$ToArray.class
+SHA1-Digest: yyxKd1d+I8wPZwLd95YCoujUz9E=
+
+Name: net/sf/saxon/s9api/XdmDestination.class
+SHA1-Digest: BowdY8fblRRnWH9LrjhwqA1ZkZM=
+
+Name: net/sf/saxon/value/NotationValue.class
+SHA1-Digest: i9R/vc0GAcDD7Xdb9tjkXnrR4tU=
+
+Name: net/sf/saxon/expr/RoleLocator.class
+SHA1-Digest: NX1n7b0YmTARMRCIGM7u6LcV9jQ=
+
+Name: net/sf/saxon/trans/RuleTarget.class
+SHA1-Digest: xrhTXlVQciM9/0v28cOko/SkqMA=
+
+Name: net/sf/saxon/tree/util/NamespaceResolverWithDefault.class
+SHA1-Digest: PaaO7rES83VWzLZsrsCdwvERINM=
+
+Name: net/sf/saxon/type/SchemaDeclaration.class
+SHA1-Digest: dxwj3h802Ckr9m32IDLp07vnpNI=
+
+Name: net/sf/saxon/expr/sort/EmptyIntIterator.class
+SHA1-Digest: DzCe7gpi1b/0GWF46wjn9/VlsuU=
+
+Name: net/sf/saxon/tree/tiny/WhitespaceTextImpl.class
+SHA1-Digest: 2AmHkg/wLI6gK3kKmMP9EPFyOeg=
+
+Name: net/sf/saxon/sxpath/SimpleContainer.class
+SHA1-Digest: cL90fUwyyoN+gGmfHgVf4IIlxxY=
+
+Name: net/sf/saxon/expr/Token.class
+SHA1-Digest: 5T2I18ZrcUlAT6iUxnXfGrkn+dw=
+
+Name: net/sf/saxon/expr/sort/IntToIntArrayMap$KeyIterator.class
+SHA1-Digest: tjHQGmZFCkdtOxiASnzC9jWJy+w=
+
+Name: net/sf/saxon/evpull/StaxToEventBridge$StaxErrorReporter.class
+SHA1-Digest: TtRIA/i8CNV170EydFNvXpI3VEk=
+
+Name: net/sf/saxon/type/FunctionItemType.class
+SHA1-Digest: tzMA57KT/o2CWpGqS7aCt5goURQ=
+
+Name: net/sf/saxon/functions/Lang.class
+SHA1-Digest: +fs3dVjMVUPVEI5pziGNqjInL9Y=
+
+Name: net/sf/saxon/pattern/Pattern$2.class
+SHA1-Digest: d3zqQajKS4FzbJjHK5JNQdFRk9M=
+
+Name: net/sf/saxon/value/NotationValue$1.class
+SHA1-Digest: lsJU2MjYcOPW22KT3o2r3V2XuSs=
+
+Name: net/sf/saxon/expr/SingleNodeExpression.class
+SHA1-Digest: AXtVgKjdX26NeJri898lBD5EI7Q=
+
+Name: net/sf/saxon/functions/UnparsedText$UnparsedTextIterator.class
+SHA1-Digest: 4hhgEemzQYhBCAOgSYR8xCGlSt8=
+
+Name: net/sf/saxon/lib/CollectionURIResolver.class
+SHA1-Digest: zusA0Hx4qZwpcWUcWosycKfo+6Y=
+
+Name: net/sf/saxon/Platform.class
+SHA1-Digest: PGZ6uuwwpVFAsn/TDwaXRl33YeQ=
+
+Name: net/sf/saxon/event/IDFilter.class
+SHA1-Digest: IjtDMnlEnfiuBKderha5zAwqf8Y=
+
+Name: net/sf/saxon/type/StringToDouble.class
+SHA1-Digest: 16/YR1UqxXR1BqDTQsrSHVJx5bs=
+
+Name: net/sf/saxon/expr/SlashExpression$1.class
+SHA1-Digest: 7n4K/RK9o726CNP9g3lVlkUaSsY=
+
+Name: net/sf/saxon/tree/wrapper/VirtualUntypedCopy$VirtualUntypedCopie
+ r.class
+SHA1-Digest: XqnwBlwQ1ZQnGFhINvdqbB1cm4w=
+
+Name: net/sf/saxon/style/Declaration.class
+SHA1-Digest: o4tWZL7M8IVRtfnxWDusWJ/5bP0=
+
+Name: net/sf/saxon/expr/instruct/Bindery.class
+SHA1-Digest: m3b5ir7nEengCduBQOv7YwISpoE=
+
+Name: net/sf/saxon/functions/Unordered.class
+SHA1-Digest: jYk253Eghu3mt5VXTUQu53QLqPo=
+
+Name: net/sf/saxon/query/UnboundFunctionLibrary.class
+SHA1-Digest: jYp5GjBjkuW9WcxYeZz124a5CBs=
+
+Name: net/sf/saxon/tree/util/NamespaceResolverAsDeclarations.class
+SHA1-Digest: u7T1eVrExM+A5cImgw8Bk6+U4v8=
+
+Name: net/sf/saxon/functions/Id$1.class
+SHA1-Digest: yilnObvSwKLCpWp4JD3zOhlPXLE=
+
+Name: net/sf/saxon/serialize/charcode/CharacterSetFactory.class
+SHA1-Digest: /irvPwphFUp5AnUlN5jPbP/z7JQ=
+
+Name: net/sf/saxon/value/DateTimeValue.class
+SHA1-Digest: NUNYTk7hrITky7lUkdJy3K9/xZ4=
+
+Name: net/sf/saxon/style/XSLAttribute.class
+SHA1-Digest: 1eA7WYH31zpNaneg0Z6mqWXJ2lw=
+
+Name: net/sf/saxon/functions/ConstructorFunctionLibrary.class
+SHA1-Digest: XghcrL08dHW75k2cTh5m8phUvac=
+
+Name: net/sf/saxon/value/Value.class
+SHA1-Digest: 4FAwBuhw7q7Xd+N9VPjevGMSd30=
+
+Name: net/sf/saxon/om/Item.class
+SHA1-Digest: Gx0WsYnVOH9cnBiCYQV3WwbOxiQ=
+
+Name: net/sf/saxon/Version.class
+SHA1-Digest: TI22j5YShlt8sGtH+w6LokotFaA=
+
+Name: net/sf/saxon/style/XSLCopyOf.class
+SHA1-Digest: fY/fTeGRbLbx6NVu/idBqbRNv1A=
+
+Name: net/sf/saxon/expr/sort/IntArraySet$IntArraySetIterator.class
+SHA1-Digest: xX6YhiXWMR101mj67m3Yr6RPIzI=
+
+Name: net/sf/saxon/serialize/UnicodeNormalizer.class
+SHA1-Digest: InhDizVLvuhdFvYzO0foXY6y0iU=
+
+Name: net/sf/saxon/lib/StandardModuleURIResolver.class
+SHA1-Digest: c26ZyNabFBLLOkd52p5wN1oZ9uw=
+
+Name: net/sf/saxon/expr/sort/LRUCache.class
+SHA1-Digest: iq3jcHnmNZ6afKfeS8XYTd3uku0=
+
+Name: net/sf/saxon/expr/FilterIterator.class
+SHA1-Digest: XeAjJH/3iATrIbEoOsKBvdcxC40=
+
+Name: net/sf/saxon/evpull/EventIteratorOverSequence.class
+SHA1-Digest: nmAZOYMwKSbTNO6n9IBOBccgirk=
+
+Name: net/sf/saxon/event/SequenceCopier.class
+SHA1-Digest: OcAc6tIuTrEZ5I6feJKjyStH1L4=
+
+Name: net/sf/saxon/value/HexBinaryValue$HexBinaryComparable.class
+SHA1-Digest: 4T01TNbxUfVoTRFu/Jia1vrZeVU=
+
+Name: net/sf/saxon/functions/XSLTFunction.class
+SHA1-Digest: v8M05z83doWm/qwP3NJ4KZ5lY6A=
+
+Name: net/sf/saxon/lib/ValidationStatisticsRecipient.class
+SHA1-Digest: wqucNtlf0/V0i7k/WP2RZHl4s3k=
+
+Name: net/sf/saxon/lib/ModuleURIResolver.class
+SHA1-Digest: PfGqEpl7PwYkLvdlHhLTe92S7dU=
+
+Name: net/sf/saxon/expr/sort/SortedGroupIterator.class
+SHA1-Digest: nHt0quLpauIOsCmTsr06dps4Ysc=
+
+Name: net/sf/saxon/evpull/Decomposer.class
+SHA1-Digest: fjOTWkqVB0CbQvQl620AEvAIbVA=
+
+Name: net/sf/saxon/expr/Calculator$1.class
+SHA1-Digest: pNNPZzEYazi23BsgxfNxiMfae9A=
+
+Name: net/sf/saxon/value/GDateValue$1.class
+SHA1-Digest: 6gu8nrhLFtt5k/3+csX8JxSfVEs=
+
+Name: net/sf/saxon/lib/StandardOutputResolver.class
+SHA1-Digest: Oa2/Jaj8pDuFFsnpMDvPqmQfzUQ=
+
+Name: net/sf/saxon/query/StaticQueryContext.class
+SHA1-Digest: +wpTV2CbBNsb8FWO+j/eC3fQuJQ=
+
+Name: net/sf/saxon/type/AnySimpleType.class
+SHA1-Digest: WsQeRKGXu4VLMHnD/L58obJI4zI=
+
+Name: net/sf/saxon/om/ValueRepresentation.class
+SHA1-Digest: mAgWbKboIo6tcEv1bSqBLLHAhL0=
+
+Name: net/sf/saxon/tree/util/Navigator$AxisFilter.class
+SHA1-Digest: rY+BWQw2yC39hiuHOjVKo/BQfQE=
+
+Name: net/sf/saxon/style/XSLOutputCharacter.class
+SHA1-Digest: ZTCjtfZOwaHMlzT8jKxN9JTzeg4=
+
+Name: net/sf/saxon/expr/JPConverter$FromBigDecimal.class
+SHA1-Digest: 30teoe9RIqJvmQ67lbvTLHv4V20=
+
+Name: net/sf/saxon/expr/RangeExpression.class
+SHA1-Digest: POjTxU6MqxfPG1kRyMqF8FQaD2o=
+
+Name: net/sf/saxon/expr/VariableReference.class
+SHA1-Digest: Hf6vADUjqyY3N+Hwcx0OIoeZMd8=
+
+Name: net/sf/saxon/expr/instruct/Message$AttributeMasker.class
+SHA1-Digest: j9/ORApK5v0yI2MZ3j7AOnbVVQg=
+
+Name: net/sf/saxon/s9api/ItemType$3.class
+SHA1-Digest: 4YBuzsj2y81mGYx/i+VJ1YRRNNM=
+
+Name: net/sf/saxon/expr/sort/DoubleSortComparer.class
+SHA1-Digest: SqvphiEV9XjTIor1d5kTAHc1ocY=
+
+Name: net/sf/saxon/style/XSLComment.class
+SHA1-Digest: NoRoo2v1/p9uGPqFKUMxHBC5fu4=
+
+Name: net/sf/saxon/expr/instruct/ITemplateCall.class
+SHA1-Digest: nIbBPCH6MYeMXAeFPq8/rnfTwuQ=
+
+Name: net/sf/saxon/serialize/CharacterMap.class
+SHA1-Digest: nOiGMncH7v39MHIiawVKZC1Dlmo=
+
+Name: net/sf/saxon/type/AtomicType.class
+SHA1-Digest: gY/EkbuSPFPUFk0DaxY3f9wHygY=
+
+Name: net/sf/saxon/tree/iter/ReverseNodeArrayIterator.class
+SHA1-Digest: 6t3KZkHsnzgrw2081M1ml+c+if0=
+
+Name: net/sf/saxon/sxpath/AbstractStaticContext.class
+SHA1-Digest: RpQYpBo7YOsFUynfdZXzt8Bkfxg=
+
+Name: net/sf/saxon/expr/SequenceIterable.class
+SHA1-Digest: aWkmujXkNc73iSPiKqkDBJVaYMQ=
+
+Name: net/sf/saxon/style/ExpressionContext.class
+SHA1-Digest: 77t+VsnNKWKkWnzbzp0HTt3+D1E=
+
+Name: net/sf/saxon/expr/FirstItemExpression.class
+SHA1-Digest: STLlzT4OVaIS2PcLcRHcUv9ou/0=
+
+Name: net/sf/saxon/expr/sort/DecimalSortComparer.class
+SHA1-Digest: CpWUL8xvm/6qA98EhuvCTrwAufU=
+
+Name: net/sf/saxon/trace/Location.class
+SHA1-Digest: DvAiGIcYYPK1keSbaQF7ymRj4XY=
+
+Name: net/sf/saxon/expr/TypeChecker.class
+SHA1-Digest: yQub02+DAW1HiMOPLqszWK5gXiU=
+
+Name: net/sf/saxon/expr/TreatExpression.class
+SHA1-Digest: KYRNlorH76M6F4ThvMOtd7GkJGU=
+
+Name: net/sf/saxon/expr/sort/GroupStartingIterator.class
+SHA1-Digest: Z4YetZOTCsZMF+9B0Ppa0ArXPuU=
+
+Name: net/sf/saxon/expr/JPConverter$FromLongArray.class
+SHA1-Digest: 6vQosYnbK4lHWuHGhzTnCKqATCQ=
+
+Name: net/sf/saxon/query/QueryModule$1.class
+SHA1-Digest: TLoVXT3v+If0jX6x2mTveE+WalM=
+
+Name: net/sf/saxon/expr/JPConverter$FromFloat.class
+SHA1-Digest: m2JXEW9fiQRTVtk6DBh3PlG4G8g=
+
+Name: net/sf/saxon/expr/StringLiteral.class
+SHA1-Digest: TP+hVcX/SH05xvr64LTqG+mutfo=
+
+Name: net/sf/saxon/pattern/KeyPattern.class
+SHA1-Digest: mRSnsqUu/BgRdlzLoQBrmYnezjU=
+
+Name: net/sf/saxon/expr/sort/SortKeyDefinition.class
+SHA1-Digest: YjtyFQPnlyo1VBD5gq8KgYzB0qg=
+
+Name: net/sf/saxon/xqj/SaxonXQItemAccessor.class
+SHA1-Digest: vaHbLCWIVFI3Al3OFp4sw1Iz0kU=
+
+Name: net/sf/saxon/event/NamespaceReducer.class
+SHA1-Digest: QR1Lp4NVUZ5eX2ujMr/icoC8jic=
+
+Name: net/sf/saxon/dom/ElementOverNodeInfo.class
+SHA1-Digest: j0KVyx8qzGo1fJSlVY696PV2TVg=
+
+Name: net/sf/saxon/trace/ContextStackFrame$CallTemplate.class
+SHA1-Digest: V/rLn7q0Abv3OV85mFH/rsVB0dw=
+
+Name: net/sf/saxon/expr/sort/DescendingComparer.class
+SHA1-Digest: ZlkLd5lCTPs7N8gklyfGnrpaCsw=
+
+Name: net/sf/saxon/Controller.class
+SHA1-Digest: I/yy/3+6TZ+E3udRrmCZI8Vci7c=
+
+Name: net/sf/saxon/pull/StaxBridge$StaxAttributes.class
+SHA1-Digest: 7WjNYcLtrhT5cpd0Ph4Fe4OqPew=
+
+Name: net/sf/saxon/style/XSLVariableDeclaration.class
+SHA1-Digest: 21Cu+ul/uX0ReQKIEjx/4wCi/4E=
+
+Name: net/sf/saxon/style/XSLProcessingInstruction.class
+SHA1-Digest: YeN/MQ1q070K6F9LOf2istJYcAo=
+
+Name: net/sf/saxon/expr/instruct/TraceWrapper.class
+SHA1-Digest: wrRGfYgQ+pt9oVRUGN1ucudAKok=
+
+Name: net/sf/saxon/expr/sort/IntToIntMap.class
+SHA1-Digest: YhpojZfeTmkmSM6BxQFBnDJKrCA=
+
+Name: net/sf/saxon/trans/NoDynamicContextException.class
+SHA1-Digest: UXepkpwZLSZSKPCE7FNv1yjXOU4=
+
+Name: net/sf/saxon/s9api/ItemTypeFactory$1.class
+SHA1-Digest: 86d/5g17c3FRSDNjpa473PczH3w=
+
+Name: net/sf/saxon/expr/sort/NamedCollation.class
+SHA1-Digest: 53HTdE7/J89faOZgFVh0UD2eUiU=
+
+Name: net/sf/saxon/xpath/JAXPXPathStaticContext$MinimalNamespaceContex
+ t.class
+SHA1-Digest: SA/UHFtv7C50Ku0CGlCuv3VINEE=
+
+Name: net/sf/saxon/serialize/HTMLIndenter.class
+SHA1-Digest: 1KFD7qZK0upCAuHZo9V6Mn6p+x0=
+
+Name: net/sf/saxon/om/StructuredQName.class
+SHA1-Digest: ietxYQQVqRQJ80YnCylRyErY3ms=
+
+Name: net/sf/saxon/style/AttributeValueTemplate.class
+SHA1-Digest: r8cINQRI04NkoAoGXni2dz4m8Yk=
+
+Name: net/sf/saxon/om/DocumentURI.class
+SHA1-Digest: jOfrsB1a0FHgArUE2kE0vOdAba4=
+
+Name: net/sf/saxon/expr/PathExpression.class
+SHA1-Digest: qYRCLqZT4tyipL6RiTrjMjX94Wo=
+
+Name: net/sf/saxon/expr/PJConverter$ToNull.class
+SHA1-Digest: 0wtoccKYZNL4GZrFMaaKKfDED1w=
+
+Name: net/sf/saxon/expr/EmptyTextNodeRemover.class
+SHA1-Digest: oxBXODDUYvCw9fhrgaEAw/ddEpQ=
+
+Name: net/sf/saxon/pattern/QNameTest.class
+SHA1-Digest: Nt6c9t2MIWifVFIMRzznIzRpfak=
+
+Name: net/sf/saxon/expr/Calculator$IntegerModInteger.class
+SHA1-Digest: nrFhuDOdEd5W4Ze1WakiTIRw108=
+
+Name: net/sf/saxon/lib/StringCollator.class
+SHA1-Digest: Mz6tGGft8NyV5t9vF0EFDosnaWw=
+
+Name: net/sf/saxon/query/QueryLibrary.class
+SHA1-Digest: HKHh8mjsLzwKZIxOhNQ3NuaOAxw=
+
+Name: net/sf/saxon/trace/ContextStackFrame$ForEach.class
+SHA1-Digest: +WhX4TxD5K+oN9rbQdqHNPDeETc=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$SimpleCharClas
+ s.class
+SHA1-Digest: 6lTSAaupYnS28VHxiBBt1wftUgw=
+
+Name: net/sf/saxon/event/ContentHandlerProxy$ContentHandlerProxyTraceL
+ istener.class
+SHA1-Digest: sNYTFrIBi2MELoAz/2MxWLT9VlM=
+
+Name: net/sf/saxon/tree/linked/NodeImpl.class
+SHA1-Digest: YlXsdyfOw4WfhF2+vo/T5RJrMnU=
+
+Name: net/sf/saxon/expr/CurrentItemExpression.class
+SHA1-Digest: LcFM4UVL5p2RMhAX4BDzok3642E=
+
+Name: net/sf/saxon/expr/Calculator$DoubleMinusDouble.class
+SHA1-Digest: DLfP13dQNlXbvVyfPnhrnYSCHJY=
+
+Name: net/sf/saxon/expr/sort/AtomicComparer.class
+SHA1-Digest: Zz4ztzL9lsYktikGw6IS36zH/s4=
+
+Name: net/sf/saxon/functions/Aggregate.class
+SHA1-Digest: qOVTjRpE8XIuUrL6Oe7Qjuordo8=
+
+Name: net/sf/saxon/serialize/XHTMLIndenter.class
+SHA1-Digest: kBpaFb9DU0r5g3IY8MwkiZhz24I=
+
+Name: net/sf/saxon/tree/wrapper/SpaceStrippedNode$WrappingIterator.cla
+ ss
+SHA1-Digest: 5walU3c8XL4NI2VhK4QnmFqPUUU=
+
+Name: net/sf/saxon/expr/Calculator$FloatDivFloat.class
+SHA1-Digest: u51sHkXOPtDQiRzm+ubLSZfuXE4=
+
+Name: net/sf/saxon/java/JavaPlatform.class
+SHA1-Digest: NPFEkUrNVeTsMoAyNZ2RhkjZpaw=
+
+Name: net/sf/saxon/tree/linked/FollowingSiblingEnumeration.class
+SHA1-Digest: vIi9k3QtGI/hYUgyHOK1MkksmBU=
+
+Name: net/sf/saxon/expr/instruct/ComputedAttribute.class
+SHA1-Digest: Ragkwar5uDAfKG/em8AbfnKQyX4=
+
+Name: net/sf/saxon/type/BuiltInType.class
+SHA1-Digest: HcXkBXkkYi5VYqCyEmp2Q0kCPwc=
+
+Name: net/sf/saxon/event/PipelineConfiguration.class
+SHA1-Digest: 7ADLOSMOSZQDFmabV9qQDc3e/po=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$Empty.class
+SHA1-Digest: VR+3Dr0rptWQT7gP4ho6JNELgO4=
+
+Name: net/sf/saxon/expr/instruct/Block.class
+SHA1-Digest: I2iTP/lsLpyZbnxUnNlUxV+AO4Y=
+
+Name: net/sf/saxon/functions/DistinctValues$DistinctIterator.class
+SHA1-Digest: lBbmTRpRmsKSzPyV4NfJjxP2284=
+
+Name: net/sf/saxon/tree/tiny/AttributeEnumeration.class
+SHA1-Digest: 1du79LB4tSUIAPh7ozgi+K+8uNQ=
+
+Name: net/sf/saxon/dom/DOMObjectModel$1.class
+SHA1-Digest: JjgK3Y6glgFUwcRTVlH/GullIYE=
+
+Name: net/sf/saxon/type/TypeHierarchy.class
+SHA1-Digest: UNIYZHjzvSLrv+H4+TN1y9ovtoU=
+
+Name: net/sf/saxon/pattern/UnionPattern.class
+SHA1-Digest: Ots13Et8LHGJzx2YqExMo790VD4=
+
+Name: net/sf/saxon/expr/instruct/Template.class
+SHA1-Digest: 3GqCIRoyAFLrJvtX71Ycr0YEuWk=
+
+Name: net/sf/saxon/expr/instruct/SimpleContentConstructor.class
+SHA1-Digest: Rb0f8s9WW08Y0jkeJvIho07l7XQ=
+
+Name: net/sf/saxon/tree/tiny/TinyDocumentImpl.class
+SHA1-Digest: pWrobcDSylQLx0/wHEYgJ+OeorI=
+
+Name: net/sf/saxon/dom/DOMWriter.class
+SHA1-Digest: Kokf1peI28g8tT7cr2YUMWlDK+k=
+
+Name: net/sf/saxon/value/QNameValue$1.class
+SHA1-Digest: 993LE8aSFmZ+0qQnhwUJb/oMBjQ=
+
+Name: net/sf/saxon/lib/OutputURIResolver.class
+SHA1-Digest: 8TLPutvqv9uoIHucO/MjpJylmok=
+
+Name: net/sf/saxon/expr/Calculator$DoublePlusDouble.class
+SHA1-Digest: if5A+gxz3Dd/QW3cA91HPPJhYi0=
+
+Name: net/sf/saxon/trace/ContextStackFrame$BuiltInTemplateRule.class
+SHA1-Digest: lLDN9H0iwpFiufp7NHn0UCL6tGc=
+
+Name: net/sf/saxon/trans/Mode$3.class
+SHA1-Digest: 7ldcUyS5mhtYPzHwZMjyWeG/Fs0=
+
+Name: net/sf/saxon/serialize/HTMLURIEscaper.class
+SHA1-Digest: 70IXpPpG/RfOifgBK4p5+0zgqKw=
+
+Name: net/sf/saxon/s9api/XdmSequenceIterator.class
+SHA1-Digest: 5rFB1rEpFyGGBJypkLD1ygf0LTM=
+
+Name: net/sf/saxon/expr/instruct/NextMatch$NextMatchPackage.class
+SHA1-Digest: 0991ZbHTrTHHXf1K83pwcdsStnI=
+
+Name: net/sf/saxon/tree/util/ProcInstParser.class
+SHA1-Digest: movGH15xguzCSx8rPby5sIN0HqQ=
+
+Name: net/sf/saxon/functions/Idref$IdrefMappingFunction.class
+SHA1-Digest: 7XT9MqEGOk9Se02U1JoG4PW06Kw=
+
+Name: net/sf/saxon/expr/sort/TerminatedIntIterator.class
+SHA1-Digest: f23w77UnMmAEBvd25Elg5qTAvIA=
+
+Name: net/sf/saxon/serialize/ImplicitResultChecker.class
+SHA1-Digest: /LlZs9AoLqdbeKNeUZpk0vzuxS0=
+
+Name: net/sf/saxon/value/TimeValue.class
+SHA1-Digest: 4t+uCYfMAPqQpoZvI71Dzp4x6wc=
+
+Name: net/sf/saxon/query/QueryResult.class
+SHA1-Digest: KIL5AK/iwPvYpm0Ha6PyGBXK1Wk=
+
+Name: net/sf/saxon/value/StringValue$CharacterIterator.class
+SHA1-Digest: F+lOefmMdHHRHepqZmOgzsnw0vI=
+
+Name: net/sf/saxon/serialize/CDATAFilter.class
+SHA1-Digest: 7w7yoc6jNUYyBDcXwFoVTp1US+U=
+
+Name: net/sf/saxon/evpull/BracketedElementIterator.class
+SHA1-Digest: cbe8+Wf4Ck3OrGka2p8N7Un1O/I=
+
+Name: net/sf/saxon/event/SourceLocationProvider.class
+SHA1-Digest: Ypk4wKkgc2qBdqthh2YTDjQch/M=
+
+Name: net/sf/saxon/style/XSLMessage.class
+SHA1-Digest: KRLdMu19B2YuuKKHGDkJwY+AC78=
+
+Name: net/sf/saxon/expr/sort/ComparisonKey.class
+SHA1-Digest: Yq1pjzi5cHGv7k03CxbhYnp2NCc=
+
+Name: net/sf/saxon/dom/DOMObjectModel$4.class
+SHA1-Digest: qD39GahR+Wiq8kG6NhSGdIJ7454=
+
+Name: net/sf/saxon/expr/Atomizer$AtomizingFunction.class
+SHA1-Digest: KHJTv+NNPD46N4PtkPcPehEuW4A=
+
+Name: net/sf/saxon/evpull/SingletonEventIterator.class
+SHA1-Digest: WmZ1xxDH7Lt9WasJT0kuLhxe7PE=
+
+Name: net/sf/saxon/tree/linked/CommentImpl.class
+SHA1-Digest: nQTL9gseTlRVvC9lYG7Zh6ItuTo=
+
+Name: net/sf/saxon/expr/instruct/ForEachGroup.class
+SHA1-Digest: OPopNieSmqJPHaerv7/dvSwDmoE=
+
+Name: net/sf/saxon/trans/XPathException.class
+SHA1-Digest: UevYUjDdAIlV6syv3lwv+ZbGB+E=
+
+Name: net/sf/saxon/expr/JPConverter$FromDate.class
+SHA1-Digest: rdit7vdJ6WQdNF01RC/r4NlKXcc=
+
+Name: net/sf/saxon/expr/ItemMappingFunction.class
+SHA1-Digest: fekEky7+wZ1krYO74A++XQ7dE08=
+
+Name: net/sf/saxon/lib/ParseOptions.class
+SHA1-Digest: rNdLuCTpU6tpU28SRbvjR+cmu4Q=
+
+Name: net/sf/saxon/om/AttributeCollection.class
+SHA1-Digest: D9sy+ng1YmEpyR2YCaBnJY9Mi44=
+
+Name: net/sf/saxon/om/NamePool$NameEntry.class
+SHA1-Digest: hgtqbR9riIDVSsCto5mg6BEWqQI=
+
+Name: net/sf/saxon/functions/Rounding.class
+SHA1-Digest: 20dlhV0PuF+X/YSwjijU7ozA+j4=
+
+Name: net/sf/saxon/expr/PJConverter$ToSequenceExtent.class
+SHA1-Digest: t/nWykad7yIqF5pc3/Wmnrz9mF8=
+
+Name: net/sf/saxon/serialize/codenorm/NormalizerData.class
+SHA1-Digest: QXaMLW1tSDwlq0hDOSc5DeMtUbE=
+
+Name: net/sf/saxon/expr/CastExpression.class
+SHA1-Digest: ARycQUAbTi0sv7DQTZuybqamKis=
+
+Name: net/sf/saxon/expr/PJConverter$BooleanValueToBoolean.class
+SHA1-Digest: djssyz0bdqKVNliQWXzbk9jYn8A=
+
+Name: net/sf/saxon/functions/NormalizeUnicode.class
+SHA1-Digest: A8jzgsyGzvG9XD/1YrzNpVdAYfo=
+
+Name: net/sf/saxon/dom/DOMNodeList.class
+SHA1-Digest: K9aYmRRqJN5DeMk3Ik+eJF1MW90=
+
+Name: net/sf/saxon/functions/UriCollection$1.class
+SHA1-Digest: mtWAWEUcPh1dKKYY1qq7wchGZaE=
+
+Name: net/sf/saxon/value/DecimalValue.class
+SHA1-Digest: zSLFtlXovsZLY+XF2/MLtQNylQ0=
+
+Name: net/sf/saxon/lib/Initializer.class
+SHA1-Digest: aRxQZdUdiiThWnibmTCXBNPLGGw=
+
+Name: net/sf/saxon/om/EmptyNamespaceDeclarationList.class
+SHA1-Digest: iL0XmTpDiN6vqmsl+U6175cLbPg=
+
+Name: net/sf/saxon/trans/LocalizerFactory.class
+SHA1-Digest: V4kQplDUHEdSZ0l09wZgbejROxM=
+
+Name: net/sf/saxon/s9api/Serializer$Property.class
+SHA1-Digest: nwhx9CEw/T4XwF7GtLimadwkOfs=
+
+Name: net/sf/saxon/pattern/CombinedNodeTest.class
+SHA1-Digest: 0ex0iNIOcPuFvrAgbPl9asbOHAg=
+
+Name: net/sf/saxon/pattern/ConditionalPattern.class
+SHA1-Digest: vVkUTWAEv8SRZtqFwBlVwMsvJzg=
+
+Name: net/sf/saxon/expr/Binding.class
+SHA1-Digest: pGXlUa465MxN010WPFz14Yh8aw8=
+
+Name: net/sf/saxon/expr/sort/IntToIntArrayMap.class
+SHA1-Digest: m5swC+zzc5fnrpA0tDidHnfh7QQ=
+
+Name: net/sf/saxon/expr/ValueComparison.class
+SHA1-Digest: xFVxCjKAihXQqEgSARrRGDEAI3c=
+
+Name: net/sf/saxon/tree/wrapper/VirtualUntypedCopy.class
+SHA1-Digest: SCoyzmJPxoXV8SSutvbs+ldFo6U=
+
+Name: net/sf/saxon/trans/Mode$RuleFilter.class
+SHA1-Digest: fIEuUb23FlHJF7bsIJcghURtJ8k=
+
+Name: net/sf/saxon/expr/instruct/NamespaceConstructor.class
+SHA1-Digest: kHy8+d+tixYp8qiG0WiSpvVyNWc=
+
+Name: net/sf/saxon/xqj/SaxonDuration.class
+SHA1-Digest: 3piArXJokmB8bDWJ2958PTJ2tXY=
+
+Name: net/sf/saxon/s9api/XdmValue.class
+SHA1-Digest: Ud549/E9NayxzOGFcxE+5nLub3c=
+
+Name: net/sf/saxon/expr/instruct/ApplyTemplates$ApplyTemplatesPackage.
+ class
+SHA1-Digest: jewQBnhWq4GRLTepBa+wAOQadAo=
+
+Name: net/sf/saxon/functions/IsWholeNumber.class
+SHA1-Digest: fiPqr61qnjO8LsnoMmPrkwgb6YM=
+
+Name: net/sf/saxon/expr/sort/AtomicSortComparer.class
+SHA1-Digest: 8iacPwGg9RmKAYQWdszD6oddwkU=
+
+Name: net/sf/saxon/functions/VendorFunctionLibrary.class
+SHA1-Digest: mrIgc1GHHjU/7bC4soSmONd4Sv0=
+
+Name: net/sf/saxon/value/GDateValue.class
+SHA1-Digest: ep1qef9s3x9rWaF8FHgcARiND94=
+
+Name: net/sf/saxon/expr/instruct/ApplyImports.class
+SHA1-Digest: SPM9fdfMoVJRBCSqu5C3o0rYcKQ=
+
+Name: net/sf/saxon/functions/Exists.class
+SHA1-Digest: GI0BWaJpH7g2CRucYgGpCj2WZQY=
+
+Name: net/sf/saxon/type/Untyped.class
+SHA1-Digest: YDAN8NtFXr9eBcC/m6fsUIhueP8=
+
+Name: net/sf/saxon/value/GDayValue.class
+SHA1-Digest: K2u2Aq9pZ7cQthHGhHBky3O23nA=
+
+Name: net/sf/saxon/pattern/NodeKindTest.class
+SHA1-Digest: HAgeIb5mpA1kTjE9LcYlHu9fu5k=
+
+Name: net/sf/saxon/expr/PJConverter$CalendarValueToDate.class
+SHA1-Digest: 3P2AYBFa2/Sy9+p5jeUUrk45njI=
+
+Name: net/sf/saxon/functions/ForceCase.class
+SHA1-Digest: musj6H57RrfXlgqmHd0FgyN4HoI=
+
+Name: net/sf/saxon/tree/tiny/PrecedingEnumeration.class
+SHA1-Digest: c8Wbdz7KzWiFuOZoeZ4Hzbv5SL8=
+
+Name: net/sf/saxon/expr/PathMap$PathMapRoot.class
+SHA1-Digest: YOiwsze5Yh+FW+LH71HH9mj5Mtg=
+
+Name: net/sf/saxon/query/UpdateAgent.class
+SHA1-Digest: jyVmJcD8ca/0hXi4kjGIZ250vdc=
+
+Name: net/sf/saxon/evpull/ComplexContentProcessor.class
+SHA1-Digest: tRI5Hw8huKwll8Y+okxWIuiQ5Rw=
+
+Name: net/sf/saxon/s9api/XdmNode.class
+SHA1-Digest: BnuOV2AQW6RGfVWBWpe712dFc+0=
+
+Name: net/sf/saxon/expr/PathMap.class
+SHA1-Digest: hEPWs3+wCdedbprieIKHP/a7NRw=
+
+Name: net/sf/saxon/expr/instruct/ElementCreator.class
+SHA1-Digest: KTvhqjw1cwZbfnIJgIjeSLnKgg4=
+
+Name: net/sf/saxon/trans/Mode$RuleAction.class
+SHA1-Digest: sAj1FUeus/QaM3pRc2WNqRDmcEQ=
+
+Name: net/sf/saxon/expr/XPathContextMajor.class
+SHA1-Digest: N8mF+hB6kSYtkIyJhOf/Niph8uE=
+
+Name: net/sf/saxon/functions/ResolveURI.class
+SHA1-Digest: Lcb5IeZKjO6US22vfLhrXMsvU1Y=
+
+Name: net/sf/saxon/evpull/PullEventTracer.class
+SHA1-Digest: cPDoQO22a0ccf+cXz6RkfraZjCA=
+
+Name: net/sf/saxon/serialize/XMLIndenter.class
+SHA1-Digest: gpIMqAWc5sUaj3phbA8/jt8x27E=
+
+Name: net/sf/saxon/expr/Calculator$DoubleDivDouble.class
+SHA1-Digest: vj7LGD9AVnuvAmbf1WObM3Q/huY=
+
+Name: net/sf/saxon/functions/FormatNumber$SubPicture.class
+SHA1-Digest: 75nftPg5zDhwgbBoIohR6XGMx3A=
+
+Name: net/sf/saxon/style/XSLText.class
+SHA1-Digest: YmGqF1nOyi7l75Xs5lYXlBx+zeM=
+
+Name: net/sf/saxon/functions/Insert$InsertIterator.class
+SHA1-Digest: 5SkOfoqPIVTOEE4GZgCG1ZGqbUo=
+
+Name: net/sf/saxon/TypeCheckerEnvironment.class
+SHA1-Digest: NWr/DJoOF8EdSm9JgfzrMH86UBQ=
+
+Name: net/sf/saxon/expr/sort/TupleSorter.class
+SHA1-Digest: o+8jBvuJ7YCV2Cd6P6MLbj0uC/8=
+
+Name: net/sf/saxon/functions/Collection$1.class
+SHA1-Digest: XwabvVRPbA++jevnF/kA21TnsKc=
+
+Name: net/sf/saxon/style/XSLGeneralVariable.class
+SHA1-Digest: cKs3VkOCyDXD2LtfWvSE3kLTiIk=
+
+Name: net/sf/saxon/lib/URIChecker.class
+SHA1-Digest: wEfajaYRqmFeurhnWQ486XJFRVQ=
+
+Name: javax/xml/xquery/XQPreparedExpression.class
+SHA1-Digest: qAfrWfIoX3SzRb2U96t0z/TdvT0=
+
+Name: net/sf/saxon/serialize/XHTMLURIEscaper.class
+SHA1-Digest: m1kfxIq6t4+4jS2bpEUgNXGRLkg=
+
+Name: net/sf/saxon/tree/linked/AttributeEnumeration.class
+SHA1-Digest: SHaMZz0RLdRzrQob6TY82+IAq7Q=
+
+Name: net/sf/saxon/functions/StaticBaseURI.class
+SHA1-Digest: zJAC+MElB+R7r3U0tRdd0X5K2Hk=
+
+Name: net/sf/saxon/tree/iter/LookaheadIteratorImpl.class
+SHA1-Digest: bR8CDmrFrl7MS4hYKulaH1d2jSg=
+
+Name: net/sf/saxon/style/CollationDeclaration.class
+SHA1-Digest: NpC1jwdWgVv5d+l7/992aPQpw6E=
+
+Name: net/sf/saxon/expr/StackFrame.class
+SHA1-Digest: vdy9Ch9ovF338Jrs8+cl+TtSqIc=
+
+Name: net/sf/saxon/functions/DocAvailable.class
+SHA1-Digest: 2UfZIFcZncZz1bsQhdHx4iMcoho=
+
+Name: net/sf/saxon/expr/Calculator$PDecimalTimesPDecimal.class
+SHA1-Digest: +IyMMAIvFYLyEv2NzXab51EpB5w=
+
+Name: net/sf/saxon/expr/Calculator$DoubleIdivDouble.class
+SHA1-Digest: /wIssP00sEG/9hd/p/1gkvUwkc0=
+
+Name: net/sf/saxon/expr/instruct/Comment.class
+SHA1-Digest: wu248d8nSvWNMMhJuw0tycHPK6s=
+
+Name: net/sf/saxon/tree/util/Navigator$AncestorEnumeration.class
+SHA1-Digest: TiLOM2efKBXN0kdl0juYP233YvY=
+
+Name: net/sf/saxon/om/Axis.class
+SHA1-Digest: gKPFtWfMTYK13qFALKtBswUSODY=
+
+Name: net/sf/saxon/trans/Mode$5.class
+SHA1-Digest: cTPHVowlLjBkYmk4vMg4L6FO3i4=
+
+Name: net/sf/saxon/lib/ExtensionFunctionCall.class
+SHA1-Digest: 2YsS9SEzwGVwF3MPugNNcb1ysiU=
+
+Name: net/sf/saxon/lib/UnparsedTextURIResolver.class
+SHA1-Digest: IoO4FwMCvwUSlybplkDWQHfeTKo=
+
+Name: net/sf/saxon/event/PIGrabber.class
+SHA1-Digest: 9L+yP+sNoYrYMCf78e6ep8xSpvY=
+
+Name: net/sf/saxon/functions/Subsequence.class
+SHA1-Digest: aRCcN1asI1gg3/bq/og1SF2GEYU=
+
+Name: net/sf/saxon/style/XSLCopy.class
+SHA1-Digest: uK9j87fi1+6dR36KLlysgu9jdK0=
+
+Name: net/sf/saxon/expr/instruct/TerminationException.class
+SHA1-Digest: ZQEoVHpFmZD0UosyoU0PlaT7yaE=
+
+Name: net/sf/saxon/style/XSLApplyImports.class
+SHA1-Digest: CuETm5mamzB+404MUmkQqR0BDWo=
+
+Name: net/sf/saxon/sxpath/XPathDynamicContext.class
+SHA1-Digest: tDDz047u0f/mC5Md2mT+bKZqn4E=
+
+Name: net/sf/saxon/value/QNameValue.class
+SHA1-Digest: gPPoy/DjcmneMe8CepxJxl7kNvk=
+
+Name: net/sf/saxon/expr/sort/IntHashSet.class
+SHA1-Digest: OXQ4qmzxd5hX+pcb+f89XepHXI0=
+
+Name: net/sf/saxon/expr/instruct/TailCallReturner.class
+SHA1-Digest: 5U2bCo5F4zyQXRrrPgRvWsEnJ64=
+
+Name: net/sf/saxon/functions/Tokenize.class
+SHA1-Digest: +9GO3Ym1XnL8p/3XFacqpRx+f38=
+
+Name: net/sf/saxon/expr/BindingReference.class
+SHA1-Digest: pYPGRzLULm/JcdqqGoKfzpaueGE=
+
+Name: net/sf/saxon/dom/TypeInfoImpl.class
+SHA1-Digest: xExKp2p40PQshYHvhvIr6IBBEqA=
+
+Name: net/sf/saxon/functions/StringToCodepoints.class
+SHA1-Digest: Ti1hiQJ+Mtauo099a/PLgIYlxZw=
+
+Name: net/sf/saxon/expr/instruct/UserFunction.class
+SHA1-Digest: 8R6Fp6svHkg76VqWUBQWFieUnlI=
+
+Name: net/sf/saxon/expr/instruct/Bindery$2.class
+SHA1-Digest: TJitlrNIGYo6JDQkuDCdc8T/Of8=
+
+Name: net/sf/saxon/expr/SlashExpression.class
+SHA1-Digest: Qv0jmPYkXUT6driruOOUh4yZI2M=
+
+Name: net/sf/saxon/expr/Calculator$DecimalModDecimal.class
+SHA1-Digest: yWbVXEiqdcog6iTMLIo/7sRB7gE=
+
+Name: net/sf/saxon/s9api/ValidationMode.class
+SHA1-Digest: 1OwQr1i66O7iP7PWd5m3048qEsY=
+
+Name: net/sf/saxon/expr/Calculator$DecimalMinusDecimal.class
+SHA1-Digest: N34y4063JzUxArXv9rDlDU/60sE=
+
+Name: net/sf/saxon/tree/linked/TextImpl.class
+SHA1-Digest: XbypFmw3+oq3klg8QJ9TlWP7Mh4=
+
+Name: net/sf/saxon/trans/Mode$RuleSorter.class
+SHA1-Digest: C22i9kCZLHKlltzGSNFICXWYo30=
+
+Name: net/sf/saxon/expr/JPConverter$FromBoolean.class
+SHA1-Digest: OePT/78UXvvm7uUYeYsdzEfaZcg=
+
+Name: net/sf/saxon/expr/instruct/Copy.class
+SHA1-Digest: lGCmdDqCIJbLimMXswLJOke65lY=
+
+Name: net/sf/saxon/tree/wrapper/SiblingCountingNode.class
+SHA1-Digest: Kt86X+FOA97CKUxj03WdeCsFgNw=
+
+Name: net/sf/saxon/pattern/Pattern$1.class
+SHA1-Digest: gQZu+XeA6iECujQJyZQfunasB4U=
+
+Name: net/sf/saxon/expr/JPConverter$FromDouble.class
+SHA1-Digest: x7WDsBXnR6bsqTgHcCxmRduYzM8=
+
+Name: net/sf/saxon/event/ComplexContentOutputter.class
+SHA1-Digest: +c9EYgvXTI6Ld+tKp+haIQlFJVc=
+
+Name: net/sf/saxon/event/SequenceOutputter.class
+SHA1-Digest: Xmi/yTHkIhb7lAC9QsfpBePkaH8=
+
+Name: net/sf/saxon/pattern/LocationPathPattern.class
+SHA1-Digest: Wd8M5cacYu/lS101DOz8pfOQ+Ys=
+
+Name: net/sf/saxon/expr/Calculator$DoubleModDouble.class
+SHA1-Digest: qLFy9jAAdVom/EgONIdYPmSYNlo=
+
+Name: javax/xml/xquery/XQMetaData.class
+SHA1-Digest: vKdyXKTS596k1Pjghpyl1hrECgo=
+
+Name: net/sf/saxon/lib/TraceListener.class
+SHA1-Digest: bxoniPBWS/t1BmBuTSRsid8KkiQ=
+
+Name: net/sf/saxon/functions/Empty.class
+SHA1-Digest: jZi7D5jxvVStNIOfAOFc/sh7kVs=
+
+Name: net/sf/saxon/tree/linked/DescendantEnumeration.class
+SHA1-Digest: h1m2rPyH2vL1nrwawz0dRUfZR8g=
+
+Name: net/sf/saxon/trans/RuleManager.class
+SHA1-Digest: NNw4c1drEHYcp+6LE3Gf5QV8VNM=
+
+Name: net/sf/saxon/expr/StringTokenIterator.class
+SHA1-Digest: 2QiyVW2HrKPc8K2nw8Dq9GxjRAg=
+
+Name: net/sf/saxon/expr/PositionVariable.class
+SHA1-Digest: 33ZXL5vKcM/RK7wpfJz9r2jQ8qs=
+
+Name: net/sf/saxon/expr/JPConverter$FromIntArray.class
+SHA1-Digest: YgI5YwhWV6McbVgE2PEevKHtToI=
+
+Name: net/sf/saxon/expr/DifferenceEnumeration.class
+SHA1-Digest: s+UMI6kKcAeJpeA7Xjf2D6KvySA=
+
+Name: net/sf/saxon/value/PrecisionDecimalValue.class
+SHA1-Digest: dffGVSQcW9GSvhTldE1Qp+ajuvE=
+
+Name: net/sf/saxon/evpull/EventAnnotationStripper.class
+SHA1-Digest: HGj1tU1vb0Ub8xnhLZu4cbz7vwE=
+
+Name: net/sf/saxon/style/XSLDocument.class
+SHA1-Digest: qlO4SF2jjDTZFQFnhQE5QejBjwA=
+
+Name: net/sf/saxon/tree/tiny/TinyBuilder.class
+SHA1-Digest: Yt25ff4gzuycNP9sDo0P7Jpn07U=
+
+Name: net/sf/saxon/functions/Collection.class
+SHA1-Digest: Gaf9fVNgYpLDEm2agi3Vaw9ZCFI=
+
+Name: net/sf/saxon/expr/sort/CodepointCollatingComparer.class
+SHA1-Digest: fIHdS8/VNsNM8P4WdJfSennqo0I=
+
+Name: net/sf/saxon/value/Int64Value.class
+SHA1-Digest: MCxYG5D6TW1k2Wmd5Ot/QplcDLo=
+
+Name: net/sf/saxon/value/TextFragmentValue$TextFragmentTextNode.class
+SHA1-Digest: Un3miFEPMF7h2ZZDfxdobkJ3b2g=
+
+Name: net/sf/saxon/expr/sort/CollatingAtomicComparer.class
+SHA1-Digest: G6MKbPJG27mDDUZN/wq0pOViQ4k=
+
+Name: net/sf/saxon/trans/KeyManager.class
+SHA1-Digest: lZQ7HR4n0oUGP2GMIlWhjpVOq3o=
+
+Name: net/sf/saxon/expr/instruct/NumberInstruction.class
+SHA1-Digest: Dsw1U0iKazgchIMDpmh7Med5eoQ=
+
+Name: net/sf/saxon/expr/sort/GroupBySingletonIterator.class
+SHA1-Digest: y5byxTtQ1cGunSy4gpkqcIuuC3I=
+
+Name: net/sf/saxon/expr/sort/SortKeyEvaluator.class
+SHA1-Digest: cS2hnsrHIij56eqo4Mx9iZcV9G4=
+
+Name: net/sf/saxon/expr/sort/GroupAdjacentIterator.class
+SHA1-Digest: fVjPZrwSnM6xgpyH8CMghipu000=
+
+Name: net/sf/saxon/pull/StaxBridge$1.class
+SHA1-Digest: fw5nzBgSri2k1NN4TbPPDRv7OQo=
+
+Name: net/sf/saxon/trans/DecimalFormatManager.class
+SHA1-Digest: S585zo7K8BL8mQ9d1ifUVQAzXls=
+
+Name: net/sf/saxon/tree/iter/SingleNodeIterator.class
+SHA1-Digest: jYGATZUnqOU0i0kBkZmSNK9GTjE=
+
+Name: net/sf/saxon/style/XSLWhen.class
+SHA1-Digest: NmWunrQDRdV+GmMNKRNYZLtj0hA=
+
+Name: net/sf/saxon/trace/AbstractTraceListener.class
+SHA1-Digest: 14z9kyqBZg7bFiiw19AVRcFIFPA=
+
+Name: net/sf/saxon/expr/ExpressionParser$FLWORClause.class
+SHA1-Digest: trJPaVm1uassdgFFWEDICdrjTzU=
+
+Name: javax/xml/xquery/XQException.class
+SHA1-Digest: 4gbfKaVunPtc+/GtOApQwSZpBTA=
+
+Name: net/sf/saxon/event/StreamWriterToReceiver.class
+SHA1-Digest: zF1Y5p5OtZi6m/qA5TtrlY9QKfI=
+
+Name: net/sf/saxon/type/BuiltInListType.class
+SHA1-Digest: dhSLqoZm+beDBdNms3H36hOECI4=
+
+Name: net/sf/saxon/query/QueryParser$AttributeDetails.class
+SHA1-Digest: T0FM3qioikeejVAmD/x2gwWJSmU=
+
+Name: edition.properties
+SHA1-Digest: jIxYFamB6z10P/TUMCYpWOdPZwA=
+
+Name: net/sf/saxon/om/FunctionItem.class
+SHA1-Digest: lpDZlf2CPdG8jdfm0iim1wIWGvM=
+
+Name: net/sf/saxon/serialize/charcode/XMLCharacterData.class
+SHA1-Digest: /hLfWP29bF6XtKvIWDU4U9WLkKA=
+
+Name: net/sf/saxon/s9api/BuildingStreamWriterImpl.class
+SHA1-Digest: YCbR4NS7ncZ443IebHNwFc0uZwk=
+
+Name: net/sf/saxon/trans/Mode$2.class
+SHA1-Digest: 7qqgnC2iUxnZVXy6xt70r5UXwiU=
+
+Name: net/sf/saxon/lib/FeatureKeys.class
+SHA1-Digest: O07KyK86TX+24Kq7NivXW9EoGtI=
+
+Name: net/sf/saxon/expr/UnionEnumeration.class
+SHA1-Digest: bJ1udVZoMnjbvwGIOL0zMgtOMpk=
+
+Name: net/sf/saxon/lib/StandardErrorListener.class
+SHA1-Digest: ANAZXEE1d0tlvjNZsiX8iOp3htc=
+
+Name: net/sf/saxon/expr/MappingFunction.class
+SHA1-Digest: Dzl1cR3lJSY99mSLlre6vc4A704=
+
+Name: net/sf/saxon/evpull/StartElementEvent.class
+SHA1-Digest: L8aCKdCN3D5ZzYHBI/O2OxegO6s=
+
+Name: net/sf/saxon/value/Base64BinaryValue$1.class
+SHA1-Digest: UnLtmHFNkqI4Z3P1opzT6WnK3C0=
+
+Name: net/sf/saxon/dom/DOMTransform.class
+SHA1-Digest: aW+3V+CPLN+bOebv0CBfjPQEzu8=
+
+Name: net/sf/saxon/IdentityTransformerHandler.class
+SHA1-Digest: QDX76QmysxmL8a8yJFMlpZn4C8E=
+
+Name: net/sf/saxon/functions/Component.class
+SHA1-Digest: /ZErgm24OZnn/4ekih+WnKTCgFI=
+
+Name: net/sf/saxon/style/StylesheetFunctionLibrary.class
+SHA1-Digest: Wky3Lqu5RRbdHSuevp8nCqrhjOw=
+
+Name: net/sf/saxon/functions/CompileTimeFunction.class
+SHA1-Digest: kebhvDftVwPOrkfrIHRNtkBAhRk=
+
+Name: net/sf/saxon/style/AbsentExtensionElement.class
+SHA1-Digest: Qwc4D+HHlqv7PGINcK2tcKUw9po=
+
+Name: net/sf/saxon/functions/DefaultCollation.class
+SHA1-Digest: euEQ4CFQBZodNos5q1Gx0UKof2Q=
+
+Name: net/sf/saxon/expr/JPConverter$WrapExternalObject.class
+SHA1-Digest: rDtIQHZh0miqH7vj+Qb3utnnCbY=
+
+Name: net/sf/saxon/expr/Container.class
+SHA1-Digest: VmFgpxU4iYNwS6TGBq9TmI7WG4Y=
+
+Name: net/sf/saxon/style/XSLPerformSort.class
+SHA1-Digest: urNp/GkCRgAxu7DIO3i89yMttn4=
+
+Name: net/sf/saxon/value/SingletonClosure.class
+SHA1-Digest: fOoLPAtzU77QEjj5zrUdErNziIw=
+
+Name: net/sf/saxon/serialize/charcode/UTF8CharacterSet.class
+SHA1-Digest: bnhm10cCFHef1LVUErengIzvTyM=
+
+Name: net/sf/saxon/functions/ItemAt.class
+SHA1-Digest: 41c5/e+mj5BpdmBL1uOrcHDVjS8=
+
+Name: net/sf/saxon/value/NotationValue$NotationComparable.class
+SHA1-Digest: u/gUTGJc4AGM4LrAWmQ4QL2+iMw=
+
+Name: net/sf/saxon/evpull/EventMappingFunction.class
+SHA1-Digest: OY6yVnQ2s/5RbVdObE28UkQLqps=
+
+Name: net/sf/saxon/tree/util/Navigator$EmptyTextFilter.class
+SHA1-Digest: kl8v6m3ZuHvm2NcBLaj8SMDU4dU=
+
+Name: net/sf/saxon/functions/Count.class
+SHA1-Digest: penHMQ9ruoJKs+tLgEFNVSyxXHY=
+
+Name: net/sf/saxon/expr/IntersectionEnumeration.class
+SHA1-Digest: my3PVSMcRVG76+tLIueuNdgF2Ks=
+
+Name: net/sf/saxon/value/StringValue.class
+SHA1-Digest: LeR4300mGmEVGepflmaE3+xHYDg=
+
+Name: net/sf/saxon/functions/regex/CaseVariants.class
+SHA1-Digest: ZMBNghdiu0qdWDtzhnTEpiwP+UM=
+
+Name: net/sf/saxon/event/Receiver.class
+SHA1-Digest: 6XsNMeMq9iKux8aePA0ZVylBfpg=
+
+Name: net/sf/saxon/expr/number/NumberFormatter.class
+SHA1-Digest: ORhQP1Nb6xrjI1J5lWNuWJBE8ho=
+
+Name: net/sf/saxon/type/ValidationFailure.class
+SHA1-Digest: CPrTfdccA3WjS2PJZS4O4yaAeVU=
+
+Name: net/sf/saxon/query/QueryModule.class
+SHA1-Digest: HPUKjt/pxFIkFAoEdhHxlpGxehw=
+
+Name: net/sf/saxon/functions/Remove$RemoveIterator.class
+SHA1-Digest: MoRwq872bD7RQ544TLFsKNaSWtw=
+
+Name: net/sf/saxon/pattern/PatternSponsor.class
+SHA1-Digest: YSTQ8vHYHG4CWrMiUZEIKkJE8Og=
+
+Name: net/sf/saxon/expr/Calculator$IntegerTimesInteger.class
+SHA1-Digest: POSyGehkSSMdXg6MxpBK7Xs5RiY=
+
+Name: net/sf/saxon/xqj/SaxonXQForwardSequence.class
+SHA1-Digest: lGVnEhrSxLbs0Lk7widE8GjF/48=
+
+Name: net/sf/saxon/trans/StringifyRuleSet.class
+SHA1-Digest: OLm8mhUcUk8mCnacryyrBmFHx3M=
+
+Name: net/sf/saxon/style/XSLNumber.class
+SHA1-Digest: b9Vz0xqit95QrzFjsMILXh5M4Bo=
+
+Name: net/sf/saxon/expr/PJConverter$CalendarValueToCalendar.class
+SHA1-Digest: S4mzBfsa1JHRoRsreBRkKenYl7o=
+
+Name: net/sf/saxon/tree/linked/ParentNodeImpl.class
+SHA1-Digest: elaMYiXGKJRBW+VUmBNNI0W6d9U=
+
+Name: net/sf/saxon/trace/ContextStackFrame$FunctionCall.class
+SHA1-Digest: eqreS2eN0aGcziEIYZZT7zIlVbk=
+
+Name: net/sf/saxon/expr/VariableDeclaration.class
+SHA1-Digest: szeXHjVHKxUcehqB0eu+voxkRJA=
+
+Name: net/sf/saxon/tree/wrapper/VirtualNode.class
+SHA1-Digest: yJAnc4xGrzNzJfdh294Bws2OnUk=
+
+Name: net/sf/saxon/expr/UnaryExpression.class
+SHA1-Digest: C0brcXJ65OJSxJlNRbvqgSqKLUg=
+
+Name: net/sf/saxon/expr/JPConverter$FromDoubleArray.class
+SHA1-Digest: s8Lza9qUk1eTONcEdmBJhAE/2R0=
+
+Name: net/sf/saxon/expr/XPathContextMinor.class
+SHA1-Digest: 4n8EnERRZFtdjQckRF6E+1V65cM=
+
+Name: net/sf/saxon/expr/IdentityComparison.class
+SHA1-Digest: l6Z1IwoiEyfDCnrD7l1/aTao7Fw=
+
+Name: net/sf/saxon/style/XSLForEachGroup.class
+SHA1-Digest: /Frs/boJojLu9J20jmC3VijOxvA=
+
+Name: net/sf/saxon/lib/SubstringMatcher.class
+SHA1-Digest: /mLJ1NewOZA1ycYYVM21EYgMM+A=
+
+Name: net/sf/saxon/event/TreeReceiver.class
+SHA1-Digest: JiZZjkIQPXcgEc9f37ZM59OBKNg=
+
+Name: net/sf/saxon/tree/linked/LinkedTreeBuilder$DefaultNodeFactory.cl
+ ass
+SHA1-Digest: w8XamuE5U5iR1pdf//ROea0iGLc=
+
+Name: net/sf/saxon/expr/AxisAtomizingIterator.class
+SHA1-Digest: nGUa1n4ub0h4uUY8soDbDx+O52A=
+
+Name: net/sf/saxon/expr/sort/ComparableAtomicValueComparer.class
+SHA1-Digest: uJeEbMxG9aFTDIkSlq6bKi6yJ3M=
+
+Name: net/sf/saxon/expr/PromoteToDouble.class
+SHA1-Digest: 8/omvaGfmqS6eNdctRRWWuvSXuM=
+
+Name: net/sf/saxon/event/TransformerReceiver.class
+SHA1-Digest: Qlj+KPpNAhtp8vl/rii/TJsOz4Q=
+
+Name: net/sf/saxon/expr/sort/NumericComparer.class
+SHA1-Digest: 21TOg8CKDLRtf/bvyDCcj93DaDY=
+
+Name: net/sf/saxon/xqj/SaxonXQItemType.class
+SHA1-Digest: ztv74HUitMZ0Y9EUrTd9/JitlRY=
+
+Name: net/sf/saxon/expr/PJConverter$ToCollection.class
+SHA1-Digest: IVK+1UhBxTFnGSQKxo9c+3z5SZs=
+
+Name: javax/xml/xquery/XQDataFactory.class
+SHA1-Digest: 6a7GDH3jzWbncK0x+TmaNx5KOoQ=
+
+Name: net/sf/saxon/functions/SystemProperty.class
+SHA1-Digest: nyIK6T3X9PMapahzEboFGIG+vY0=
+
+Name: net/sf/saxon/style/XSLSort.class
+SHA1-Digest: d0NBi8YMY9L1LNfO8jec4CVe+nc=
+
+Name: net/sf/saxon/expr/instruct/TraceInstruction.class
+SHA1-Digest: DoEGCJdrw0vZuS1iOEi4vsSUNGg=
+
+Name: net/sf/saxon/expr/number/RegularGroupFormatter.class
+SHA1-Digest: yvaHXa5iSZS0DGxWD9jU8nWB6VQ=
+
+Name: net/sf/saxon/pattern/LocalNameTest.class
+SHA1-Digest: HXfv4Ef39FRuFij5mFT5DT66+zE=
+
+Name: net/sf/saxon/expr/ReverseRangeIterator.class
+SHA1-Digest: Kwk4j/UjrGwjGUV3/QiqrYv9hqw=
+
+Name: net/sf/saxon/query/QueryReader.class
+SHA1-Digest: rPYr71xTEpMqJ0tY6RE+hljSONI=
+
+Name: net/sf/saxon/functions/NormalizeSpace.class
+SHA1-Digest: WGF8qUcmBftIrltKPuZgBZCxw4U=
+
+Name: net/sf/saxon/functions/IntegratedFunctionCall.class
+SHA1-Digest: soQF+ts8f1dbRgouCN/svd6pGyk=
+
+Name: net/sf/saxon/expr/instruct/BlockIterator.class
+SHA1-Digest: YLIrq5zwSnbylJxDzqt0tIfnK78=
+
+Name: net/sf/saxon/functions/Idref.class
+SHA1-Digest: 8DZC36a/XQqmPtca2ADjAWh73Q4=
+
+Name: net/sf/saxon/expr/PairIterator.class
+SHA1-Digest: NWQJPTGNqF9JeULDxSXilYbNs94=
+
+Name: net/sf/saxon/trace/XSLTTraceListener.class
+SHA1-Digest: 6dgMIy99UZtiDJrIECpDAlqlcGk=
+
+Name: net/sf/saxon/s9api/DOMDestination.class
+SHA1-Digest: y67KpZTieDeEc8jJymL3drgBsAk=
+
+Name: javax/xml/xquery/XQResultSequence.class
+SHA1-Digest: aX36NQUa1nvfaXYAra064Qr0T5U=
+
+Name: net/sf/saxon/expr/sort/EqualityComparer.class
+SHA1-Digest: wWriX3l+INJfudUT2SCbHBOKHVs=
+
+Name: net/sf/saxon/style/XSLMatchingSubstring.class
+SHA1-Digest: NzU5BHUWwuKaswZkXt+ohIu9cUw=
+
+Name: net/sf/saxon/expr/ErrorExpression.class
+SHA1-Digest: RVBrqEdK17FRBcHUsYjwo5rx2hY=
+
+Name: net/sf/saxon/dom/DOMImplementationImpl.class
+SHA1-Digest: 4ahlAhwFS/BrxYclDVsFw13YWu0=
+
+Name: net/sf/saxon/expr/MultiIterator.class
+SHA1-Digest: kU2cBsmzQyutzfxGbDrqZGW+SZw=
+
+Name: net/sf/saxon/expr/PendingUpdateList.class
+SHA1-Digest: BCgFVz5m7yuLMDe+fjttDBeLvNw=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$CharClass.clas
+ s
+SHA1-Digest: kkO5Li/Ts8ioPut9wWIQZYfgvhk=
+
+Name: net/sf/saxon/event/ContentHandlerProxy.class
+SHA1-Digest: 4TcFHmm9TeZ2kmAvEKrYbF3lZTM=
+
+Name: net/sf/saxon/expr/GeneralComparison10$1.class
+SHA1-Digest: BZMnUqwI7dly0YPJOkE3efA+vv4=
+
+Name: net/sf/saxon/functions/regex/JRegexIterator.class
+SHA1-Digest: hN7Z+IqIeZl12zJcTdmwzxzQfc4=
+
+Name: net/sf/saxon/expr/PathMap$PathMapNode.class
+SHA1-Digest: bsgV6f3D0rp+XPID/jIPYmxqlV8=
+
+Name: net/sf/saxon/tree/iter/NodeArrayIterator.class
+SHA1-Digest: P9rW280k+dnKytOsH7DT73rfp80=
+
+Name: javax/xml/xquery/XQConnectionEventListener.class
+SHA1-Digest: 9QEKHTA0Dp9w9FtvC/JohwWoD4Q=
+
+Name: net/sf/saxon/expr/ForExpression$EventMappingAction.class
+SHA1-Digest: ZsjFl1uaHIWePBV7BhxSaVLoMpw=
+
+Name: net/sf/saxon/TemplatesHandlerImpl$1.class
+SHA1-Digest: dbrczdDNnKxzUY7i6wkToiqwkvc=
+
+Name: net/sf/saxon/tree/iter/GroundedIterator.class
+SHA1-Digest: p5m182KnZhjRi4L/WiL5HW5C8fg=
+
+Name: net/sf/saxon/Configuration$LicenseFeature.class
+SHA1-Digest: V93JBUQLQzzC7kApS5PDAr9zgO4=
+
+Name: net/sf/saxon/expr/Calculator$DecimalIdivDecimal.class
+SHA1-Digest: md3wg6LzNijdO4OtltOqVN5HUn4=
+
+Name: net/sf/saxon/expr/Calculator$DecimalDivDecimal.class
+SHA1-Digest: LbbLNM741IZlOnvmnI5r6Zg43cA=
+
+Name: net/sf/saxon/s9api/ItemType$1.class
+SHA1-Digest: Hx8DzUyM0vg2skuz+eKTTpfPL3A=
+
+Name: net/sf/saxon/expr/ArithmeticExpression.class
+SHA1-Digest: 0129yPryp4GWEDkgiIEnzYRtkwI=
+
+Name: net/sf/saxon/value/BooleanValue$BooleanComparable.class
+SHA1-Digest: 05XhpVobpMykwJipdDx6y1iRCLA=
+
+Name: net/sf/saxon/expr/instruct/ForEach.class
+SHA1-Digest: DPWFFDifRpL6ZbO15vm3BS9LTvs=
+
+Name: net/sf/saxon/serialize/XMLEmitter.class
+SHA1-Digest: LRh2NEQXsewbLYTCPS/5/a0+j/c=
+
+Name: net/sf/saxon/expr/Calculator$AnyModAny.class
+SHA1-Digest: n9tzqKVkxdexp2YDO/xKqr8N9XY=
+
+Name: net/sf/saxon/s9api/XdmEmptySequence.class
+SHA1-Digest: GARISg7SAtwZB7xVGRJ/fWpucTM=
+
+Name: net/sf/saxon/serialize/codenorm/Normalizer.class
+SHA1-Digest: FBL5gZtP4WVf5WB0jln1UgJI0w8=
+
+Name: net/sf/saxon/type/BuiltInAtomicType.class
+SHA1-Digest: MhyFs4eNeW98yVORRDQuFSFldVk=
+
+Name: net/sf/saxon/Filter.class
+SHA1-Digest: Fy933svfvIoL0r04FblhVt9AgAk=
+
+Name: net/sf/saxon/pull/UnparsedEntity.class
+SHA1-Digest: IilPUj4SlASu2lsFsDzwiuag9h8=
+
+Name: net/sf/saxon/style/XSLCharacterMap.class
+SHA1-Digest: wT5ITMK8Awj2u892iPK4nFoB6XM=
+
+Name: net/sf/saxon/s9api/XsltExecutable$ParameterDetails.class
+SHA1-Digest: ocWmnsr0bSL1fSCMa+GTPYELi50=
+
+Name: net/sf/saxon/value/DateTimeValue$DateTimeComparable.class
+SHA1-Digest: B35RwGfga31896AG/F0aAFJnwyU=
+
+Name: net/sf/saxon/expr/sort/GlobalOrderComparer.class
+SHA1-Digest: vcFqNAjf4o6ipo+BXVxdML/o33E=
+
+Name: net/sf/saxon/s9api/SchemaValidator.class
+SHA1-Digest: y3ng7ob5ytdp2g9m4AyOUi5aX+s=
+
+Name: net/sf/saxon/value/ObjectValue.class
+SHA1-Digest: zRL4QVGd9odxG12e2fDL+lBjid0=
+
+Name: net/sf/saxon/expr/ItemMappingIterator.class
+SHA1-Digest: jABvYxV94GPRSb4Q6iWXv6XL+UU=
+
+Name: net/sf/saxon/expr/instruct/CallTemplate.class
+SHA1-Digest: OMyRLve0i0pytZwQeNImTh9OhKw=
+
+Name: net/sf/saxon/expr/Calculator$IntegerMinusInteger.class
+SHA1-Digest: oi5NAmRY+o2y9v83E86YgO0GUaw=
+
+Name: net/sf/saxon/s9api/ItemType$2.class
+SHA1-Digest: itApWiI7fUxLrDuON3XImiN7Sg0=
+
+Name: net/sf/saxon/expr/ExpressionParser$TemporaryContainer.class
+SHA1-Digest: sRRCZFBsKzGz3xCD1e4Ewi84MgY=
+
+Name: net/sf/saxon/expr/sort/IntToIntHashMap.class
+SHA1-Digest: h+o86y/IvOT4f1gnozVX6E4i5qg=
+
+Name: net/sf/saxon/s9api/MessageListenerProxy.class
+SHA1-Digest: QnMXEKd0UT6GQrWRSoud5GalfGk=
+
+Name: net/sf/saxon/expr/sort/IntSingletonSet.class
+SHA1-Digest: rPHgkAXb9i4/S2mpWTeWUgI48LU=
+
+Name: net/sf/saxon/expr/PJConverter$ToSequenceIterator.class
+SHA1-Digest: cEQoPraBXNjt5O5Sq9t0pbM7s0M=
+
+Name: net/sf/saxon/trace/TimedTraceListener.class
+SHA1-Digest: 7oTLQ9q1ltCOOPyellBISnYDKLc=
+
+Name: net/sf/saxon/value/AnyURIValue.class
+SHA1-Digest: LnZi2AWwKP1X4ZuwdAP1LZYBjxM=
+
+Name: net/sf/saxon/functions/IsWholeNumber$1.class
+SHA1-Digest: IGpcOyCtV6KKSCpV+/7kiJlB9lg=
+
+Name: net/sf/saxon/functions/regex/RegexIterator.class
+SHA1-Digest: mSN5kRR1hSnbKpCgqcSy2Vp+vhI=
+
+Name: net/sf/saxon/expr/Calculator$AnyIdivAny.class
+SHA1-Digest: ZWpT1mSAam7t1wfd0lmkN2H4+LA=
+
+Name: net/sf/saxon/pattern/NodeSetPattern.class
+SHA1-Digest: X0DfjLzWfDj4O8anS4TTxOphri8=
+
+Name: net/sf/saxon/style/XSLChoose.class
+SHA1-Digest: hRvYq1Q8CH6QkYrlV7JiQnjipIs=
+
+Name: net/sf/saxon/functions/Replace.class
+SHA1-Digest: AJVBJ7XDhmE1i6Xx/wPGE2UghnY=
+
+Name: net/sf/saxon/expr/Calculator$PDecimalMinusPDecimal.class
+SHA1-Digest: EDNrHNoHBRV/QnTxpZ6DIRyqSYk=
+
+Name: net/sf/saxon/evpull/PullEvent.class
+SHA1-Digest: gMVWvgcjp2YKRS3h1GU5HGd8qLM=
+
+Name: net/sf/saxon/style/XSLNextMatch.class
+SHA1-Digest: OUOc4NB9q4dYsRwHwf57lao2pHo=
+
+Name: net/sf/saxon/functions/Put.class
+SHA1-Digest: 6imIshYVPVXfLkFskjfZKfVpzRw=
+
+Name: net/sf/saxon/functions/Average.class
+SHA1-Digest: uGqArQtNPtjYf9tkSBbXt786OyM=
+
+Name: net/sf/saxon/expr/instruct/Assign.class
+SHA1-Digest: D1yPvA3dNd0CV1+sFqjEPhgRuzs=
+
+Name: net/sf/saxon/expr/sort/IntHashSet$IntHashSetIterator.class
+SHA1-Digest: vlgnCXqUQ/d4vmrfCJq7Kp7F1Z8=
+
+Name: net/sf/saxon/expr/Calculator$FloatIdivFloat.class
+SHA1-Digest: w2cPVk3UxniWybbA5oDmu2UkyXM=
+
+Name: net/sf/saxon/event/ReceivingContentHandler.class
+SHA1-Digest: vsQ7a4LqTDeH8WZEtbM6NeVg1nw=
+
+Name: net/sf/saxon/lib/CollationURIResolver.class
+SHA1-Digest: jUEVQEAM3Oy1seWFlVlB2LexSgA=
+
+Name: net/sf/saxon/expr/instruct/LocalParamBlock.class
+SHA1-Digest: TAgdH16CX2GbcDG4ujsSEtU7Vxo=
+
+Name: net/sf/saxon/type/ComplexType.class
+SHA1-Digest: zONC4zNWFZdy4L2ovRNmexAgccw=
+
+Name: net/sf/saxon/tree/tiny/AncestorEnumeration.class
+SHA1-Digest: Td86zgJ4JOBMb2nAZvdjcWk2GBA=
+
+Name: net/sf/saxon/functions/FormatNumber.class
+SHA1-Digest: qdX9GDM4FNpdK+ELJX4aPFPJR1A=
+
+Name: net/sf/saxon/serialize/TEXTEmitter.class
+SHA1-Digest: jcuVFLu1+DyBB1l6xgf1Vdn//Pk=
+
+Name: net/sf/saxon/functions/Sum.class
+SHA1-Digest: 5dijnwWC+DyAiesV8tpkWcPFCrU=
+
+Name: net/sf/saxon/expr/instruct/DummyNamespaceResolver.class
+SHA1-Digest: GB51w+60YpV/fAPBW5jtGK+4+4M=
+
+Name: net/sf/saxon/s9api/XQueryCompiler.class
+SHA1-Digest: q3TnEuPXfEE4ZxaFr6NfjkyH0MU=
+
+Name: net/sf/saxon/event/EventSource.class
+SHA1-Digest: rYCIfeo0tQigdl4UV045VhMr5T0=
+
+Name: net/sf/saxon/functions/regex/JTokenIterator.class
+SHA1-Digest: gVdg9uawZNp1GAV31yYssP6nXeU=
+
+Name: net/sf/saxon/value/SequenceType.class
+SHA1-Digest: lyCYsr1fA0yj5/orIVvH/iJ/vng=
+
+Name: net/sf/saxon/expr/JPConverter$FromBigInteger.class
+SHA1-Digest: W+sevlW6ULEAq7uY7lB145XArXw=
+
+Name: net/sf/saxon/value/DayTimeDurationValue.class
+SHA1-Digest: 7HhuQ/xQgSPgNqnmVKdlrmSh0jc=
+
+Name: net/sf/saxon/sxpath/IndependentContext.class
+SHA1-Digest: Ldcge85IV9mCoUWRgYLdYt/sJlc=
+
+Name: javax/xml/xquery/XQItem.class
+SHA1-Digest: AeBmR6fxClJdx/ppC8nyYjIBqlk=
+
+Name: net/sf/saxon/tree/linked/LinkedTreeBuilder.class
+SHA1-Digest: /CxgDKA/tIFlNlPOEIb8VRk8BTM=
+
+Name: net/sf/saxon/xqj/SaxonXQPreparedExpression.class
+SHA1-Digest: N84ZQc9DGE1YMpH34I1Xhzyhtxw=
+
+Name: net/sf/saxon/type/TypeHierarchy$ItemTypePair.class
+SHA1-Digest: p45yTS3EM4lyjX/34hgs/hRaQQk=
+
+Name: net/sf/saxon/expr/AdjacentTextNodeMerger.class
+SHA1-Digest: yYiZvqg6E9wp0Vd59xBRb5Ed6k0=
+
+Name: net/sf/saxon/expr/LocalVariableReference.class
+SHA1-Digest: 4P6cy2Jw77RKE15ubdiydI28WLU=
+
+Name: net/sf/saxon/lib/RelativeURIResolver.class
+SHA1-Digest: 7/Gw5frQ8idp+aWBNGDwSgtRMdM=
+
+Name: net/sf/saxon/expr/sort/NodeOrderComparer.class
+SHA1-Digest: qxRz0zcOBvigIgKcqZQTAugYH/Y=
+
+Name: net/sf/saxon/value/SequenceExtent.class
+SHA1-Digest: kAg+fCXgVp33RVJHCX1UGkqOh24=
+
+Name: net/sf/saxon/om/MutableNodeInfo.class
+SHA1-Digest: DL4kGgBUt4wP8bPNlr8jLOIaGGI=
+
+Name: javax/xml/xquery/XQStackTraceElement.class
+SHA1-Digest: 1CEwJwpLMnBVjMGbumzWl+RS3AA=
+
+Name: net/sf/saxon/type/ConversionResult.class
+SHA1-Digest: LWPYDmLfgz7siiMiQ8NOEpTiktA=
+
+Name: net/sf/saxon/functions/InScopePrefixes$1.class
+SHA1-Digest: 6j4pAxd9FRHGwYyOUPoz/uvf0uY=
+
+Name: net/sf/saxon/event/Stripper.class
+SHA1-Digest: gHXSvchpeLS3l3/sBR2zcFHPNNQ=
+
+Name: net/sf/saxon/pattern/NameTest.class
+SHA1-Digest: WE1/h7YIH72fQpna4AWw8VNqzO0=
+
+Name: net/sf/saxon/query/XQueryFunction.class
+SHA1-Digest: cnyUb2XqG6ZIHpWbSy5rPqTj7/8=
+
+Name: net/sf/saxon/tree/wrapper/SpaceStrippedDocument.class
+SHA1-Digest: FT923YUu6Gb5efbrSnoxYy3kdf4=
+
+Name: net/sf/saxon/style/ExtensionInstruction.class
+SHA1-Digest: qBvLA70RevFnfFWdVN66TNUcMtM=
+
+Name: net/sf/saxon/trans/StripSpaceRules.class
+SHA1-Digest: UrJRLsskZBbAk7NfRT7MuFSoGC0=
+
+Name: net/sf/saxon/expr/sort/IntSingletonSet$1.class
+SHA1-Digest: /1jmpgUQo1hsWj8i3n1OXBRxb08=
+
+Name: net/sf/saxon/expr/PathMap$1.class
+SHA1-Digest: AIkhwXh036uIzjNCviuY8qagYjs=
+
+Name: net/sf/saxon/value/AtomicValue.class
+SHA1-Digest: 80S1qhfWmalgS/BPqY04BEBqPmQ=
+
+Name: net/sf/saxon/expr/instruct/GlobalParameterSet.class
+SHA1-Digest: 6U3owl6zp89zZKUh/H3TNkjprBY=
+
+Name: net/sf/saxon/dom/NodeOverNodeInfo.class
+SHA1-Digest: k2ULYM2CPh9S3+u5o4CmLmDH3XY=
+
+Name: net/sf/saxon/tree/wrapper/VirtualCopy$VirtualCopier.class
+SHA1-Digest: B/fmMxQ1yvGycnMfZtLcyu6npwk=
+
+Name: net/sf/saxon/value/Value$1.class
+SHA1-Digest: Mn0Jh/PpARRq2etoC5am68Y0cPs=
+
+Name: net/sf/saxon/functions/CollatingFunction.class
+SHA1-Digest: bXGUDe6zSieIb2Ogshyz7Qt+tO0=
+
+Name: net/sf/saxon/om/SequenceIterator.class
+SHA1-Digest: +ungmjnjoGbRayIb2gJdkzYnHz0=
+
+Name: net/sf/saxon/expr/SingletonIntersectExpression.class
+SHA1-Digest: KukeCWzA+vU2DNkgIIHPVeObMG0=
+
+Name: net/sf/saxon/s9api/XdmDestination$TreeProtector.class
+SHA1-Digest: qGGpdksmnOa29mL3M0RN4YTMpXs=
+
+Name: net/sf/saxon/type/SchemaException.class
+SHA1-Digest: nHzdkmTdXxvw7tbG8Fjo8D4aHiU=
+
+Name: net/sf/saxon/s9api/XQueryEvaluator.class
+SHA1-Digest: 9bzpDTVC/cNxVLKS7Um96HwIE1M=
+
+Name: net/sf/saxon/expr/RangeIterator.class
+SHA1-Digest: jbafV66vumMb03g43pPqZQZtAe4=
+
+Name: net/sf/saxon/tree/linked/PrecedingEnumeration.class
+SHA1-Digest: eg0ffYPvEzyluj3ZEw2dFXIW2Qg=
+
+Name: net/sf/saxon/type/AnyFunctionType.class
+SHA1-Digest: sLtPiluMyB+AI68XoiQYzdhXfg8=
+
+Name: net/sf/saxon/om/TreeModel$1.class
+SHA1-Digest: TJfcdVqXOiCkWjpc9pvb797szDs=
+
+Name: javax/xml/xquery/XQResultItem.class
+SHA1-Digest: 8LYBUfU4cDd3zvVx3RSw3B34wuY=
+
+Name: net/sf/saxon/style/XSLFallback.class
+SHA1-Digest: Zahz+Bj6qwkvu6Zx99uj2Btp9ps=
+
+Name: net/sf/saxon/type/AnyType.class
+SHA1-Digest: iBz15TDG5ilY5EOgjKhBTgzaCVo=
+
+Name: net/sf/saxon/trans/Mode.class
+SHA1-Digest: 93M4dS7BBvr4Ag0brzaX1clUOPM=
+
+Name: net/sf/saxon/om/GroundedValue.class
+SHA1-Digest: OXyRoXFFG253KPco7rOnWZB5oDc=
+
+Name: net/sf/saxon/expr/ForExpression.class
+SHA1-Digest: U44deLtjavcX3M/ef/AaWeBbdN0=
+
+Name: net/sf/saxon/om/InscopeNamespaceResolver$1.class
+SHA1-Digest: QNP+3PERPF0NL9ZuR0am1cK9OhQ=
+
+Name: net/sf/saxon/expr/sort/SortedIterator.class
+SHA1-Digest: 8WsIJgxq6/OmAUMPhH5pfr3g7QE=
+
+Name: net/sf/saxon/functions/StringFn.class
+SHA1-Digest: AYlj19ePPUdgB3iiaN+lwq2deC8=
+
+Name: net/sf/saxon/functions/FunctionName.class
+SHA1-Digest: nrd6u8s1iwsVHzyUwAkvZuXmXB4=
+
+Name: net/sf/saxon/tree/iter/SingletonIterator.class
+SHA1-Digest: 6eFhPi3OPHkeI4sQQGXhns4ooDk=
+
+Name: net/sf/saxon/expr/JPConverter.class
+SHA1-Digest: kUBgc35wDq/BuhueruOE8IfAB28=
+
+Name: net/sf/saxon/value/IntegerValue.class
+SHA1-Digest: aYtQafYg+n3X2mWii6Xt9mXwhOk=
+
+Name: net/sf/saxon/xpath/JAXPXPathStaticContext.class
+SHA1-Digest: 6dbDluxm+wJDSa3SJsir5Cq8z/A=
+
+Name: net/sf/saxon/tree/tiny/LargeStringBuffer.class
+SHA1-Digest: P82RkXixgPwOP451W2ieyDa4fFg=
+
+Name: net/sf/saxon/expr/Optimizer.class
+SHA1-Digest: R7ZTaClAMNxOS2Rzbbe87eOShUA=
+
+Name: net/sf/saxon/s9api/SaxonApiException.class
+SHA1-Digest: m+lW/juuz3YhdehO1gK5tu3JQ5A=
+
+Name: net/sf/saxon/functions/Adjust.class
+SHA1-Digest: sEWOcIybs9Ux74CINfgOAttYR6c=
+
+Name: net/sf/saxon/om/DocumentInfo.class
+SHA1-Digest: vlaFHv+pcV2DIGEqeHFErAC7+zM=
+
+Name: net/sf/saxon/expr/instruct/CopyOf$2.class
+SHA1-Digest: l8qWun1irfdDkItso9a5iaRzdEg=
+
+Name: net/sf/saxon/functions/Concat.class
+SHA1-Digest: dm1z3jSERGyMZI2I4vRTZ1BnjcE=
+
+Name: net/sf/saxon/expr/LazyExpression.class
+SHA1-Digest: aJe/JYf4Q9bJGcBVY38YxbSzunA=
+
+Name: net/sf/saxon/functions/CurrentGroup.class
+SHA1-Digest: lkzaA0SCq5botmraAquzel7ns04=
+
+Name: net/sf/saxon/expr/instruct/ResultDocument.class
+SHA1-Digest: deaIm0qoh8j/7enTbq2kmPrYq1c=
+
+Name: net/sf/saxon/s9api/Axis.class
+SHA1-Digest: OkQpsWjrQ0VQiQSltwEUSgL6W24=
+
+Name: net/sf/saxon/s9api/WhitespaceStrippingPolicy.class
+SHA1-Digest: MMPHOJz6BhsutZ9x11FQ2KsH+qE=
+
+Name: net/sf/saxon/functions/Trace$TracingIterator.class
+SHA1-Digest: OxxVYkocwGbR66/0ZICluLwiZ8Y=
+
+Name: net/sf/saxon/event/CopyNamespaceSensitiveException.class
+SHA1-Digest: AMem1l4bT7DvYQR01QMi1Sde5Cw=
+
+Name: net/sf/saxon/dom/TextOverAttrInfo.class
+SHA1-Digest: HNRY+WanGWGFo5DY5KZDsHTy05c=
+
+Name: net/sf/saxon/tree/tiny/TinyBuilderMonitor.class
+SHA1-Digest: fuweMUi8tdizoQNBEDYKP6h75iI=
+
+Name: javax/xml/xquery/XQSequenceType.class
+SHA1-Digest: tlPeeDi0j448Vbn1wIlhCbhUO68=
+
+Name: net/sf/saxon/tree/tiny/TinyTextImpl.class
+SHA1-Digest: KQpZPDF9jl1Q1zABa1kIn6vzpNM=
+
+Name: net/sf/saxon/expr/sort/GroupEndingIterator.class
+SHA1-Digest: IfTH+ez4MnRLSf63BZ/CLopaBac=
+
+Name: net/sf/saxon/expr/IsLastExpression.class
+SHA1-Digest: ycY3aISTdWns2ZrICw4rrwkmMeo=
+
+Name: net/sf/saxon/expr/SingletonComparison.class
+SHA1-Digest: bOpL13gDh7YYhcl3aDy15xs2D2c=
+
+Name: net/sf/saxon/functions/DocumentFn$DocumentMappingFunction.class
+SHA1-Digest: ZvZx2SYEe+qdKy/Z+fAYk0WyV/8=
+
+Name: net/sf/saxon/sxpath/XPathStaticContext.class
+SHA1-Digest: mL1GEYtwcn1RY03bDhrCVlZmlhI=
+
+Name: net/sf/saxon/dom/NodeWrapper$AttributeEnumeration.class
+SHA1-Digest: F7DHVrufpSsL78FzOUTS31pOSHs=
+
+Name: net/sf/saxon/s9api/BuildingContentHandler.class
+SHA1-Digest: H987MfM800vOlktTFY8zS2h8T44=
+
+Name: net/sf/saxon/tree/iter/LookaheadIterator.class
+SHA1-Digest: v9velgNRJ6p5CnkdwldNE8zBs1Y=
+
+Name: net/sf/saxon/functions/StartsWith.class
+SHA1-Digest: bHMI2juioPdAGwOXC0x9nTbkszQ=
+
+Name: net/sf/saxon/functions/CurrentDateTime.class
+SHA1-Digest: Qff/mF9hhMkSVUD6e3NoblTjJIc=
+
+Name: net/sf/saxon/lib/SourceResolver.class
+SHA1-Digest: Zaxn4x1DhH3y0EQQm4uATWZAB3A=
+
+Name: net/sf/saxon/trans/Err.class
+SHA1-Digest: nuD1s5w8MOyYJVetUEdYpQl1oiA=
+
+Name: net/sf/saxon/style/XSLLeafNodeConstructor.class
+SHA1-Digest: 1mIYbh9tlQkuUxbs8VtL6/Jw62U=
+
+Name: net/sf/saxon/expr/Calculator$PDecimalDivPDecimal.class
+SHA1-Digest: HmGWW/hSBsYAB/U1clFXky39/7g=
+
+Name: net/sf/saxon/type/SimpleType.class
+SHA1-Digest: 77YpjAJK/XEV69FxrSlr4gqMs/8=
+
+Name: net/sf/saxon/xqj/StandardObjectConverter.class
+SHA1-Digest: 8w/LoDhlxNP/85SHAFAN9nEuIbA=
+
+Name: net/sf/saxon/s9api/XdmNodeKind.class
+SHA1-Digest: HDlHXoHKvRjM5aUz0qFLGAUeCdQ=
+
+Name: net/sf/saxon/expr/sort/IntRangeSet.class
+SHA1-Digest: wCGWSobTZdI/8aSNC6xGGRO6GmE=
+
+Name: net/sf/saxon/serialize/MessageWarner.class
+SHA1-Digest: UHR5QmqorHFa3MbGTEwBv3/6jnc=
+
+Name: net/sf/saxon/functions/StandardFunction$Entry.class
+SHA1-Digest: aRkxM+W9uuKMObvp6D04TmnLtPc=
+
+Name: net/sf/saxon/functions/UriCollection.class
+SHA1-Digest: cKB5uyW9yQmIQ1lMQI3pGaBc92U=
+
+Name: net/sf/saxon/s9api/XsltTransformer.class
+SHA1-Digest: yNLioI0mtyFqfq7lcHVx5OTX7vA=
+
+Name: net/sf/saxon/tree/iter/EmptyIterator.class
+SHA1-Digest: oBzmnWu7cFTp3qFZMgOW75zILX8=
+
+Name: net/sf/saxon/om/FingerprintedNode.class
+SHA1-Digest: iARxxEO6gnW/1Hr/dGNkpD73X04=
+
+Name: net/sf/saxon/expr/sort/GenericSorter.class
+SHA1-Digest: AUXac7JqocLkgZ+PpuENA2QqYAo=
+
+Name: net/sf/saxon/om/Name11Checker.class
+SHA1-Digest: Hku3xPujOMlRSOe8hWSVlSEzXtQ=
+
+Name: net/sf/saxon/xqj/SaxonXQDataFactory.class
+SHA1-Digest: tqwhVvGR+y0N2Seh1DvBa0pVtho=
+
+Name: net/sf/saxon/pattern/Pattern$5.class
+SHA1-Digest: sVY1/RGRDAxtjgo1244tYrGOtaI=
+
+Name: net/sf/saxon/value/HexBinaryValue.class
+SHA1-Digest: HYZ9kPfzTiIVFTmnrkaeGfgkFG0=
+
+Name: net/sf/saxon/expr/GeneralComparison10.class
+SHA1-Digest: wIH109mKNuNNj1NlBXU2B393mDQ=
+
+Name: net/sf/saxon/style/XSLWithParam.class
+SHA1-Digest: QW0smqs4XR8alseOnZG1zAHkcEc=
+
+Name: net/sf/saxon/trans/BuiltInRuleSet.class
+SHA1-Digest: 3vhPwFavvePFFLVtUntLZoipl2o=
+
+Name: net/sf/saxon/functions/NamePart.class
+SHA1-Digest: zafEBp6aSDLYI5zT6+auBmgZhu0=
+
+Name: net/sf/saxon/expr/number/NamedTimeZone.class
+SHA1-Digest: Ri5ceypG/wZMgWin+S8yMOkcIPQ=
+
+Name: net/sf/saxon/expr/EarlyEvaluationContext.class
+SHA1-Digest: kIG+bimwIDrhag+TYYTnTAzkA6s=
+
+Name: net/sf/saxon/trans/DynamicLoader.class
+SHA1-Digest: 6ujJhIqgmnUqTE/xRcNEuUIIWyQ=
+
+Name: net/sf/saxon/event/CommentStripper.class
+SHA1-Digest: cxInhd/2xTVVuPmZhvcn+rewqy0=
+
+Name: net/sf/saxon/lib/StandardCollectionURIResolver.class
+SHA1-Digest: jn4MiE/s6UU+3jpCN0kod5LY8r8=
+
+Name: net/sf/saxon/functions/regex/RegexSyntaxException.class
+SHA1-Digest: U9MtVzA0geD+5gkFSp9b4eqNP3M=
+
+Name: net/sf/saxon/style/UseWhenStaticContext.class
+SHA1-Digest: oLojLQelU+AbrGnli1amteJ7dFg=
+
+Name: net/sf/saxon/tree/tiny/TinyAttributeImpl.class
+SHA1-Digest: 0pQnLgHoj77zegkC2wpk+7N5xL0=
+
+Name: net/sf/saxon/dom/DOMEnvelope$1.class
+SHA1-Digest: HXZicTpjHuZfqLHijMGazY1wrF0=
+
+Name: net/sf/saxon/pattern/NamespaceTest.class
+SHA1-Digest: z8owtn5426gOFnIAsB2iM243xgM=
+
+Name: net/sf/saxon/functions/CurrentGroupingKey.class
+SHA1-Digest: VjFy310ucinyjHysx/0xwJV2o0o=
+
+Name: net/sf/saxon/style/XSLVariable.class
+SHA1-Digest: Nbl59qs++3U13OvSJiGzOTu8nlg=
+
+Name: net/sf/saxon/lib/SchemaURIResolver.class
+SHA1-Digest: 4j5s3xo4Hd9BcGfwiy/Hk5Pks2Y=
+
+Name: net/sf/saxon/type/ItemType.class
+SHA1-Digest: zwpqgaVIVgNWX8KaG52nrrxIQwA=
+
+Name: net/sf/saxon/expr/JPConverter$FromURI.class
+SHA1-Digest: Hz346SipT9CzU7Yisb/b3Lc4tw8=
+
+Name: net/sf/saxon/expr/ExpressionTool.class
+SHA1-Digest: Wx/bfOUCtnr14GcM5ImQ1Wo7HIM=
+
+Name: net/sf/saxon/s9api/XPathSelector.class
+SHA1-Digest: hhHBeY8NdYuReRbn4kt2zOyztxw=
+
+Name: net/sf/saxon/functions/StringJoin.class
+SHA1-Digest: o8L6R/nZwcbkTZFj9PJAOpG6NCw=
+
+Name: net/sf/saxon/expr/sort/LRUCache$1.class
+SHA1-Digest: t0siBszx2yL9lF/KF2gbtFoJx9M=
+
+Name: net/sf/saxon/expr/Negatable.class
+SHA1-Digest: m2LAJ3abSpHZ/sRG2y++Ll3aOiw=
+
+Name: javax/xml/xquery/XQStaticContext.class
+SHA1-Digest: QxfsHXvTsNtfR6LBiu1vMSPCdkk=
+
+Name: net/sf/saxon/expr/instruct/AttributeSet.class
+SHA1-Digest: fJVl+cvOe9T/083Mo45PdTsbIp8=
+
+Name: net/sf/saxon/expr/Calculator$IntegerIdivInteger.class
+SHA1-Digest: 4WTto2JKehJOB9zXuoMMi3pBMZk=
+
+Name: net/sf/saxon/lib/ExtensionFunctionDefinition.class
+SHA1-Digest: cf6jd5pxNmd/lZSdAd0pTQvku5E=
+
+Name: net/sf/saxon/s9api/OccurrenceIndicator$1.class
+SHA1-Digest: YNs/mUW3EWWztpg+uGymYChPIBs=
+
+Name: net/sf/saxon/functions/SystemFunctionLibrary.class
+SHA1-Digest: ixU/+Wvx7t52HFeelIJyF+5eGek=
+
+Name: net/sf/saxon/expr/ParentNodeExpression.class
+SHA1-Digest: 123AsSCJgl2KryQdnSZ6WljoInA=
+
+Name: net/sf/saxon/serialize/CharacterMapExpander.class
+SHA1-Digest: kxE0BBlV9NMqg+sqZlRyYY+ZASg=
+
+Name: net/sf/saxon/trace/ContextStackFrame$CallingApplication.class
+SHA1-Digest: H01mwDNoG0ev/lf4TtgGaQDK4oQ=
+
+Name: net/sf/saxon/style/XSLAttributeSet.class
+SHA1-Digest: mcPxhOQ/e4Cu5hEvlw9TprIJgE8=
+
+Name: net/sf/saxon/value/DateTimeValue$1.class
+SHA1-Digest: meispRf6pznOhyZPLnNiHw9iGwQ=
+
+Name: net/sf/saxon/value/DateValue.class
+SHA1-Digest: LsLsYPzLIEUShCTkHundore5dhw=
+
+Name: net/sf/saxon/functions/CodepointsToString.class
+SHA1-Digest: PVr09uYZpyRkLqXtY7nIXl4rP6M=
+
+Name: net/sf/saxon/expr/Calculator$DurationTimesNumeric.class
+SHA1-Digest: IyX9X5mVqCdeIkr6AaVsSmpo2X4=
+
+Name: net/sf/saxon/trans/Mode$4.class
+SHA1-Digest: iyeNqdlK0ZEOCLfHQuwFQiXrlLk=
+
+Name: net/sf/saxon/tree/iter/AxisIterator.class
+SHA1-Digest: 19rwuvCcvt7SM3cV50BrBiW+HV0=
+
+Name: net/sf/saxon/expr/JPConverter$FromShortArray.class
+SHA1-Digest: Z+2XgY2hwFNC3kNlu2s7vUz/S34=
+
+Name: net/sf/saxon/xqj/Closable.class
+SHA1-Digest: q2/SGHAIDFvK5ysC1PBRAFWuuRY=
+
+Name: net/sf/saxon/value/CalendarValue.class
+SHA1-Digest: fMsironPAYWpY5fbq0Ye6gEj75Q=
+
+Name: javax/xml/xquery/ConnectionPoolXQDataSource.class
+SHA1-Digest: do4AEiJ/DkZfJxLAkx8z3KbUNv4=
+
+Name: net/sf/saxon/style/XSLGeneralIncorporate.class
+SHA1-Digest: KPLlfCv4TEsI/RU7NAcvRSfTXDs=
+
+Name: net/sf/saxon/functions/Id.class
+SHA1-Digest: X8CUzEFBLbSma+8mmhCiJ6a4Opg=
+
+Name: net/sf/saxon/TransformerFactoryImpl.class
+SHA1-Digest: ngj8g1mZPy/BUyOBiMIW3qsfVrE=
+
+Name: javax/xml/xquery/XQItemType.class
+SHA1-Digest: 5No4N+7cu6XbccDCW9OWj20Stcw=
+
+Name: net/sf/saxon/lib/StandardURIResolver.class
+SHA1-Digest: fezjuGwA3Izg8E8OWKwd64e5a98=
+
+Name: net/sf/saxon/expr/PJConverter$General.class
+SHA1-Digest: HSwN9sbEIDyIoakNzO4rT4hviuc=
+
+Name: net/sf/saxon/value/EmptySequence.class
+SHA1-Digest: Ykwut9983UWODB0XSyXjqjeiXIE=
+
+Name: net/sf/saxon/style/XSLElement.class
+SHA1-Digest: dScPWFtRz48QufB2Ky6OmIk+lo4=
+
+Name: net/sf/saxon/functions/Current.class
+SHA1-Digest: A9lrh62UcDVmNcl6IxesUr8SYIk=
+
+Name: net/sf/saxon/event/ContentHandlerProxyLocator.class
+SHA1-Digest: 90OqDoTvVWiQPKDjp7r8DFFuUSw=
+
+Name: net/sf/saxon/value/QNameValue$QNameComparable.class
+SHA1-Digest: nqTcU4R2w3MlaJI9YQmBvqa1mtQ=
+
+Name: net/sf/saxon/expr/PJConverter$IntegerValueToByte.class
+SHA1-Digest: 6zXjkvyeXCGjZWyPXUE52WxI998=
+
+Name: net/sf/saxon/expr/JPConverter$FromShort.class
+SHA1-Digest: rztGKBqAXk4Wkluf1z5QMm8ibg8=
+
+Name: net/sf/saxon/query/XQueryFunctionLibrary.class
+SHA1-Digest: sfTmI4rH3Oi0hvdzWHWDfMxwiqk=
+
+Name: javax/xml/xquery/XQConnection.class
+SHA1-Digest: UASo5fXaoS3yX/E9pyI1FepmNyI=
+
+Name: net/sf/saxon/event/CopyInformee.class
+SHA1-Digest: 9e/+fg2hSLXVUrJB7Q37EVFsS7Y=
+
+Name: net/sf/saxon/expr/ArithmeticExpression10.class
+SHA1-Digest: mUQLH3+ULm9n4cnWVUb0/5N21N8=
+
+Name: net/sf/saxon/tree/util/Navigator$PrecedingEnumeration.class
+SHA1-Digest: Tz3xww0inpy87SdLxjhc7Oedgf8=
+
+Name: net/sf/saxon/value/Int64Value$Int64Comparable.class
+SHA1-Digest: +wzXXn58oLKFK132DIJQxCeMxUM=
+
+Name: net/sf/saxon/lib/StandardURIChecker.class
+SHA1-Digest: ErO4HdzlghL00X7uG1WRThulrtc=
+
+Name: net/sf/saxon/tree/util/Orphan.class
+SHA1-Digest: ykOytfKRbKXvEOPe73SGlwTIQFs=
+
+Name: net/sf/saxon/lib/ExternalObjectModel.class
+SHA1-Digest: Ct8yiW6mYxCNqrgKAOWrmDoVDp4=
+
+Name: net/sf/saxon/style/LiteralResultElement.class
+SHA1-Digest: zTUEWoijQrGPlKlffaic4lG5Yck=
+
+Name: net/sf/saxon/expr/LastItemExpression.class
+SHA1-Digest: 9p+qndwHONUbHzxJxB4lH/8+Wlk=
+
+Name: net/sf/saxon/xpath/JAXPXPathStaticContext$1.class
+SHA1-Digest: XKBsgukBQSpFC2bF3H66685Y7lk=
+
+Name: net/sf/saxon/xqj/SaxonXMLGregorianCalendar.class
+SHA1-Digest: yAjxa3yj9efZuTr8ZPmI0VoWT1Y=
+
+Name: javax/xml/xquery/XQItemAccessor.class
+SHA1-Digest: 4zSnE0pZQlrOBgVLEbcbsND91IM=
+
+Name: net/sf/saxon/expr/number/NumericGroupFormatter.class
+SHA1-Digest: 53tQFrEWDBzvYx16PL77BM7FoRI=
+
+Name: net/sf/saxon/serialize/XML10ContentChecker.class
+SHA1-Digest: VsbyxIoDeQb5HNClhWM4TS8w2C4=
+
+Name: net/sf/saxon/value/DoubleValue.class
+SHA1-Digest: I2shz5+/EpneSPJ1aNyMZPZ9I5s=
+
+Name: net/sf/saxon/om/DocumentPool.class
+SHA1-Digest: pjyed/idb9jBFUxRBHTFjIjlsk0=
+
+Name: net/sf/saxon/expr/PromotionOffer.class
+SHA1-Digest: MKGZ+30/kqJPrx4zPVExsBmTYRc=
+
+Name: net/sf/saxon/expr/sort/NumericComparer11.class
+SHA1-Digest: YerS1fIZLYTAA6ux73ctg/xwN1o=
+
+Name: net/sf/saxon/value/HexBinaryValue$1.class
+SHA1-Digest: sLANCSZjGRfJW/aBQns9o270vVg=
+
+Name: net/sf/saxon/xqj/SaxonXQSequence.class
+SHA1-Digest: lAmp3Q3XkroV8BHekAJlIpXFvFs=
+
+Name: net/sf/saxon/Query$1.class
+SHA1-Digest: M53HYmwjSvEbNNDu8cuCzBHkq1k=
+
+Name: net/sf/saxon/expr/Calculator$DecimalPlusDecimal.class
+SHA1-Digest: UMWIKtPrW5sHCGQ7A7guoUpKXVU=
+
+Name: net/sf/saxon/functions/regex/RegularExpression.class
+SHA1-Digest: KvOBX/VtkVPwWN5fUlxlBOt4M7M=
+
+Name: net/sf/saxon/evpull/StaxToEventBridge$1.class
+SHA1-Digest: qz6miymL3RJh3+emTmOS3+2ZxQI=
+
+Name: net/sf/saxon/event/StartTagBuffer.class
+SHA1-Digest: pYospCwmfdULDSqyZhrOsWylOaQ=
+
+Name: net/sf/saxon/expr/CompareToIntegerConstant.class
+SHA1-Digest: kHvHpg3t7Az5DLlFjv5i1zqI7xw=
+
+Name: net/sf/saxon/tree/linked/TreeEnumeration.class
+SHA1-Digest: +gmxe0PCOQR9/6wsyq/7UCcp2vk=
+
+Name: net/sf/saxon/functions/UnparsedText.class
+SHA1-Digest: 6fqw676FCnlVg0slOspnfnC78EI=
+
+Name: net/sf/saxon/dom/NodeWrapper$ChildEnumeration.class
+SHA1-Digest: vRtH1IpXyGtgL3zQ+cnQJtZksl0=
+
+Name: net/sf/saxon/serialize/Emitter.class
+SHA1-Digest: t16KI28ypD8v3vVi1Hyf/yCq8o4=
+
+Name: net/sf/saxon/style/XSLImportSchema.class
+SHA1-Digest: V/wsReIahVeuuIj3rOjnZS2pzGU=
+
+Name: net/sf/saxon/value/NumericValue.class
+SHA1-Digest: 4C0xAcw+XWqn3LTY73Cj6R+d4Nc=
+
+Name: net/sf/saxon/tree/util/Navigator$BaseEnumeration.class
+SHA1-Digest: Pix6a4jmMuGCgjI7LY/cOXxQb/I=
+
+Name: javax/xml/xquery/XQConnectionEvent.class
+SHA1-Digest: uGz1pUp8/FRPLKDlZoFTlHv1IDw=
+
+Name: net/sf/saxon/expr/sort/SubstringMatcher.class
+SHA1-Digest: tQ5BCLY3XXVHkStCvuog6/Vcbdo=
+
+Name: net/sf/saxon/expr/instruct/FixedElement.class
+SHA1-Digest: Usub/Ip5Hvcx833apFryrsfhjuc=
+
+Name: net/sf/saxon/om/NameChecker.class
+SHA1-Digest: FtxBN4F8N6Xv0ZHckgraSUh+5SU=
+
+Name: net/sf/saxon/pattern/AnyNodeTest.class
+SHA1-Digest: EXgZTiMkd2Vhy/eUFJn+wdUr4Ss=
+
+Name: net/sf/saxon/expr/sort/EmptyGreatestComparer.class
+SHA1-Digest: rWzcsq8aeVl5AjjgIDpG4z1EbXE=
+
+Name: net/sf/saxon/expr/instruct/TraceExpression.class
+SHA1-Digest: FKdihl0sr2gFdQftrW9r+k+ii3w=
+
+Name: net/sf/saxon/style/UseWhenFilter.class
+SHA1-Digest: GNStkHbeq7HnPkpEy3bleOW5y1E=
+
+Name: net/sf/saxon/expr/ContextMappingFunction.class
+SHA1-Digest: +j/lN9ZF4HaVguXOqNeN+Af61oA=
+
+Name: net/sf/saxon/s9api/XdmItem.class
+SHA1-Digest: JzNvXDjoj+RPu+Za4fhE+BqoDD8=
+
+Name: net/sf/saxon/value/Base64BinaryValue$Base64Decoder.class
+SHA1-Digest: CVeTqIYFcc7MxsAAgdGBquZ84Vo=
+
+Name: net/sf/saxon/expr/JPConverter$FromSequenceIterator.class
+SHA1-Digest: dlFsOBgLUkHeDfNMy+pmz4HgCJg=
+
+Name: net/sf/saxon/expr/Tokenizer.class
+SHA1-Digest: UQW3fLaF4/7aijP5R6jTf2fVOh8=
+
+Name: net/sf/saxon/value/Closure.class
+SHA1-Digest: Bfje85k29/Q2S8Ee3gIOdZk1iiQ=
+
+Name: net/sf/saxon/dom/PIOverNodeInfo.class
+SHA1-Digest: oB7J2GlK2gglrrCuy3+ew7ywkE8=
+
+Name: net/sf/saxon/pull/PullPushTee.class
+SHA1-Digest: KWqdIzJkHLoZvFV1vqTKeXMyt1E=
+
+Name: net/sf/saxon/style/XSLParam.class
+SHA1-Digest: AE3DKdDH8v2qfhvRItgZJRhPinI=
+
+Name: net/sf/saxon/event/TeeOutputter.class
+SHA1-Digest: REgZ33bYoeYvdPQtBiy6JX+StUw=
+
+Name: net/sf/saxon/om/StandardNames.class
+SHA1-Digest: ybTavrgiYbvcQTAbv/Dz56t2oZA=
+
+Name: net/sf/saxon/expr/PJConverter$NumericValueToBigDecimal.class
+SHA1-Digest: jaVMclDgWyN7T9DZS1gFTEvBO5M=
+
+Name: net/sf/saxon/functions/EndsWith.class
+SHA1-Digest: nfLfktXKCJHGrlQTiCknPT93Dfo=
+
+Name: net/sf/saxon/value/SingletonItem.class
+SHA1-Digest: 6nfmz7bcK9QmU6RGh8B1A4A5i5M=
+
+Name: net/sf/saxon/functions/Last.class
+SHA1-Digest: WlCv7mc61crItg3fdYamK1+Adfw=
+
+Name: net/sf/saxon/functions/CodepointEqual.class
+SHA1-Digest: VMAfoXH4WpN9MXTnd16o0hox6J4=
+
+Name: net/sf/saxon/pattern/EmptySequenceTest.class
+SHA1-Digest: ON5TCZBaSHNt62uybJ5jfj69RwA=
+
+Name: net/sf/saxon/serialize/charcode/ISO88591CharacterSet.class
+SHA1-Digest: 06MSdFjYx1kQ9JZVyrt0ChSajYg=
+
+Name: net/sf/saxon/pattern/SchemaNodeTest.class
+SHA1-Digest: czAEibwkfZUfHRV+p9RKNldDvRo=
+
+Name: net/sf/saxon/expr/EmptyTextNodeRemover$1.class
+SHA1-Digest: XkMRpydLxTRpfzQpqg5doEVvUZs=
+
+Name: net/sf/saxon/s9api/ItemType$BuiltInAtomicItemType.class
+SHA1-Digest: AI2vbLZuqbzP5GLx+IQbchJ1JAg=
+
+Name: net/sf/saxon/tree/linked/ChildEnumeration.class
+SHA1-Digest: l/96ycFWTPIhtTOlkGoCkYctUOU=
+
+Name: net/sf/saxon/om/NamespaceException.class
+SHA1-Digest: fw6J4pCIPOTc/fIM/aweDA3ZSuA=
+
+Name: net/sf/saxon/serialize/charcode/JavaCharacterSet.class
+SHA1-Digest: tyTkR/6/P29NY1uoWSLPR8hgV4g=
+
+Name: net/sf/saxon/expr/PJConverter$IntegerValueToLong.class
+SHA1-Digest: L5xabBvWpJmJOQJtVUtDO/trR1E=
+
+Name: net/sf/saxon/expr/PJConverter$NumericValueToDouble.class
+SHA1-Digest: z7VK9ETqKdMLBHOj73Ww0VlyprU=
+
+Name: net/sf/saxon/expr/FilterExpression.class
+SHA1-Digest: dVLwnYTPvlYD7o9XnOkAX1nB69w=
+
+Name: net/sf/saxon/expr/instruct/NextMatch.class
+SHA1-Digest: Ij72erhWbh+5o/hq9/gLrfEhvPo=
+
+Name: net/sf/saxon/lib/NamespaceConstant.class
+SHA1-Digest: aY14lfEpg71e8orADnSM5E3ilR4=
+
+Name: net/sf/saxon/expr/sort/RuleBasedSubstringMatcher.class
+SHA1-Digest: cH9Oo22aZtg8kNgJKVM0MUvkkc8=
+
+Name: net/sf/saxon/pull/PullConsumer.class
+SHA1-Digest: IFq7+L0TCkBAsvmm/LAj7ss+nmc=
+
+Name: net/sf/saxon/functions/Compare.class
+SHA1-Digest: EOkHs82u5TzN/qNwT413hVbNcaU=
+
+Name: net/sf/saxon/om/NamespaceResolver.class
+SHA1-Digest: yBwUX16JY6yDr64BO3A1VXCcLQE=
+
+Name: net/sf/saxon/expr/instruct/Instruction.class
+SHA1-Digest: tDCNY/MosudjbuTfEVhwAAAXVDQ=
+
+Name: net/sf/saxon/functions/regex/RegexTranslator.class
+SHA1-Digest: YomLOx+WNYl7INcyzlncyPJy8lg=
+
+Name: net/sf/saxon/expr/PJConverter$QualifiedNameValueToQName.class
+SHA1-Digest: +pzVXq13uZsVydZ6cLgjLfrwSHo=
+
+Name: net/sf/saxon/type/BuiltInListType$ListTypeMappingFunction.class
+SHA1-Digest: LVUduPF6NQsY2l1wTPHeAFd+P5U=
+
+Name: net/sf/saxon/lib/SaxonOutputKeys.class
+SHA1-Digest: hjlc99KsWfe2eIaRiHFDL8sEs5Y=
+
+Name: net/sf/saxon/expr/instruct/ComputedElement.class
+SHA1-Digest: 9Qs9hAi1iIbIOecpwbgvxrfN+Tc=
+
+Name: net/sf/saxon/expr/SimpleExpression.class
+SHA1-Digest: ox2uvPxjbfUOxbPjFEMux1yMh1M=
+
+Name: net/sf/saxon/expr/ValueTailIterator.class
+SHA1-Digest: AmcHp81mzQ/kiEJ1pxLeN0aQg10=
+
+Name: net/sf/saxon/expr/JPConverter$FromBooleanArray.class
+SHA1-Digest: eXpICZSHm38L2OT61cvzBRA1vKQ=
+
+Name: net/sf/saxon/tree/tiny/TinyAttributeCollection.class
+SHA1-Digest: pJMjIeo9/BBpc0b+7aNsn3JPBMY=
+
+Name: net/sf/saxon/value/GMonthValue.class
+SHA1-Digest: w0SeZ+Qkx8XQMG/ABBbYHC2LM9E=
+
+Name: net/sf/saxon/expr/FunctionCall.class
+SHA1-Digest: eN1saccf6COiBC9HlelLSMhuKKc=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$Union.class
+SHA1-Digest: ejNU5FGKIwEkRWssqcq9IY4mhBU=
+
+Name: net/sf/saxon/expr/ErrorIterator.class
+SHA1-Digest: X4agNYkYnv1znFwFwRxaJkQuu5w=
+
+Name: net/sf/saxon/expr/instruct/SavedNamespaceContext.class
+SHA1-Digest: 84027eDnk+86WLZxbuuqDnfdxNU=
+
+Name: net/sf/saxon/expr/PJConverter$StringValueToString.class
+SHA1-Digest: 2gSesNTnXu9oVZEphHOGJ4UZXgI=
+
+Name: net/sf/saxon/serialize/MessageEmitter.class
+SHA1-Digest: wtNO0bSXeVSi3ilKUebLJt/ST2c=
+
+Name: net/sf/saxon/expr/sort/CalendarValueComparer.class
+SHA1-Digest: 0r48DYxYppyEEs2DCyZx4LgcsA0=
+
+Name: net/sf/saxon/expr/PromoteToFloat.class
+SHA1-Digest: AEFkv3O0CtND//HA5j14fXgKzD8=
+
+Name: net/sf/saxon/tree/linked/ProcInstImpl.class
+SHA1-Digest: 2BEyUQnewieshhRPzumIpiUDUZw=
+
+Name: net/sf/saxon/lib/SerializerFactory.class
+SHA1-Digest: +yXZNqg/d7yI9GKYW+YHOR7blbM=
+
+Name: net/sf/saxon/functions/IsWholeNumber$IsWholeNumberCall.class
+SHA1-Digest: 4wF/8Ky6PZ/bHPRNDzJ+Rx/1r1w=
+
+Name: net/sf/saxon/value/GMonthDayValue.class
+SHA1-Digest: 44tXIagDs8+QZjxqymbR3WiBWpQ=
+
+Name: net/sf/saxon/xqj/SaxonXQItem.class
+SHA1-Digest: 8yYlekmNhegaZaxhOk6GmIiN3oE=
+
+Name: net/sf/saxon/dom/DOMEnvelope.class
+SHA1-Digest: AtJXjdLeNVryF/NbzmHzRiTJ6oo=
+
+Name: net/sf/saxon/om/TreeModel$LinkedTree.class
+SHA1-Digest: vGa35UYnUhdwd9R5dISCXVybt/o=
+
+Name: net/sf/saxon/tree/tiny/TinyTreeEventIterator.class
+SHA1-Digest: 50nSvuJDNiln8/mOSw3gCjPdfUM=
+
+Name: net/sf/saxon/tree/util/NamespaceCodeIterator.class
+SHA1-Digest: rd2tRZHZbL5gpaqcAjrvSYIWEJQ=
+
+Name: net/sf/saxon/query/QueryParser$LetClause.class
+SHA1-Digest: Esd9Ftlc6lXtRK9w50cSKniDcC8=
+
+Name: javax/xml/xquery/XQStackTraceVariable.class
+SHA1-Digest: hCH3GpfE4FtcTSzWT2RcmHWpVZQ=
+
+Name: net/sf/saxon/trace/TraceEventMulticaster.class
+SHA1-Digest: HytujPmZQpHtvOo1dXw7oP5Ej5s=
+
+Name: net/sf/saxon/expr/sort/GroupByIterator.class
+SHA1-Digest: W8uQfMewBL+ZwIwW6l50A8Dz8Ic=
+
+Name: net/sf/saxon/expr/CollationMap.class
+SHA1-Digest: CQwc3b6vb1Xy2UfKNILVwpfvjT8=
+
+Name: net/sf/saxon/pull/PullProvider.class
+SHA1-Digest: com67hO9AF27sHQRpxPJ1dZRVQA=
+
+Name: net/sf/saxon/expr/instruct/SlotManager.class
+SHA1-Digest: 6hwg/RhRpwhW2kCaCUbZVla8kkw=
+
+Name: net/sf/saxon/java/JavaCollationFactory.class
+SHA1-Digest: YRKNvbp9/JSpXQhVGNtpVRw1H4A=
+
+Name: net/sf/saxon/evpull/BlockEventIterator.class
+SHA1-Digest: DmE/Pti97rgEC1eezS0sAgRYmWk=
+
+Name: net/sf/saxon/xpath/XPathFunctionLibrary.class
+SHA1-Digest: JqybPuAl+pGQJNkK24Qs8x7Y0+4=
+
+Name: net/sf/saxon/trans/DecimalSymbols.class
+SHA1-Digest: mZva5t1xaP2AqUyAsa+mQeT/3AQ=
+
+Name: net/sf/saxon/expr/PJConverter$Identity.class
+SHA1-Digest: Jw1tpmIEpKCSwhZbmtHF/IVuDBY=
+
+Name: net/sf/saxon/expr/sort/CodepointCollator.class
+SHA1-Digest: 1Kbf0vtOu6Yj9LmrY00qGzrJA2k=
+
+Name: net/sf/saxon/expr/JPConverter$FromByte.class
+SHA1-Digest: yohhgbDzu9Y3rlXsCdQMR2zNLHY=
+
+Name: net/sf/saxon/tree/linked/ElementImpl$1.class
+SHA1-Digest: ccsEI/MqOU3uXJRXaoEiZcMegc4=
+
+Name: net/sf/saxon/xpath/JAXPVariable.class
+SHA1-Digest: hQlID/uBDPZj+EEHduYN/EFgSIk=
+
+Name: net/sf/saxon/style/PrincipalStylesheetModule.class
+SHA1-Digest: Z2p1Lx6VtdtwN7bJIXIOuGdZtuo=
+
+Name: net/sf/saxon/pattern/PatternMaker.class
+SHA1-Digest: iu+TDv+NyIjx2CymIpOjYmGExWY=
+
+Name: net/sf/saxon/expr/instruct/Bindery$1.class
+SHA1-Digest: FwS/n22SSJJNkvgpldh7c+MLgCc=
+
+Name: net/sf/saxon/expr/ItemChecker$1.class
+SHA1-Digest: OpFNS5z3ZbvNr03Nna5MkmrVImY=
+
+Name: net/sf/saxon/expr/AtomicSequenceConverter$AtomicSequenceMappingF
+ unction.class
+SHA1-Digest: x8jiu7JgAKv7FgokgdFbxTMFV8U=
+
+Name: net/sf/saxon/expr/instruct/DocumentInstr.class
+SHA1-Digest: 8T0vYLSqEEpoGbRBL65tKsY3Y5s=
+
+Name: net/sf/saxon/event/SequenceWriter.class
+SHA1-Digest: oR7BCm3Rp4bHCwY5loivHVoF0bw=
+
+Name: net/sf/saxon/functions/Nilled.class
+SHA1-Digest: cc9LQYwSMrPUN4iUrwRouw36yoY=
+
+Name: net/sf/saxon/query/QueryParser$SortSpec.class
+SHA1-Digest: Si5xskfaQWJeGbxLXwr/TP5uPCY=
+
+Name: net/sf/saxon/functions/Reverse.class
+SHA1-Digest: yHkUBfnmz0wvFNdleGtC0pmZrVM=
+
+Name: net/sf/saxon/functions/Matches.class
+SHA1-Digest: 3c550q6e7QMnrJh6eP9MwAFewYI=
+
+Name: net/sf/saxon/expr/NumericPromoter.class
+SHA1-Digest: ksW7qxJJcqC8+ucTcNBF0fvCyHM=
+
+Name: net/sf/saxon/dom/DocumentWrapper.class
+SHA1-Digest: VMWD6Rdca8N5ChSy74z1XrdfN2g=
+
+Name: net/sf/saxon/pattern/AnchorPattern.class
+SHA1-Digest: kHM/yMUDjb6ErYfoFgMEKPleDn8=
+
+Name: net/sf/saxon/tree/tiny/PrecedingSiblingEnumeration.class
+SHA1-Digest: 2iOWmT1B/rrahFrVdyDLdADcips=
+
+Name: net/sf/saxon/expr/IntegerRangeTest.class
+SHA1-Digest: tp06JMBwtyuMSDGCM4O0OrrRMaA=
+
+Name: net/sf/saxon/expr/FilterIterator$NonNumeric.class
+SHA1-Digest: Z05IknvBOAFC3vtVGAK1ukOKK08=
+
+Name: net/sf/saxon/expr/instruct/Bindery$3.class
+SHA1-Digest: CtItyq1tcBk7yniuhwe7dnB7XbU=
+
+Name: net/sf/saxon/expr/StaticContext.class
+SHA1-Digest: aA4dA+M/+6GbIcfXQF9UC7OZbyY=
+
+Name: net/sf/saxon/functions/ExecutableFunctionLibrary.class
+SHA1-Digest: 8zARrCo3cVAJdAPBTV5jcWMLanQ=
+
+Name: net/sf/saxon/value/QualifiedNameValue.class
+SHA1-Digest: GykXmJu091as1xzQlhfAWLkMBcE=
+
+Name: net/sf/saxon/style/UseWhenFilter$1.class
+SHA1-Digest: uQI6niA/42lk/+hu0Wv13nA0KGg=
+
+Name: net/sf/saxon/value/BigIntegerValue.class
+SHA1-Digest: 6jj8xN2Z/7N5642kKE9gyv3MVGM=
+
+Name: net/sf/saxon/evpull/EndDocumentEvent.class
+SHA1-Digest: wK/qYBQkPkD5LrN8YLQpyXTZnu4=
+
+Name: net/sf/saxon/dom/DOMAttributeMap.class
+SHA1-Digest: XXY8N3a2XJDOyDsP5gJ3BmZ258E=
+
+Name: net/sf/saxon/expr/JPConverter$FromCollection.class
+SHA1-Digest: 3vOL5gjDBH8j6nJSqvI2b14borg=
+
+Name: net/sf/saxon/trans/UncheckedXPathException.class
+SHA1-Digest: OSbvkGqjXgyAJMnY5+2jON9Gt80=
+
+Name: net/sf/saxon/functions/NumberFn.class
+SHA1-Digest: PPDzPPSNtUVOe1DNyeOVyqsH5Vk=
+
+Name: net/sf/saxon/s9api/MessageListener.class
+SHA1-Digest: K4Oezcz2wGFl0z/FqVpIlyvDOzc=
+
+Name: net/sf/saxon/functions/regex/RegexIterator$OnGroup.class
+SHA1-Digest: aHGZqabmgELfrp1heHl17DBvK9A=
+
+Name: net/sf/saxon/expr/NumericPromoter$1.class
+SHA1-Digest: YygPkxU4YlT8yTgFDK7csSD8J8Y=
+
+Name: META-INF/services/javax.xml.xpath.XPathFactory
+SHA1-Digest: kibmMtks7qyOO99TJD+diJeu07I=
+
+Name: net/sf/saxon/event/RuleBasedStripper$StripRuleTarget.class
+SHA1-Digest: tZ892fngTUWf+/tex68uSH/LKVM=
+
+Name: net/sf/saxon/tree/iter/ListIterator.class
+SHA1-Digest: btdPI5o/ijwsKHnQo23whlWg13I=
+
+Name: net/sf/saxon/expr/instruct/Message.class
+SHA1-Digest: wbVx10ZvLggKCqct99EPOlepSEE=
+
+Name: net/sf/saxon/functions/URIQueryParameters.class
+SHA1-Digest: K1h6oWIUmBtCT/i8ipldnAlw3MI=
+
+Name: net/sf/saxon/value/IntegerRange.class
+SHA1-Digest: v9dc+QpzrsmyKrb3vKEj6nLytOQ=
+
+Name: net/sf/saxon/functions/DeepEqual.class
+SHA1-Digest: dJl8N3a7yI4DgvQ7MCDmc97XOr0=
+
+Name: net/sf/saxon/om/MutableDocumentInfo.class
+SHA1-Digest: 02pZzJyU6ISxrCPE4Qwhave2+Ek=
+
+Name: net/sf/saxon/tree/tiny/AppendableCharSequence.class
+SHA1-Digest: YPyNoyB4FvXzWV9yRiV3lazFTZA=
+
+Name: net/sf/saxon/expr/Calculator$AnyMinusAny.class
+SHA1-Digest: Ebf5QuCop0ZsouR7FPnpQPwEJWo=
+
+Name: net/sf/saxon/expr/ItemChecker$ItemCheckMappingFunction.class
+SHA1-Digest: vWWsRhVSy101DLT35klKETNq6/g=
+
+Name: net/sf/saxon/expr/sort/DocumentOrderIterator.class
+SHA1-Digest: Zxer6XoNyW18FO3Y9je3hFqY3vU=
+
+Name: net/sf/saxon/expr/JPConverter$FromLong.class
+SHA1-Digest: TIACOOkLCKwHTzh5TUTzvzAYW4Y=
+
+Name: net/sf/saxon/expr/instruct/ValueOf.class
+SHA1-Digest: EMD+k9beBW9ShKojf1ix1y29qsk=
+
+Name: net/sf/saxon/pattern/ContentTypeTest.class
+SHA1-Digest: x1qkb0HGH2tvGk02mcDppY6MsJI=
+
+Name: net/sf/saxon/functions/FunctionLibraryList.class
+SHA1-Digest: Rc7yAE5LlHUcxtVNA4TLkOXiA1w=
+
+Name: net/sf/saxon/trace/ContextStackFrame$VariableEvaluation.class
+SHA1-Digest: V2S3Fn9C21WH7yvJOLc+izU0lDM=
+
+Name: net/sf/saxon/query/SequenceWrapper.class
+SHA1-Digest: CxB9DRTYPsRNcrqW0MYAppR6j0g=
+
+Name: net/sf/saxon/xqj/ObjectConverter.class
+SHA1-Digest: zE6B7XWW505UBb6HGhsO6iduFjo=
+
+Name: net/sf/saxon/xpath/XPathEvaluator.class
+SHA1-Digest: MvGcvqdvZvvVrw/12vQDy4GQ3QM=
+
+Name: net/sf/saxon/expr/JPConverter$FromCharArray.class
+SHA1-Digest: XrqAmVpLyQQ6axlx3JL+wAyY68Q=
+
+Name: net/sf/saxon/tree/linked/FollowingEnumeration.class
+SHA1-Digest: rclUoQmlZfEie+5p9jZJmUuSyp0=
+
+Name: net/sf/saxon/om/Name10Checker.class
+SHA1-Digest: i0wHfViZsTLhhbleILzSNdh4cz8=
+
+Name: net/sf/saxon/dom/DOMObjectModel$3.class
+SHA1-Digest: inFMOYT+GNIHhfEbPjxzv+D3M0M=
+
+Name: net/sf/saxon/expr/PJConverter$StringValueToChar.class
+SHA1-Digest: oMg7qybSpJPMTHDWtHbfXLGf4aE=
+
+Name: net/sf/saxon/tree/tiny/TinyParentNodeImpl.class
+SHA1-Digest: htQPVhARnu/EH1N3+WTQeuOMdlA=
+
+Name: net/sf/saxon/expr/sort/GenericAtomicComparer.class
+SHA1-Digest: oZ/RLJMhKim9bJHRQ50HkyGQ+N8=
+
+Name: net/sf/saxon/serialize/codenorm/UnicodeDataGenerator.class
+SHA1-Digest: oJKDiqmUEo1RGfUC34l0AzsI9O8=
+
+Name: net/sf/saxon/expr/instruct/FixedAttribute.class
+SHA1-Digest: fhu0owk2P2e/RT+A1Nin+EQFw8I=
+
+Name: net/sf/saxon/s9api/QName.class
+SHA1-Digest: WIB5i8QRgVATpYGO+b459gC0+bU=
+
+Name: net/sf/saxon/tree/linked/DocumentImpl.class
+SHA1-Digest: qI14qll1G+zLffuIds2DYbg236k=
+
+Name: net/sf/saxon/event/ReceivingContentHandler$1.class
+SHA1-Digest: 1DIyEimjorI+JKZcCPRpTKneBwM=
+
+Name: net/sf/saxon/expr/Calculator$DurationPlusDuration.class
+SHA1-Digest: tZ7DG50QWJwgVgLnsHbQxajIkC4=
+
+Name: net/sf/saxon/expr/Expression.class
+SHA1-Digest: /2SUrwQo7OX50JT8+r7MK+uXmc0=
+
+Name: net/sf/saxon/functions/Data.class
+SHA1-Digest: tUJuNvR5rYtkH4aO97jQI3uApGk=
+
+Name: net/sf/saxon/expr/AppendIterator.class
+SHA1-Digest: s1HL656XRQH11EwmfmKynrwFSVE=
+
+Name: net/sf/saxon/expr/instruct/TailCall.class
+SHA1-Digest: //Qktz7HtpTv4aheqMh1Jqya39M=
+
+Name: net/sf/saxon/expr/QuantifiedExpression.class
+SHA1-Digest: l7NVGj0M2vb8bqMxcgIU6r85vyc=
+
+Name: net/sf/saxon/trace/InstructionInfo.class
+SHA1-Digest: AZF6NiLRIu/e4tMr5kDsy6j9+3M=
+
+Name: net/sf/saxon/tree/wrapper/TypeStrippedDocument.class
+SHA1-Digest: 4HqYvCLTBXJwsMLG1Ji4+nyEzFg=
+
+Name: net/sf/saxon/event/LocationProvider.class
+SHA1-Digest: kT0cLnTIoPtSnYIzMi2ThPJMQpk=
+
+Name: net/sf/saxon/event/TracingFilter.class
+SHA1-Digest: CY7ZAD/K/B43TpBMjNQnlwYKGt4=
+
+Name: net/sf/saxon/s9api/XPathExecutable.class
+SHA1-Digest: L59r+EaSmUJI9qyD4MTrypVgr3w=
+
+Name: net/sf/saxon/style/XSLTemplate.class
+SHA1-Digest: Itl5pCIe/rcesGb4/cTRkxoZ5Ys=
+
+Name: net/sf/saxon/tree/iter/NamespaceIterator.class
+SHA1-Digest: SH8NEoUrW8nF67SO7anzgjDkwWQ=
+
+Name: net/sf/saxon/pattern/DocumentNodeTest.class
+SHA1-Digest: NT/+VgQyyvEJok3XEooKUGZ22lk=
+
+Name: net/sf/saxon/expr/Calculator$AnyDivAny.class
+SHA1-Digest: ZBGui6odGGjwNs2DImXgluHvOZ0=
+
+Name: net/sf/saxon/expr/EveryItemMappingIterator.class
+SHA1-Digest: hdkaMW163OyOYB+IyDo16CowadM=
+
+Name: net/sf/saxon/type/ISchemaCompiler.class
+SHA1-Digest: Gpu2IMhIV8vwiT1xxs980XPga0A=
+
+Name: net/sf/saxon/evpull/SequenceComposer$SubtreeIterator.class
+SHA1-Digest: 6REEqLHsVdFFlg1fB/GW+JU3rdk=
+
+Name: net/sf/saxon/lib/ConversionRules.class
+SHA1-Digest: 05cM+OI03MbqhnOb1ddnk1k97R4=
+
+Name: net/sf/saxon/evpull/BracketedDocumentIterator.class
+SHA1-Digest: X7+dSv8du6rgGvN+KfhGgb37Q6o=
+
+Name: net/sf/saxon/expr/sort/TupleExpression.class
+SHA1-Digest: uh0D4g/Y83RzvT+6hNSpx5j6RTw=
+
+Name: net/sf/saxon/expr/ExpressionParser$ForClause.class
+SHA1-Digest: yhscOmpJaei+ef6XLfKEKtO4ujY=
+
+Name: net/sf/saxon/query/XQueryExpression$ErrorReportingIterator.class
+SHA1-Digest: rN42uxUvzrN6Ud/JnzQgDMOi3vw=
+
+Name: net/sf/saxon/style/XSLNamespaceAlias.class
+SHA1-Digest: 676L7J7EWGsRbtRqN/XmSpaoEdk=
+
+Name: net/sf/saxon/trans/KeyDefinitionSet.class
+SHA1-Digest: KDL86x5OO/fG64k2l0wb9pf27uA=
+
+Name: net/sf/saxon/functions/IntegratedFunctionCall$1.class
+SHA1-Digest: cgOuA/AJ8faMS45WDFVPr3ublWo=
+
+Name: net/sf/saxon/s9api/OccurrenceIndicator.class
+SHA1-Digest: 5lkAai+uCf4vKtxkMoAwjXjFJs4=
+
+Name: net/sf/saxon/expr/PJConverter$IntegerValueToInt.class
+SHA1-Digest: 0fIEmeoqV6urlWnBZv+xcL8xvLE=
+
+Name: net/sf/saxon/dom/DOMObjectModel$5.class
+SHA1-Digest: nlzJaKjQFvM5TDUiXkbAn+EVu0U=
+
+Name: net/sf/saxon/style/XSLFunction.class
+SHA1-Digest: 893su6TOhmI3MtdA4g/sSa4DfOM=
+
+Name: net/sf/saxon/tree/util/DocumentNumberAllocator.class
+SHA1-Digest: VM1jLef6RQkXrv1o0mHHCQCYHZk=
+
+Name: net/sf/saxon/type/ListType.class
+SHA1-Digest: A/9mDjosHyiHLEX6qQK1nsieXqY=
+
+Name: net/sf/saxon/expr/AxisExpression.class
+SHA1-Digest: vRHGBQMAlnL+dNMvTBFQkACu/xs=
+
+Name: net/sf/saxon/pull/StaxBridge$StaxErrorReporter.class
+SHA1-Digest: 0h1N4O526uMlViHhSrzDIRrUX+w=
+
+Name: net/sf/saxon/tree/linked/LinkedTreeBuilder$1.class
+SHA1-Digest: KQhwdKb1ZVQnGuxNVqgk5yuKOUY=
+
+Name: net/sf/saxon/expr/Calculator$DoubleTimesDouble.class
+SHA1-Digest: IM+sHXyZVyF0TrF77VMXLcs0stY=
+
+Name: net/sf/saxon/value/DurationValue.class
+SHA1-Digest: H0iErSffW0VXrhWjMhitOBBMzP0=
+
+Name: net/sf/saxon/xpath/XPathExpressionImpl.class
+SHA1-Digest: HHBLlyoZm/CShyu2aio80NxkF5k=
+
+Name: net/sf/saxon/functions/Root.class
+SHA1-Digest: cvp6ULvCW5yKdGP5bW1wkJWDKsM=
+
+Name: net/sf/saxon/s9api/Serializer.class
+SHA1-Digest: ljBBCkLnk5HDLB1lUJ+nef8rcrk=
+
+Name: net/sf/saxon/dom/DOMObjectModel$6.class
+SHA1-Digest: 6cxTmklpQwNLH5hheJsxHpaZo0w=
+
+Name: net/sf/saxon/functions/ResolveQName.class
+SHA1-Digest: iGWvqUo4gLUjYu8V09roih9hsH0=
+
+Name: net/sf/saxon/event/RuleBasedStripper$2.class
+SHA1-Digest: SL6I0uFwnt1oRqUQNY/P1+D4+Vk=
+
+Name: net/sf/saxon/tree/tiny/SiblingEnumeration.class
+SHA1-Digest: bf0BDN2rA+JqRThoRJUQf9XdgKU=
+
+Name: net/sf/saxon/style/XSLApplyTemplates.class
+SHA1-Digest: 1+ORCwi6sHuhPTajtZayRZArblQ=
+
+Name: net/sf/saxon/lib/Validation.class
+SHA1-Digest: gjrawQ0vMNdglCJTtLf3Ryn8jAA=
+
+Name: net/sf/saxon/s9api/SaxonApiUncheckedException.class
+SHA1-Digest: Lw+GOkR86rA+kJae7X0Wx1KM6hM=
+
+Name: net/sf/saxon/expr/TailExpression.class
+SHA1-Digest: RpmcUmJgrKwZ3/nWsoCRk44YnwY=
+
+Name: net/sf/saxon/style/XSLForEach.class
+SHA1-Digest: tGoITxV8p+8M0lR094DikCTXvL0=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator.class
+SHA1-Digest: Mr0fuw22+jOtmclvUD+8R9/pu9s=
+
+Name: net/sf/saxon/expr/instruct/LocalVariable.class
+SHA1-Digest: xrgnol/A/SLy2UTRFhXgvZKKSkM=
+
+Name: net/sf/saxon/functions/Translate.class
+SHA1-Digest: kTBZMsStc8mhfKwsGNNa/h0lGDM=
+
+Name: net/sf/saxon/expr/PJConverter$IntegerValueToChar.class
+SHA1-Digest: EcAFm8QKNUcjgn+RHsEHmWVDVi4=
+
+Name: net/sf/saxon/query/QueryModule$ActiveNamespace.class
+SHA1-Digest: Vl1E1RYdUfF2UktHR2rLPI1PDNo=
+
+Name: net/sf/saxon/expr/instruct/WithParam.class
+SHA1-Digest: dGq3rjJTzWiLAFQPg2PQtdNSBUI=
+
+Name: net/sf/saxon/expr/Atomizer.class
+SHA1-Digest: ens28aJZ8oZGj/zyXUXQuRquHYs=
+
+Name: net/sf/saxon/expr/sort/IntIterator.class
+SHA1-Digest: sNam8bBx3ZZwDTjSqfyBwUhT5eE=
+
+Name: net/sf/saxon/serialize/HTMLEmitter.class
+SHA1-Digest: JG476VQ26jm2kOIX9pq+NHTm9SA=
+
+Name: net/sf/saxon/expr/sort/TextComparer.class
+SHA1-Digest: ebpJioJvcMgpUpcvBQ0beflibu4=
+
+Name: net/sf/saxon/evpull/StartDocumentEvent.class
+SHA1-Digest: dRSuv/0gJ9l6jgRJNSytC5lnn8E=
+
+Name: net/sf/saxon/pattern/Pattern$3.class
+SHA1-Digest: U9I+2IM82nC/TZQOJO92zLeOx70=
+
+Name: net/sf/saxon/event/ReceivingContentHandler$LocalLocator.class
+SHA1-Digest: 8m/o+bdBJ5WBvyCg7YhaBQLzqMw=
+
+Name: net/sf/saxon/pull/PullPushCopier.class
+SHA1-Digest: xGorlO86REEXjrRzMnMX7U33z/M=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$Complement.cla
+ ss
+SHA1-Digest: n49NpJ5lt01uS1iD2gxdd3AkFG4=
+
+Name: net/sf/saxon/expr/VennExpression.class
+SHA1-Digest: TdUdWMRsLNVuVbOvBFwzGdogyfw=
+
+Name: net/sf/saxon/pattern/IdrefTest.class
+SHA1-Digest: kvcn1PQhawLqHcknPMkqF+ijhzE=
+
+Name: net/sf/saxon/serialize/codenorm/UnicodeData.class
+SHA1-Digest: uWXwSFHpy//oXwq70vjdD4+jum4=
+
+Name: net/sf/saxon/expr/XPathContext.class
+SHA1-Digest: 4u1G/htSWSVoPZaF79Q5y2QMycE=
+
+Name: net/sf/saxon/value/Value$ValueSchemaComparable.class
+SHA1-Digest: 4nF/MRb0gsHWSMHSBiUKXxFbrHc=
+
+Name: net/sf/saxon/style/XSLPreserveSpace.class
+SHA1-Digest: SXVuyg9RT8YwlzzbM9Qmu2N8BXw=
+
+Name: net/sf/saxon/s9api/XsltCompiler.class
+SHA1-Digest: A6U/nWVsIJskcjGBR7+A9qweJJc=
+
+Name: net/sf/saxon/expr/AtomicSequenceConverter.class
+SHA1-Digest: dJCPckiD0lpol1uYj+mvo1j9T8c=
+
+Name: javax/xml/xquery/XQQueryException.class
+SHA1-Digest: QEub+L5qg8F+Hk65nP9Dmj/tD9w=
+
+Name: net/sf/saxon/tree/tiny/FollowingEnumeration.class
+SHA1-Digest: 7Svk6S8ttEDUPoUTXHSenv4tmLI=
+
+Name: net/sf/saxon/tree/tiny/CompressedWhitespace.class
+SHA1-Digest: Ihe5J7XqQwezQqVTcTEFT1FQ0P0=
+
+Name: net/sf/saxon/functions/IndexOf.class
+SHA1-Digest: Mt2X1t2MadghRKa89jsNs5zYrZ8=
+
+Name: net/sf/saxon/value/YearMonthDurationValue.class
+SHA1-Digest: XeyJ/SLJ/3TSQKtWaELiS69noIM=
+
+Name: net/sf/saxon/expr/NegateExpression.class
+SHA1-Digest: i8yalpbymM3919mSUWT4Tf8XITA=
+
+Name: net/sf/saxon/expr/Calculator$DecimalTimesDecimal.class
+SHA1-Digest: 8yqTPiqgYSbfpozTezffYry+J1Q=
+
+Name: net/sf/saxon/evpull/PullEventSource.class
+SHA1-Digest: ojEL9MvcOJKBV3p/Pp1V5GAo6cw=
+
+Name: net/sf/saxon/style/StyleElement.class
+SHA1-Digest: YIDpOAajKJ+w9yjxDTQhuS68wUo=
+
+Name: net/sf/saxon/expr/ExpressionVisitor.class
+SHA1-Digest: 3PEWsXJuwP4RZLwm0sV6xoxB/Gs=
+
+Name: net/sf/saxon/value/TextFragmentValue$1.class
+SHA1-Digest: PpoCXKTpAmcXcfCLddZlVWNopHI=
+
+Name: net/sf/saxon/expr/sort/IntSet.class
+SHA1-Digest: FI4hXP/wYql0XshooF5+3yLZ/r0=
+
+Name: net/sf/saxon/expr/PJConverter$AnyURIValueToURI.class
+SHA1-Digest: u2FoCC1ifpEN3B9WAkWVjcRdwX0=
+
+Name: net/sf/saxon/om/NamePool$NamePoolLimitException.class
+SHA1-Digest: xoxwC3NgQG4q4DTwRVSfyfTquUA=
+
+Name: net/sf/saxon/expr/instruct/Procedure.class
+SHA1-Digest: YXbTnJYd3tTAx66abpJ0NfVE81I=
+
+Name: net/sf/saxon/expr/BinaryExpression.class
+SHA1-Digest: 3d14ESzDkIxbf1oxuq/d8UbgOSE=
+
+Name: net/sf/saxon/expr/Calculator$FloatPlusFloat.class
+SHA1-Digest: JXgGi574yDV4Xa3S4A9lAGtwF9E=
+
+Name: net/sf/saxon/type/BuiltInListType$1.class
+SHA1-Digest: tFOlVbQrp8PnNdWew96cfUxa13U=
+
+Name: net/sf/saxon/om/TreeModel$TinyTreeCondensed.class
+SHA1-Digest: RHfg7S7k8PG9w+C0fjEbRq4MWNw=
+
+Name: net/sf/saxon/xqj/SaxonXQMetaData.class
+SHA1-Digest: y73qfUUe19AJnM4Y7xgfszTkXnw=
+
+Name: net/sf/saxon/expr/instruct/Doctype.class
+SHA1-Digest: bp4YZX3Yg0NFeLTvrsU2GUVCFmg=
+
+Name: net/sf/saxon/expr/instruct/GlobalParam.class
+SHA1-Digest: Jwx29wG0TgSnLeY+XpuCKGrveQY=
+
+Name: net/sf/saxon/expr/sort/TupleSorter$TupleUnwrapper.class
+SHA1-Digest: MdibNJdiKYXU/ddIcJJhRpP8020=
+
+Name: net/sf/saxon/lib/StandardCollectionURIResolver$2.class
+SHA1-Digest: XmFMN6rYKTYTXjOoNcrOcSP4t2s=
+
+Name: net/sf/saxon/functions/Doc.class
+SHA1-Digest: V5RLHq+AXep6hXwYAynWxMhVGbk=
+
+Name: net/sf/saxon/expr/SlashExpression$2.class
+SHA1-Digest: 97WTSQfOHoEIy/iqD5conCI/sCc=
+
+Name: net/sf/saxon/functions/Available.class
+SHA1-Digest: 0eyMEaWGMMNQm6+jLUoCpMcOzdM=
+
+Name: net/sf/saxon/functions/regex/RegexTranslator$Range.class
+SHA1-Digest: vSpKfSqd82OA91hTAL/w79URxpk=
+
+Name: net/sf/saxon/expr/number/IrregularGroupFormatter.class
+SHA1-Digest: nUM/pgQ4b9/6AiX7IXNnwCaEzu8=
+
+Name: net/sf/saxon/tree/linked/ElementImpl.class
+SHA1-Digest: 0979o0s7M2cI3ESlE4zwxQylcJE=
+
+Name: net/sf/saxon/expr/SingletonAtomizer.class
+SHA1-Digest: E91eWYzCiBcApx8tLGToTS30nZU=
+
+Name: net/sf/saxon/pattern/IDPattern.class
+SHA1-Digest: T9eSwM6MkU/MF7rzS0jWGHZHIBI=
+
+Name: net/sf/saxon/expr/instruct/LocationMap.class
+SHA1-Digest: X90GlrZnKY/ezphbLT4j0T1r+qo=
+
+Name: net/sf/saxon/expr/sort/IntHashMap$IntHashMapKeyIterator.class
+SHA1-Digest: 37uhYUhxMEfBeYNL6FYKo+5Qvc8=
+
+Name: net/sf/saxon/expr/instruct/AnalyzeString$AnalyzeMappingFunction.
+ class
+SHA1-Digest: XRT8/PgoiLqCk1h79PLFxxfdKUk=
+
+Name: net/sf/saxon/dom/AttrOverNodeInfo.class
+SHA1-Digest: KrmsTvcl5zxEbONK16tuMV0OKOY=
+
+Name: net/sf/saxon/style/StyleNodeFactory.class
+SHA1-Digest: g6cs7c1XAPCT5fR9ghzLvX9Oe3Y=
+
+Name: net/sf/saxon/functions/Id$IdMappingFunction.class
+SHA1-Digest: JxWVfCpfqc2CJEr+iOOFoy7KvUE=
+
+Name: net/sf/saxon/expr/JPConverter$FromObjectArray.class
+SHA1-Digest: aRitXBTdukij4OCudHdEZEZRQ1E=
+
+Name: net/sf/saxon/s9api/Destination.class
+SHA1-Digest: uBnGxVeQ+eYjXEExmD3VhUs4y10=
+
+Name: net/sf/saxon/trans/SaxonErrorCode.class
+SHA1-Digest: JoAk1FJNAfv9gsLlgY4yKVP0bwE=
+
+Name: net/sf/saxon/serialize/charcode/UTF16CharacterSet.class
+SHA1-Digest: o9jIWC9cKkhMbUh50fUaoIAR1Og=
+
+Name: net/sf/saxon/value/Cardinality.class
+SHA1-Digest: FUTOiQ2IJ+xGLTch5Rhv1RzSJ4U=
+
+Name: net/sf/saxon/s9api/Processor.class
+SHA1-Digest: w9B5ogAhCxeXRj70zy+I72UWxIk=
+
+Name: net/sf/saxon/functions/regex/JDK15RegexTranslator$SingleChar.cla
+ ss
+SHA1-Digest: JOa8SC/8bpyqhsFzvbSbjxjBn3o=
+
+Name: net/sf/saxon/expr/instruct/UserFunctionParameter.class
+SHA1-Digest: MBtfd6aTJ9sMVbgdXH2D6wuLJ6k=
+
+Name: net/sf/saxon/om/NodeInfo.class
+SHA1-Digest: i8ivjcNbqhi11xn74rN5QzUKJCc=
+
+Name: net/sf/saxon/expr/instruct/GeneralVariable.class
+SHA1-Digest: mmGWdBNL6zLUEifv+WtMRaP+bwg=
+
+Name: net/sf/saxon/expr/PJConverter$AnyURIValueToURL.class
+SHA1-Digest: c+hiHmEWnPoJY3YTiSMdGqbaSIg=
+
+Name: net/sf/saxon/style/XSLOtherwise.class
+SHA1-Digest: Rm1O04kjGMF4Oiw3KH+iaG07E30=
+
+Name: net/sf/saxon/expr/GeneralComparison.class
+SHA1-Digest: gEiQ7YgS22jZlp+UtW+r/J8H/X0=
+
+Name: net/sf/saxon/dom/TextOverNodeInfo.class
+SHA1-Digest: wBY7U6cvXhsKrB02BVHNuizHgxs=
+
+Name: net/sf/saxon/value/Whitespace.class
+SHA1-Digest: t3Mc93iVqVsrlfxd5KmqSb83uvw=
+
+Name: META-INF/services/javax.xml.transform.TransformerFactory
+SHA1-Digest: hpRNxjqKvOt7ZyZxUnI2yRYhbb4=
+
+Name: net/sf/saxon/functions/DistinctValues.class
+SHA1-Digest: cPr2xTKzu7fQxBpL1kY5nX41e3c=
+
+Name: net/sf/saxon/s9api/DocumentBuilder$BuildingContentHandlerImpl.cl
+ ass
+SHA1-Digest: yOuMKJDjfrnU9u65KEJFD4zy0CY=
+
+Name: net/sf/saxon/functions/regex/JRegularExpression.class
+SHA1-Digest: 3N9RT+wkPGRLNrE7GoRo/tqA65A=
+
+Name: net/sf/saxon/functions/IntegratedFunctionLibrary.class
+SHA1-Digest: UBZ9uBe2gTYSA6IcdxsoP9CFrY4=
+
+Name: net/sf/saxon/functions/EscapeURI.class
+SHA1-Digest: GCSJRJOOjCrczKRlGGQJIo65BKA=
+
+Name: net/sf/saxon/expr/sort/LowercaseFirstCollator.class
+SHA1-Digest: uqU9o47saD+LXeV6QdObQBa5ukg=
+
+Name: net/sf/saxon/evpull/EventToStaxBridge$1.class
+SHA1-Digest: Of6KZmC+kUZcTWM+fybyqPqcqLg=
+
+Name: net/sf/saxon/query/XQueryExpression.class
+SHA1-Digest: 2/mJ7S6BtOwicFeX2JatPWMBqNc=
+
+Name: net/sf/saxon/event/NoOpenStartTagException.class
+SHA1-Digest: V+7LSUTaQ/5FFqEizcKQGOhigEM=
+
+Name: net/sf/saxon/expr/instruct/SimpleNodeConstructor.class
+SHA1-Digest: e393gUGW9zteIVLpjLW5w1PgfKk=
+
+Name: net/sf/saxon/expr/Calculator$DurationDivNumeric.class
+SHA1-Digest: qy3iitk0quphckpyfMAkhJ1c9Pc=
+
+Name: net/sf/saxon/expr/sort/IntHashMap.class
+SHA1-Digest: OvYMJi0wY5Qbdn+z1rSQ6nd4Clg=
+
+Name: net/sf/saxon/style/XSLSequence.class
+SHA1-Digest: Nhc8gOw+mWi9gWISzci+EAHczks=
+
+Name: net/sf/saxon/expr/PathMap$PathMapArc.class
+SHA1-Digest: 2w3/PpFGZuOflRWJFUbzW66FQPw=
+
+Name: net/sf/saxon/tree/tiny/DescendantEnumeration.class
+SHA1-Digest: wcOW+uSyIjV/faRy1TBVioGtalw=
+

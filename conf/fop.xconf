@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<fop version="1.0">
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        
+        <!--
+        Configuration blocks like the following, or setting @metrics-url to
+        an xml file containing generated font metrics - FOP contains a
+        program to generate those - might be required in certain cases.
+        However, after much experimenting, I haven't found any cases where
+        that works and simply relying on <auto-detect> doesn't.  See
+        detailed notes in Evernote.
+        
+        <font embed-url="file:/Library/Fonts/Georgia.ttf">
+          <font-triplet name="Georgia" style="normal" weight="normal" />
+        </font>
+        -->
+        
+        <auto-detect />
+        
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>
