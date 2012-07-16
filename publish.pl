@@ -256,15 +256,20 @@ sub get_pdf_calendar_dates
         m|
             ^
             (\d{1,2})/(\d{1,2})/(\d{2}(?:\d{2})?)   # M/D/YY or M/D/YYYY
-            -
-            (\d{1,2})/(\d{1,2})/(\d{2}(?:\d{2})?)   # same
+            (?:                                     # end date: same but
+                -                                   #   optional
+                (\d{1,2})/(\d{1,2})/(\d{2}(?:\d{2})?)
+            )?
             $
         |x
     ) {
         my $y0 = (length($3) > 2 ? $3 : 2000 + $3);
-        my $y1 = (length($6) > 2 ? $6 : 2000 + $6);
+        my $y1 = (defined($4)
+            ? (length($6) > 2 ? $6 : 2000 + $6)
+            : undef);
         my $start = sprintf("%04d-%02d-%02d", $y0, $1, $2);
-        my $end = sprintf("%04d-%02d-%02d", $y1, $4, $5);
+        my $end = (defined($y1) ? sprintf("%04d-%02d-%02d", $y1, $4, $5)
+            : undef);
         return ($start, $end);
     }
     return (undef, undef);
@@ -604,7 +609,8 @@ sub process_year_to_pdf
 
 #
 # Generate the PDF calendar for an arbitrary date range.  Pass in dates
-# formatted as YYYY-MM-DD.
+# formatted as YYYY-MM-DD.  If $enddate is undef, will keep going until
+# the last date available.
 #
 sub process_arbitrary_pdf_calendar
 {
@@ -619,8 +625,8 @@ sub process_arbitrary_pdf_calendar
         '-pdf', $outfile,
         '-param', 'input-base-uri', "file:$XML_DIR/",
         '-param', 'start', $startdate,
-        '-param', 'end', $enddate
     );
+    push(@cmd, ('-param', 'end', $enddate) ) if defined($enddate);
     
     print "\n", join(' ', @cmd), "\n\n" if $debug;
     

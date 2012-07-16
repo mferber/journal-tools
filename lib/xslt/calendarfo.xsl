@@ -15,7 +15,7 @@
   OR:
   
     start - xs:date - starting date
-    end - xs:date - ending date
+    end - xs:date - ending date (optional)
   
   In case of conflict, $year is used in precedence to $start/$end.
   
