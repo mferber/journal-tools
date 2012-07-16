@@ -589,7 +589,7 @@ sub process_year_to_pdf
     my @cmd = ("$FOP_DIR/fop",
         '-c', "$CONF_DIR/fop.xconf",
         '-xml', "$LIB_DIR/xslt/null.xml",
-        '-xsl', "$LIB_DIR/xslt/year2fo.xsl",
+        '-xsl', "$LIB_DIR/xslt/calendarfo.xsl",
         '-pdf', "$PDF_DIR/${yr}-calendar.pdf",
         '-param', 'input-base-uri', "file:$XML_DIR/",
         '-param', 'year', $yr
@@ -615,7 +615,7 @@ sub process_arbitrary_pdf_calendar
     my @cmd = ("$FOP_DIR/fop",
         '-c', "$CONF_DIR/fop.xconf",
         '-xml', "$LIB_DIR/xslt/null.xml",
-        '-xsl', "$LIB_DIR/xslt/year2fo.xsl",
+        '-xsl', "$LIB_DIR/xslt/calendarfo.xsl",
         '-pdf', $outfile,
         '-param', 'input-base-uri', "file:$XML_DIR/",
         '-param', 'start', $startdate,
