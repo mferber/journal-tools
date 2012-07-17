@@ -159,10 +159,10 @@
           master-name="main"
           page-height="8.5in"
           page-width="11in"
-          margin-top="0.5in"
+          margin-top="0.75in"
           margin-bottom="0.5in"
           margin-left="0.5in"
-          margin-right="0.25in"
+          margin-right="0.5in"
         >
           <fo:region-body />
         </fo:simple-page-master>
@@ -348,13 +348,13 @@
   
   <xsl:function name="maf:display-font">
     <xsl:attribute name="font-family">Helvetica</xsl:attribute>
-    <xsl:attribute name="font-size">8pt</xsl:attribute>
+    <xsl:attribute name="font-size">7pt</xsl:attribute>
     <xsl:attribute name="font-weight">bold</xsl:attribute>
   </xsl:function>
   
   <xsl:function name="maf:main-font">
     <xsl:attribute name="font-family">Georgia</xsl:attribute>
-    <xsl:attribute name="font-size">8pt</xsl:attribute>
+    <xsl:attribute name="font-size">7pt</xsl:attribute>
     <xsl:attribute name="font-weight">normal</xsl:attribute>
   </xsl:function>
   
