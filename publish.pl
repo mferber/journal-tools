@@ -698,6 +698,11 @@ sub smartypants
     $tmp =~ s/&#8220;/“/g;
     $tmp =~ s/&#8221;/”/g;
     $tmp =~ s/&#8212;/—/g;  # em dash
+    
+    # Remove spaces adjacent to em dashes, completing the conversion of
+    # " -- " to em dash
+    $tmp =~ s/ ?— ?/—/g;
+    
     return $tmp;
 }
 
