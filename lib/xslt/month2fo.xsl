@@ -27,7 +27,7 @@
   
   <xsl:function name="maf:date-header-font">
     <xsl:attribute name="font-family">Franklin Gothic Medium</xsl:attribute>
-    <xsl:attribute name="font-size">18pt</xsl:attribute>
+    <xsl:attribute name="font-size">16pt</xsl:attribute>
     <xsl:attribute name="font-weight">normal</xsl:attribute>
   </xsl:function>
   
