@@ -3,22 +3,15 @@
   <renderers>
     <renderer mime="application/pdf">
       <fonts>
-        
+      
+        <!-- font files (.ttf) live here -->
+        <directory>lib/fonts</directory>
+
         <!--
-        Configuration blocks like the following, or setting @metrics-url to
-        an xml file containing generated font metrics - FOP contains a
-        program to generate those - might be required in certain cases.
-        However, after much experimenting, I haven't found any cases where
-        that works and simply relying on <auto-detect> doesn't.  See
-        detailed notes in Evernote.
-        
-        <font embed-url="file:/Library/Fonts/Georgia.ttf">
-          <font-triplet name="Georgia" style="normal" weight="normal" />
-        </font>
+          Uncomment this to auto-detect all usable system fonts
+          <auto-detect />
         -->
-        
-        <auto-detect />
-        
+
       </fonts>
     </renderer>
   </renderers>
