@@ -1,0 +1,7 @@
+FONT NOTES
+
+Baskerville - unusable; no Unicode cmap table
+Doves Type Pro - unusable; "OpenType fonts with CFF data are not supported, yet"
+Futura - unusable; no Unicode cmap table
+Optima - unusable; no Unicode cmap table
+Rockwell - unusable; legacy font suitcase
