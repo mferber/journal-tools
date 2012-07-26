@@ -20,26 +20,25 @@
     Blackletter (suitcase) if I'm feeling frivolous) -->
   
   <xsl:function name="maf:month-header-font">
-    <xsl:attribute name="font-family">Helvetica</xsl:attribute>
+    <xsl:attribute name="font-family">Franklin Gothic Medium</xsl:attribute>
     <xsl:attribute name="font-size">24</xsl:attribute>
-    <xsl:attribute name="font-weight">bold</xsl:attribute>
+    <xsl:attribute name="font-weight">normal</xsl:attribute>
   </xsl:function>
   
   <xsl:function name="maf:date-header-font">
-    <xsl:attribute name="font-family">Helvetica</xsl:attribute>
-    <xsl:attribute name="font-size">14pt</xsl:attribute>
-    <xsl:attribute name="font-weight">bold</xsl:attribute>
+    <xsl:attribute name="font-family">Franklin Gothic Medium</xsl:attribute>
+    <xsl:attribute name="font-size">18pt</xsl:attribute>
+    <xsl:attribute name="font-weight">normal</xsl:attribute>
   </xsl:function>
   
   <xsl:function name="maf:summary-font">
-    <xsl:attribute name="font-family">Helvetica</xsl:attribute>
-    <xsl:attribute name="font-size">10pt</xsl:attribute>
-    <xsl:attribute name="font-weight">bold</xsl:attribute>
-    <xsl:attribute name="line-height">125%</xsl:attribute>
+    <xsl:attribute name="font-family">Franklin Gothic Book</xsl:attribute>
+    <xsl:attribute name="font-size">11pt</xsl:attribute>
+    <xsl:attribute name="font-weight">normal</xsl:attribute>
   </xsl:function>
 
   <!-- Candidate main-text fonts: Constantia (old-style numerals, tight
-    spacing); Baskerville (.dfont); Bell MT (.dfont); Garamond (suitcase);
+    spacing); Baskerville (.ttc); Bell MT (.dfont); Garamond (suitcase);
     Georgia; Goudy Old Style (suitcase); Lucida Bright (suitcase) -->
   <xsl:function name="maf:main-font">
     <xsl:attribute name="font-family">Constantia</xsl:attribute>
@@ -55,20 +54,18 @@
     <xsl:attribute name="text-align">center</xsl:attribute>
     <xsl:attribute name="padding-top">0.5em</xsl:attribute>
     <xsl:attribute name="padding-bottom">0.5em</xsl:attribute>
-    <!--<xsl:attribute name="border-top-width">3px</xsl:attribute>
-    <xsl:attribute name="border-top-style">solid</xsl:attribute>-->
     <xsl:attribute name="border-bottom-width">3px</xsl:attribute>
     <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
-    <!--<xsl:attribute name="border-left-width">3px</xsl:attribute>
-    <xsl:attribute name="border-left-style">solid</xsl:attribute>
-    <xsl:attribute name="border-right-width">3px</xsl:attribute>
-    <xsl:attribute name="border-right-style">solid</xsl:attribute>-->
     <xsl:attribute name="space-after">2em</xsl:attribute>
+  </xsl:function>
+  
+  <xsl:function name="maf:date-summary-header-block-formatting">
+    <xsl:attribute name="border-bottom-width">1pt</xsl:attribute>
+    <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
   </xsl:function>
   
   <xsl:function name="maf:date-block-formatting">
     <xsl:sequence select="maf:date-header-font()" />
-    <xsl:attribute name="padding-bottom">0.25em</xsl:attribute>
     <xsl:attribute name="border-bottom-width">2pt</xsl:attribute>
     <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
   </xsl:function>
@@ -78,21 +75,17 @@
   
   <xsl:function name="maf:summary-block-formatting">
     <xsl:sequence select="maf:summary-font()" />
-    <xsl:attribute name="border-bottom-width">1pt</xsl:attribute>
-    <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
-    <xsl:attribute name="background-color">#f3f3f3</xsl:attribute>
+    <xsl:attribute name="text-align">left</xsl:attribute>
+    <xsl:attribute name="margin-top">0.3em</xsl:attribute>
+    <xsl:attribute name="margin-bottom">0.3em</xsl:attribute>
   </xsl:function>
 
   <xsl:function name="maf:summary-inner-block-formatting">
-    <xsl:attribute name="margin-top">0.5em</xsl:attribute>
-    <xsl:attribute name="margin-bottom">0.5em</xsl:attribute>
-    <xsl:attribute name="margin-left">1em</xsl:attribute>
-    <xsl:attribute name="margin-right">1em</xsl:attribute>
-    <xsl:attribute name="text-align">justify</xsl:attribute>
   </xsl:function>
   
   <xsl:function name="maf:main-block-formatting">
     <xsl:sequence select="maf:main-font()" />
+    <xsl:attribute name="margin-left">3em</xsl:attribute>
     <xsl:attribute name="space-before">1em</xsl:attribute>
     <xsl:attribute name="space-after">2em</xsl:attribute>
     <xsl:attribute name="text-align">justify</xsl:attribute>
@@ -151,18 +144,18 @@
   </xsl:template>
   
   <xsl:template match="entry">
-    <fo:block keep-together="1">
-      <fo:block>
+    <fo:block keep-together="1"><!-- date/summary header -->
+      <xsl:sequence select="maf:date-summary-header-block-formatting()" />
+      <fo:block><!-- date -->
         <xsl:sequence select="maf:date-block-formatting()" />
         <fo:inline>
           <xsl:sequence select="maf:date-inline-formatting()" />
           <xsl:value-of select="format-date(xs:date(@date), '[F], [MNn] [D], [Y]')" />
         </fo:inline>
       </fo:block>
-      
       <!-- Don't render the summary at all unless it has content -->
       <xsl:if test="exists(summary/(text()|*))">
-        <fo:block>
+        <fo:block><!-- summary -->
           <xsl:sequence select="maf:summary-block-formatting()" />
           <fo:block>
             <xsl:sequence select="maf:summary-inner-block-formatting()" />
@@ -170,6 +163,7 @@
           </fo:block>
         </fo:block>
       </xsl:if>
+
     </fo:block>
     <fo:block keep-with-previous="1">
       <xsl:sequence select="maf:main-block-formatting()" />
