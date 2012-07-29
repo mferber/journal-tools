@@ -1,7 +1,17 @@
 FONT NOTES
 
+----------------------------------------------------------------------
+Unusable fonts, with reason
+----------------------------------------------------------------------
 Baskerville - unusable; no Unicode cmap table
 Doves Type Pro - unusable; "OpenType fonts with CFF data are not supported, yet"
-Futura - unusable; no Unicode cmap table
+Futura - unusable; no Unicode cmap table (haven't reproduced this error)
 Optima - unusable; no Unicode cmap table
 Rockwell - unusable; legacy font suitcase
+
+----------------------------------------------------------------------
+Fonts successfully extracted from suitcases with fondu
+(fondu <font-suitcase-name>/..namedfork/rsrc)
+----------------------------------------------------------------------
+Bookman Old Style
+Garamond
