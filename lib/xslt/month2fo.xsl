@@ -88,12 +88,10 @@
     <xsl:attribute name="margin-left">3em</xsl:attribute>
     <xsl:attribute name="space-before">1em</xsl:attribute>
     <xsl:attribute name="space-after">2em</xsl:attribute>
-    <xsl:attribute name="text-align">justify</xsl:attribute>
   </xsl:function>
   
   <xsl:function name="maf:text-para-formatting">
     <xsl:attribute name="space-after">1em</xsl:attribute>
-    <xsl:attribute name="text-align">justify</xsl:attribute>
   </xsl:function>
   
   
