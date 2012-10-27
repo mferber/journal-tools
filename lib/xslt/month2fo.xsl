@@ -32,7 +32,7 @@
   </xsl:function>
   
   <xsl:function name="maf:summary-font">
-    <xsl:attribute name="font-family">Franklin Gothic Medium</xsl:attribute>
+    <xsl:attribute name="font-family">Franklin Gothic Book</xsl:attribute>
     <xsl:attribute name="font-size">11pt</xsl:attribute>
     <xsl:attribute name="font-weight">normal</xsl:attribute>
   </xsl:function>
