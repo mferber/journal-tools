@@ -59,7 +59,7 @@ BEGIN {
     our $JOURNAL_BASE = '/Users/mferber/Documents/Journal';
     our $LIB_DIR = "$JOURNAL_BASE/etc/lib";
     our $CONF_DIR = "$JOURNAL_BASE/etc/conf";
-    our $FOP_DIR = "$JOURNAL_BASE/etc/fop-1.0";
+    our $FOP_DIR = "$JOURNAL_BASE/etc/fop-1.1";
     our $XML_DIR = "$JOURNAL_BASE/published/xml";
     our $HTML_DIR = "$JOURNAL_BASE/published/html";
     our $PDF_DIR = "$JOURNAL_BASE/published/pdf";
