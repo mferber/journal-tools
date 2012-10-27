@@ -5,6 +5,7 @@ Unusable fonts, with reason
 ----------------------------------------------------------------------
 Baskerville - unusable; no Unicode cmap table
 Doves Type Pro - unusable; "OpenType fonts with CFF data are not supported, yet"
+  (but see http://comments.gmane.org/gmane.text.xml.fop.user/33817)
 Futura - unusable; no Unicode cmap table (haven't reproduced this error)
 Optima - unusable; no Unicode cmap table
 Rockwell - unusable; legacy font suitcase
