@@ -135,7 +135,7 @@
                         <xsl:if test="../text">
                           <xsl:attribute name="has-body">yes</xsl:attribute>
                         </xsl:if>
-                        <xsl:sequence select="*|text()" />
+                        <xsl:sequence select="p/(*|text())" />
                       </calendar-entry>
                     </xsl:if>
                   </xsl:for-each>
@@ -295,12 +295,12 @@
   </xsl:template>
   
   
-  <xsl:template match="i">
+  <xsl:template match="i|em">
     <fo:inline font-style="italic"><xsl:apply-templates select="text()|*" /></fo:inline>
   </xsl:template>
 
   
-  <xsl:template match="b">
+  <xsl:template match="b|strong">
     <fo:inline font-weight="bold"><xsl:apply-templates select="text()|*" /></fo:inline>
   </xsl:template>
   

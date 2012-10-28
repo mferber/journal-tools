@@ -60,8 +60,6 @@
   </xsl:function>
   
   <xsl:function name="maf:date-summary-header-block-formatting">
-    <xsl:attribute name="border-bottom-width">1pt</xsl:attribute>
-    <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
   </xsl:function>
   
   <xsl:function name="maf:date-block-formatting">
@@ -78,6 +76,9 @@
     <xsl:attribute name="text-align">left</xsl:attribute>
     <xsl:attribute name="margin-top">0.3em</xsl:attribute>
     <xsl:attribute name="margin-bottom">0.3em</xsl:attribute>
+    <xsl:attribute name="padding-bottom">0.3em</xsl:attribute>
+    <xsl:attribute name="border-bottom-width">1pt</xsl:attribute>
+    <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
   </xsl:function>
 
   <xsl:function name="maf:summary-inner-block-formatting">
@@ -92,6 +93,17 @@
   
   <xsl:function name="maf:text-para-formatting">
     <xsl:attribute name="space-after">1em</xsl:attribute>
+    
+    <!--
+    <xsl:attribute name="border-bottom-width">2pt</xsl:attribute>
+    <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
+    <xsl:attribute name="border-top-width">2pt</xsl:attribute>
+    <xsl:attribute name="border-top-style">solid</xsl:attribute>
+    <xsl:attribute name="border-left-width">2pt</xsl:attribute>
+    <xsl:attribute name="border-left-style">solid</xsl:attribute>
+    <xsl:attribute name="border-right-width">2pt</xsl:attribute>
+    <xsl:attribute name="border-right-style">solid</xsl:attribute>
+    -->
   </xsl:function>
   
   
@@ -157,7 +169,7 @@
           <xsl:sequence select="maf:summary-block-formatting()" />
           <fo:block>
             <xsl:sequence select="maf:summary-inner-block-formatting()" />
-            <xsl:apply-templates mode="#current" select="summary/(text()|*)" />
+            <xsl:apply-templates mode="#current" select="summary/p/(text()|*)" />
           </fo:block>
         </fo:block>
       </xsl:if>
@@ -165,7 +177,7 @@
     </fo:block>
     <fo:block keep-with-previous="1">
       <xsl:sequence select="maf:main-block-formatting()" />
-      <xsl:apply-templates select="text/p" />
+      <xsl:apply-templates select="text/*" />
     </fo:block>
   </xsl:template>
   
@@ -177,19 +189,48 @@
     </fo:block>
   </xsl:template>
     
+  <!-- italics -->
+  <xsl:template match="i|em">
+    <fo:inline font-style="italic">
+      <xsl:apply-templates select="text()|*" />
+    </fo:inline>
+  </xsl:template>
+  
+  <!-- bold -->
+  <xsl:template match="b|strong">
+    <fo:inline font-weight="bold">
+      <xsl:apply-templates select="text()|*" />
+    </fo:inline>
+  </xsl:template>
+  
+  <!-- unordered list -->
+  <xsl:template match="ul">
+    <fo:list-block provisional-distance-between-starts="1em"
+      provisional-label-separation="0.5em" margin-left="2em"
+    >
+      <xsl:sequence select="maf:text-para-formatting()" />
+      <xsl:apply-templates select="li" />
+    </fo:list-block>
+  </xsl:template>
+  
+  <xsl:template match="li">
+    <fo:list-item>
+      <fo:list-item-label end-indent="label-end()">
+        <fo:block>•</fo:block>
+      </fo:list-item-label>
+      <fo:list-item-body start-indent="body-start()">
+        <fo:block>
+          <xsl:apply-templates select="text()|*" />
+        </fo:block>
+      </fo:list-item-body>
+    </fo:list-item>
+  </xsl:template>
+  
   <!-- catchall for unhandled elements: copy text and children -->
   <xsl:template match="element()">
     <xsl:copy>
       <xsl:apply-templates mode="#current" select="text()|*" />
     </xsl:copy>
-  </xsl:template>
-  
-  <xsl:template match="i">
-    <fo:inline font-style="italic"><xsl:apply-templates select="text()|*" /></fo:inline>
-  </xsl:template>
-  
-  <xsl:template match="b">
-    <fo:inline font-weight="bold"><xsl:apply-templates select="text()|*" /></fo:inline>
   </xsl:template>
   
   

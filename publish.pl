@@ -75,6 +75,7 @@ use Getopt::Std;
 use IO::File;
 use IO::String;
 use Time::Local;
+use Text::Markdown 'markdown';
 use Text::SmartyPants;
 use XML::Twig;
 use XML::Writer;
@@ -350,6 +351,7 @@ sub collect_month_xml
     my $xmlw = XML::Writer->new(
         OUTPUT => $xmls,
         ENCODING => 'UTF-8',
+        UNSAFE => 1,            # unsafe to allow passthru of Markdown output
     );
     
     $xmlw->xmlDecl();
@@ -431,42 +433,21 @@ sub convert_entry_to_xml
             'weekday' => $WEEKDAYNAMES[$dow]);
         if ($summary =~ /\S/) {
             $xmlw->startTag('summary');
-            write_with_tagged_italics($summary, $xmlw);
+            $xmlw->raw(markdown($summary));
             $xmlw->endTag('summary');
         }
         if (@paras) {
             $xmlw->startTag('text');
-            for (@paras) {
-                if (/\S/) {
-                    $xmlw->startTag('p');
-                    write_with_tagged_italics($_, $xmlw);
-                    $xmlw->endTag('p');
-                }
-            }
+            
+#            print markdown(join("\n\n", @paras)) if $datestamp eq '2012-03-08';
+            
+            $xmlw->raw(markdown(join("\n\n", @paras)));
             $xmlw->endTag('text');
         }
         $xmlw->endTag('entry');
     }
     else {
         warn "Error opening $filepath: $!";
-    }
-}
-
-
-#
-# Tag italicized sections marked with *
-# (this might be a good feature to replace with Markdown or MultiMarkdown)
-#
-sub write_with_tagged_italics {
-    my ($text, $xmlw) = @_;
-    
-    # Replace *this* with <i>this</i>, at word/punctuation boundaries
-    my @parts = split(/\*((?:\b|\W)[^\*]+(?:\b|\W))\*/i, $text);
-    while (@parts) {
-        #warn $parts[0];
-        $xmlw->characters(shift(@parts));
-        #warn "<$parts[0]>" if @parts;
-        $xmlw->dataElement('i', shift(@parts)) if @parts;
     }
 }
 
@@ -555,12 +536,14 @@ sub process_month_to_pdf
         '-xml', $xmlfile,
         '-xsl', "$LIB_DIR/xslt/month2fo.xsl",
         '-pdf', "$PDF_DIR/$moyrfile.pdf",
+        #'-foout', 'out.fo',     # uncomment in place of prev line to debug FO
     );
     
     print "\n", join(' ', @cmd), "\n\n" if $debug;
     
     $ENV{'FOP_OPTS'} = $FOP_OPTS;
     system(@cmd);
+    #die;  # uncomment if debugging FO
 }
 
 
