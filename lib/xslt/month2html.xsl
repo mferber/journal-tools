@@ -96,7 +96,7 @@
   
   <xsl:template match="summary">
     <div class="summary">
-      <xsl:apply-templates mode="#current" select="*|text()" />
+      <xsl:apply-templates mode="#current" select="p/(*|text())" />
     </div>
   </xsl:template>
   
