@@ -41,7 +41,7 @@
     spacing); Baskerville (.ttc); Bell MT (.dfont); Garamond (suitcase);
     Georgia; Goudy Old Style (suitcase); Lucida Bright (suitcase) -->
   <xsl:function name="maf:main-font">
-    <xsl:attribute name="font-family">Garamond</xsl:attribute>
+    <xsl:attribute name="font-family">Constantia</xsl:attribute>
     <xsl:attribute name="font-size">11pt</xsl:attribute>
     <xsl:attribute name="font-weight">normal</xsl:attribute>
     <xsl:attribute name="line-height">130%</xsl:attribute>
