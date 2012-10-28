@@ -33,25 +33,25 @@
 #
 # Range:
 #
-#   The date range to process.  May be a single month (M/YY), a
-#   range of months (M/YY-M/YY), or "all" to process all available
+#   The date range to process.  May be a single month (YYYY-MM), a
+#   range of months (YYYY-MM,YYYY-MM), or "all" to process all available
 #   dates.
 #
 #   For "pdf-calendar" mode only, must be a date range given as
-#   M/D/YY-M/D/YY.  The XML must have been generated for the months
-#   in that range already.  The output file must also be specified
+#   "YYYY-MM-DD,YYYY-MM-DD".  The XML must have been generated for the
+#   months in that range already.  The output file must also be specified
 #   on the command line.
 #
 # Command line examples:
 #
-#   publish.pl 1/01
-#   publish.pl 1/01-7/10
-#   publish.pl pdf 1/01
-#   publish.pl xml html 2/01
+#   publish.pl 2001-01
+#   publish.pl 2001-01,2010-07
+#   publish.pl pdf 2001-01
+#   publish.pl xml html 2001-02
 #   publish.pl all
 #   publish.pl html all
 #
-#   publish.pl pdf-calendar 1/5/06-8/13/09
+#   publish.pl pdf-calendar 2006-01-05,2009-08-13
 #
 ######################################################################
 
@@ -174,7 +174,7 @@ print "Done.\n";
 
 #
 # Get the month/year range from the command line argument (for all
-# phases except pdf-calendar
+# phases except pdf-calendar)
 #
 sub get_month_range
 {
@@ -194,24 +194,24 @@ sub get_month_range
         if ($arg =~
             m|
                 ^                               # starting month...
-                (\d{1,2})/(\d{2}(?:\d{2})?)     #   M/YY or M/YYYY
+                (\d{4})-(\d{1,2})               #   YYYY-MM or YYYY-M
                 (?:                             # ending month...
-                    -
-                    (\d{1,2})/(\d{2}(?:\d{2})?) # M/YY or M/YYYY
+                    ,
+                    (\d{4})-(\d{1,2})           # M/YY or M/YYYY
                 )?                              # ending month is optional
                 $
             |x
         ) {
-            ($from_mo, $from_yr) = ($1, $2);
+            ($from_yr, $from_mo) = ($1, $2);
             if (defined($3)) {
-                ($to_mo, $to_yr) = ($3, $4);
+                ($to_yr, $to_mo) = ($3, $4);
             }
             else {
-                ($to_mo, $to_yr) = ($from_mo, $from_yr);
+                ($to_yr, $to_mo) = ($from_yr, $from_mo);
             }
         }
     }
-    return ($from_mo, $from_yr, $to_mo, $to_yr);
+    return (0+$from_mo, 0+$from_yr, 0+$to_mo, 0+$to_yr);
 }
 
 
@@ -255,21 +255,14 @@ sub get_pdf_calendar_dates
     if ($arg =~
         m|
             ^
-            (\d{1,2})/(\d{1,2})/(\d{2}(?:\d{2})?)   # M/D/YY or M/D/YYYY
-            (?:                                     # end date: same but
-                -                                   #   optional
-                (\d{1,2})/(\d{1,2})/(\d{2}(?:\d{2})?)
-            )?
+            (\d{4})-(\d{1,2})-(\d{1,2})     # YYYY-MM-DD, M/D may be single dgt
+            ,
+            (\d{4})-(\d{1,2})-(\d{1,2})
             $
         |x
     ) {
-        my $y0 = (length($3) > 2 ? $3 : 2000 + $3);
-        my $y1 = (defined($4)
-            ? (length($6) > 2 ? $6 : 2000 + $6)
-            : undef);
-        my $start = sprintf("%04d-%02d-%02d", $y0, $1, $2);
-        my $end = (defined($y1) ? sprintf("%04d-%02d-%02d", $y1, $4, $5)
-            : undef);
+        my $start = sprintf("%04d-%02d-%02d", $1, $2, $3);
+        my $end = sprintf("%04d-%02d-%02d", $4, $5, $6);
         return ($start, $end);
     }
     return (undef, undef);
@@ -343,7 +336,7 @@ sub collect_month_xml
         "journal.$yr-" . sprintf("%02d", $mo) . '-??.txt');
     my @entries = sort(glob($pat));
 
-    print "Collecting XML for $mo/$yr... found ",
+    print "Collecting XML for ", dispmonth($yr, $mo), "... found ",
       scalar(@entries), ' entr', (@entries == 1 ? 'y' : 'ies'), "\n";
     
     @entries or return 0;
@@ -492,7 +485,7 @@ sub process_month_to_html
         return;
     }
     
-    print "Rendering $mo/$yr full text to HTML...\n";
+    print "Rendering ", dispmonth($yr, $mo), " full text to HTML...\n";
     my @cmd = ('java',
         '-classpath', "$LIB_DIR/java/saxon9he",
         'net.sf.saxon.Transform',
@@ -556,7 +549,7 @@ sub process_month_to_pdf
         return;
     }
     
-    print "Rendering $mo/$yr full text to PDF...\n";
+    print "Rendering ", dispmonth($yr, $mo), " full text to PDF...\n";
     my @cmd = ("$FOP_DIR/fop",
         '-c', "$CONF_DIR/fop.xconf",
         '-xml', $xmlfile,
@@ -616,7 +609,7 @@ sub process_arbitrary_pdf_calendar
 {
     my ($startdate, $enddate, $outfile) = @_;
     
-    print "Rendering calendar range to PDF...\n";
+    print "Rendering calendar range $startdate thru $enddate to PDF...\n";
     
     my @cmd = ("$FOP_DIR/fop",
         '-c', "$CONF_DIR/fop.xconf",
@@ -683,6 +676,13 @@ sub get_validated_date
     }
     
     return $realdate;
+}
+
+# Display-formatted month
+sub dispmonth
+{
+    my ($yr, $mo) = @_;
+    return sprintf("%04d-%02d", $yr, $mo);
 }
 
 
