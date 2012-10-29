@@ -86,24 +86,10 @@
   
   <xsl:function name="maf:main-block-formatting">
     <xsl:sequence select="maf:main-font()" />
-    <xsl:attribute name="margin-left">3em</xsl:attribute>
+    <xsl:attribute name="margin-left">2em</xsl:attribute>
     <xsl:attribute name="space-before">1em</xsl:attribute>
     <xsl:attribute name="space-after">2em</xsl:attribute>
-  </xsl:function>
-  
-  <xsl:function name="maf:text-para-formatting">
-    <xsl:attribute name="space-after">1em</xsl:attribute>
-    
-    <!--
-    <xsl:attribute name="border-bottom-width">2pt</xsl:attribute>
-    <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
-    <xsl:attribute name="border-top-width">2pt</xsl:attribute>
-    <xsl:attribute name="border-top-style">solid</xsl:attribute>
-    <xsl:attribute name="border-left-width">2pt</xsl:attribute>
-    <xsl:attribute name="border-left-style">solid</xsl:attribute>
-    <xsl:attribute name="border-right-width">2pt</xsl:attribute>
-    <xsl:attribute name="border-right-style">solid</xsl:attribute>
-    -->
+    <xsl:attribute name="line-height">1.5</xsl:attribute>
   </xsl:function>
   
   
@@ -181,14 +167,64 @@
     </fo:block>
   </xsl:template>
   
-  
-  <xsl:template match="summary|p">
+  <!-- summary content -->
+  <xsl:template match="summary/p">
     <fo:block>
-      <xsl:sequence select="maf:text-para-formatting()" />
       <xsl:apply-templates select="text()|*" />
     </fo:block>
   </xsl:template>
+  
+  <!-- text paragraph -->
+  <xsl:template match="text/p">
+    <fo:block>
     
+      <!-- I use a convention where subsections in the text are marked
+        with [Label] of some kind at the start of the paragraph. Make
+        those run flush left and set them off from the preceding para.
+        All normal text paragraphs are indented. -->
+      <!-- Start by getting the first child of the <p>, IF it's text() -->
+      <xsl:variable name="first-child-text"
+        select="(*|text())[1][self::text()]"
+      />
+      <xsl:choose>
+      
+        <xsl:when test="starts-with($first-child-text, '[')">
+        
+          <!-- set off from preceding para unless this is 1st para -->
+          <xsl:if test="position() ne 1">
+            <xsl:attribute name="space-before">1em</xsl:attribute>
+          </xsl:if>
+          
+          <!-- extract the label text and format it for emphasis -->
+          <xsl:analyze-string select="$first-child-text"
+            regex="^\[(.*)\]\s+(.*)$"
+          >
+            <xsl:matching-substring>
+              <fo:inline font-weight="bold" font-size="120%"
+                font-style="italic"
+              >
+                <xsl:value-of select="regex-group(1)" />
+              </fo:inline>
+              <xsl:text> — </xsl:text>
+              <xsl:value-of select="regex-group(2)" />
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+              <xsl:value-of select="$first-child-text" />
+            </xsl:non-matching-substring>
+          </xsl:analyze-string>
+          
+        </xsl:when>
+        <xsl:otherwise>
+        
+          <xsl:attribute name="text-indent">0.25in</xsl:attribute>
+          <xsl:apply-templates select="text()|*" />
+          
+        </xsl:otherwise>
+      </xsl:choose>
+
+    </fo:block>
+  </xsl:template>
+  
   <!-- italics -->
   <xsl:template match="i|em">
     <fo:inline font-style="italic">
@@ -206,9 +242,9 @@
   <!-- unordered list -->
   <xsl:template match="ul">
     <fo:list-block provisional-distance-between-starts="1em"
-      provisional-label-separation="0.5em" margin-left="2em"
+      provisional-label-separation="0.5em" margin-left="3em"
+      space-before="1em" space-after="1em"
     >
-      <xsl:sequence select="maf:text-para-formatting()" />
       <xsl:apply-templates select="li" />
     </fo:list-block>
   </xsl:template>
