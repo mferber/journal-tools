@@ -377,7 +377,12 @@ sub collect_month_xml
         output_encoding => 'utf-8',
         pretty_print => 'indented',
     );
-    $twig->parse($xml);
+    eval {
+        $twig->parse($xml);
+    };
+    if ($@) {
+        die "Parse failed: $@\n$xml\n";
+    }
     
     my $xmlwpathnew = "$xmlwpath.new";
     (my $xmlwfile = IO::File->new($xmlwpathnew, 'w'))
@@ -420,10 +425,9 @@ sub convert_entry_to_xml
         $text = join("\n", @lines);
         
         $summary =~ s/^\!\s*//;
-        my @paras = grep(/\S/, split(/\n{2,}/, $text));
         
         $summary = smartypants($summary);
-        $_ = smartypants($_) for @paras;
+        $text = smartypants($text);
         
         my $date = get_validated_date(basename($filepath), $dateline);
         my ($sec, $min, $hr, $mday, $pmon, $pyr, $dow) = localtime($date);
@@ -433,15 +437,15 @@ sub convert_entry_to_xml
             'weekday' => $WEEKDAYNAMES[$dow]);
         if ($summary =~ /\S/) {
             $xmlw->startTag('summary');
-            $xmlw->raw(markdown($summary));
+            $xmlw->raw(clean_markdown($summary));
             $xmlw->endTag('summary');
         }
-        if (@paras) {
+        if ($text) {
             $xmlw->startTag('text');
             
-#            print markdown(join("\n\n", @paras)) if $datestamp eq '2012-03-08';
+            # Markdown conversion
+            $xmlw->raw(clean_markdown($text));
             
-            $xmlw->raw(markdown(join("\n\n", @paras)));
             $xmlw->endTag('text');
         }
         $xmlw->endTag('entry');
@@ -532,10 +536,11 @@ sub process_month_to_pdf
     
     print "Rendering ", dispmonth($yr, $mo), " full text to PDF...\n";
     my @cmd = ("$FOP_DIR/fop",
-        '-c', "$CONF_DIR/fop.xconf",
-        '-xml', $xmlfile,
-        '-xsl', "$LIB_DIR/xslt/month2fo.xsl",
-        '-pdf', "$PDF_DIR/$moyrfile.pdf",
+        '-q',                                   # quiet mode
+        '-c', "$CONF_DIR/fop.xconf",            # FOP config
+        '-xml', $xmlfile,                       # XML input
+        '-xsl', "$LIB_DIR/xslt/month2fo.xsl",   # XSLT transform
+        '-pdf', "$PDF_DIR/$moyrfile.pdf",       # PDF output
         #'-foout', 'out.fo',     # uncomment in place of prev line to debug FO
     );
     
@@ -687,6 +692,25 @@ sub smartypants
     $tmp =~ s/ ?— ?/—/g;
     
     return $tmp;
+}
+
+
+# Run Markdown and tidy up the results a little: there's an apparent
+# buglet in Markdown where anything that looks like an entity
+# (matching /&\S+;/) is presumed to be an entity, and the & is left
+# unencoded, which breaks down in non-entity constructs like "Ate some M&Ms;
+# they weren't bad."  We'll deal with that by preconverting these to entities.
+# (Note that the input will never contain actual entities, so this is safe.)
+# A similar situation holds with things that look like tags, but we can
+# safely handle those too.
+sub clean_markdown
+{
+    my $in = shift;
+    
+    $in =~ s/&(\S+);/&amp;$1;/g;
+    $in =~ s/</&lt;/g;
+    $in =~ s/>/&gt;/g;
+    return markdown($in);
 }
 
 
