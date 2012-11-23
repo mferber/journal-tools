@@ -696,7 +696,7 @@ sub smartypants
 
 
 # Run Markdown and tidy up the results a little: there's an apparent
-# buglet in Markdown where anything that looks like an entity
+# buglet (feature?) in Markdown where anything that looks like an entity
 # (matching /&\S+;/) is presumed to be an entity, and the & is left
 # unencoded, which breaks down in non-entity constructs like "Ate some M&Ms;
 # they weren't bad."  We'll deal with that by preconverting these to entities.
@@ -709,7 +709,11 @@ sub clean_markdown
     
     $in =~ s/&(\S+);/&amp;$1;/g;
     $in =~ s/</&lt;/g;
-    $in =~ s/>/&gt;/g;
+    
+    # Leave >'s alone because leading ones designate blockquotes in Markdown.
+    # Unclear whether that will cause problems with Markdown's attempts to
+    # detect HTML tags.
+    
     return markdown($in);
 }
 
