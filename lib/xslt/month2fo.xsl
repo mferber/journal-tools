@@ -200,8 +200,8 @@
             regex="^\[(.*)\]\s+(.*)$"
           >
             <xsl:matching-substring>
-              <fo:inline font-weight="bold" font-size="120%"
-                font-style="italic"
+              <fo:inline font-weight="bold" font-style="italic"
+                background-color="#eee"
               >
                 <xsl:value-of select="regex-group(1)" />
               </fo:inline>
