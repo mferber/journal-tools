@@ -8,6 +8,7 @@
   exclude-result-prefixes="#all"
 >
   <!-- Attribute set functions -->
+  <!-- FIXME: why can't these be xsl:variables? -->
   
   <!-- 
     Font configuration is limited to (apparently) a subset of installed
@@ -36,19 +37,11 @@
     <xsl:attribute name="font-size">11pt</xsl:attribute>
     <xsl:attribute name="font-weight">normal</xsl:attribute>
   </xsl:function>
-
-  <!-- Candidate main-text fonts: Constantia (old-style numerals, tight
-    spacing); Baskerville (.ttc); Bell MT (.dfont); Garamond (suitcase);
-    Georgia; Goudy Old Style (suitcase); Lucida Bright (suitcase) -->
-  <xsl:function name="maf:main-font">
-    <xsl:attribute name="font-family">Constantia</xsl:attribute>
-    <xsl:attribute name="font-size">11pt</xsl:attribute>
-    <xsl:attribute name="font-weight">normal</xsl:attribute>
-    <xsl:attribute name="line-height">130%</xsl:attribute>
+  
+  <xsl:function name="maf:indented-paragraph-formatting">
+    <xsl:attribute name="text-indent">0.25in</xsl:attribute>
   </xsl:function>
-  
-  
-  
+
   <xsl:function name="maf:month-header-formatting">
     <xsl:sequence select="maf:month-header-font()" />
     <xsl:attribute name="text-align">center</xsl:attribute>
@@ -92,6 +85,30 @@
     <xsl:attribute name="line-height">1.5</xsl:attribute>
   </xsl:function>
   
+  <xsl:function name="maf:blockquote-block-formatting">
+    <xsl:sequence select="maf:blockquote-font()" />
+    <xsl:attribute name="margin-left">0.5in</xsl:attribute>
+    <xsl:attribute name="space-before">1em</xsl:attribute>
+    <xsl:attribute name="space-after">1em</xsl:attribute>
+  </xsl:function>
+  
+
+  <!-- Candidate main-text fonts: Constantia (old-style numerals, tight
+    spacing); Baskerville (.ttc); Bell MT (.dfont); Garamond (suitcase);
+    Georgia; Goudy Old Style (suitcase); Lucida Bright (suitcase) -->
+  <xsl:function name="maf:main-font" as="node()*">
+    <xsl:attribute name="font-family">Constantia</xsl:attribute>
+    <xsl:attribute name="font-size">11pt</xsl:attribute>
+    <xsl:attribute name="font-weight">normal</xsl:attribute>
+    <xsl:attribute name="line-height">130%</xsl:attribute>
+  </xsl:function>
+  
+  <xsl:function name="maf:blockquote-font">
+    <xsl:sequence select="maf:main-font()[local-name(.) ne 'font-size']" />
+    <xsl:attribute name="font-size">10pt</xsl:attribute>
+  </xsl:function>
+  
+
   
   <!--
     template
@@ -170,12 +187,12 @@
   <!-- summary content -->
   <xsl:template match="summary/p">
     <fo:block>
-      <xsl:apply-templates select="text()|*" />
+      <xsl:apply-templates />
     </fo:block>
   </xsl:template>
   
   <!-- text paragraph -->
-  <xsl:template match="text/p">
+  <xsl:template match="text//p">
     <fo:block>
     
       <!-- I use a convention where subsections in the text are marked
@@ -216,12 +233,23 @@
         </xsl:when>
         <xsl:otherwise>
         
-          <xsl:attribute name="text-indent">0.25in</xsl:attribute>
+          <!-- don't indent first paragraph (if it's a normal para) -->
+          <xsl:if test="not(position() eq 1)">
+            <xsl:sequence select="maf:indented-paragraph-formatting()" />
+          </xsl:if>
           <xsl:apply-templates select="text()|*" />
           
         </xsl:otherwise>
       </xsl:choose>
 
+    </fo:block>
+  </xsl:template>
+  
+  <!-- blockquote section (contains p) -->
+  <xsl:template match="blockquote">
+    <fo:block>
+      <xsl:sequence select="maf:blockquote-block-formatting()" />
+      <xsl:apply-templates select="*" />
     </fo:block>
   </xsl:template>
   
