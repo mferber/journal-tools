@@ -39,7 +39,7 @@
   </xsl:function>
   
   <xsl:function name="maf:indented-paragraph-formatting">
-    <xsl:attribute name="text-indent">0.25in</xsl:attribute>
+    <xsl:attribute name="text-indent">2em</xsl:attribute>
   </xsl:function>
 
   <xsl:function name="maf:month-header-formatting">
@@ -237,7 +237,7 @@
           <xsl:if test="not(position() eq 1)">
             <xsl:sequence select="maf:indented-paragraph-formatting()" />
           </xsl:if>
-          <xsl:apply-templates select="text()|*" />
+          <xsl:apply-templates />
           
         </xsl:otherwise>
       </xsl:choose>
