@@ -92,6 +92,12 @@
     <xsl:attribute name="space-after">1em</xsl:attribute>
   </xsl:function>
   
+  <xsl:function name="maf:divider-block-formatting">
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="space-before">2em</xsl:attribute>
+    <xsl:attribute name="space-after">1.5em</xsl:attribute>
+  </xsl:function>
+  
 
   <!-- Candidate main-text fonts: Constantia (old-style numerals, tight
     spacing); Baskerville (.ttc); Bell MT (.dfont); Garamond (suitcase);
@@ -291,6 +297,18 @@
         </fo:block>
       </fo:list-item-body>
     </fo:list-item>
+  </xsl:template>
+  
+  <!-- horizontal rule (divider); render as centered * * * -->
+  <xsl:template match="hr">
+    <fo:block>
+      <xsl:sequence select="maf:divider-block-formatting()" />
+      <xsl:text>*</xsl:text>
+      <fo:leader leader-length="2em" leader-pattern="space" />
+      <xsl:text>*</xsl:text>
+      <fo:leader leader-length="2em" leader-pattern="space" />
+      <xsl:text>*</xsl:text>
+    </fo:block>
   </xsl:template>
   
   <!-- catchall for unhandled elements: copy text and children -->
