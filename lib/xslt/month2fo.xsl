@@ -230,6 +230,9 @@
             </xsl:non-matching-substring>
           </xsl:analyze-string>
           
+          <!-- remaining elements and text nodes in this paragraph -->
+          <xsl:apply-templates select="(*|text())[position() gt 1]" />
+          
         </xsl:when>
         <xsl:otherwise>
         
