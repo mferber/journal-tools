@@ -92,6 +92,27 @@
     <xsl:attribute name="space-after">1em</xsl:attribute>
   </xsl:function>
   
+  <xsl:function name="maf:list-block-formatting">
+    <xsl:attribute name="margin-left">4em</xsl:attribute>
+    <xsl:attribute name="space-before">1em</xsl:attribute>
+    <xsl:attribute name="space-after">1em</xsl:attribute>
+    <xsl:attribute name="provisional-label-separation">0</xsl:attribute>
+  </xsl:function>
+
+  <xsl:function name="maf:unordered-list-block-formatting">
+    <xsl:sequence select="maf:list-block-formatting()" />
+    <xsl:attribute name="provisional-distance-between-starts">
+      1em
+    </xsl:attribute>
+  </xsl:function>
+
+  <xsl:function name="maf:ordered-list-block-formatting">
+    <xsl:sequence select="maf:list-block-formatting()" />
+    <xsl:attribute name="provisional-distance-between-starts">
+      1.5em
+    </xsl:attribute>
+  </xsl:function>
+  
   <xsl:function name="maf:divider-block-formatting">
     <xsl:attribute name="text-align">center</xsl:attribute>
     <xsl:attribute name="space-before">2em</xsl:attribute>
@@ -278,18 +299,39 @@
   
   <!-- unordered list -->
   <xsl:template match="ul">
-    <fo:list-block provisional-distance-between-starts="1em"
-      provisional-label-separation="0.5em" margin-left="3em"
-      space-before="1em" space-after="1em"
-    >
+    <fo:list-block>
+      <xsl:sequence select="maf:unordered-list-block-formatting()" />
       <xsl:apply-templates select="li" />
     </fo:list-block>
   </xsl:template>
   
-  <xsl:template match="li">
+  <xsl:template match="ul/li">
     <fo:list-item>
       <fo:list-item-label end-indent="label-end()">
         <fo:block>•</fo:block>
+      </fo:list-item-label>
+      <fo:list-item-body start-indent="body-start()">
+        <fo:block>
+          <xsl:apply-templates select="text()|*" />
+        </fo:block>
+      </fo:list-item-body>
+    </fo:list-item>
+  </xsl:template>
+  
+  <!-- ordered list -->
+  <xsl:template match="ol">
+    <fo:list-block>
+      <xsl:sequence select="maf:ordered-list-block-formatting()" />
+      <xsl:apply-templates select="li" />
+    </fo:list-block>
+  </xsl:template>
+  
+  <xsl:template match="ol/li">
+    <fo:list-item>
+      <fo:list-item-label end-indent="label-end()">
+        <fo:block>
+          <xsl:number format="1." />
+        </fo:block>
       </fo:list-item-label>
       <fo:list-item-body start-indent="body-start()">
         <fo:block>
