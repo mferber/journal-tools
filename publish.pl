@@ -688,8 +688,10 @@ sub smartypants
     $tmp =~ s/&#8212;/—/g;  # em dash
     
     # Remove spaces adjacent to em dashes, completing the conversion of
-    # " -- " to em dash
-    $tmp =~ s/ ?— ?/—/g;
+    # " -- " to em dash. Only remove them when on both sides, to allow
+    # figures at the beginning and end of things, like "but then--" or
+    # "--and that was it."
+    $tmp =~ s/ — /—/g;
     
     return $tmp;
 }
